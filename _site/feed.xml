@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>OMKAR PATHAK</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2017-12-20T12:28:43+05:30</updated>
- <id>http://localhost:4000</id>
- <author>
-   <name>Omkar Pathak</name>
-   <email></email>
- </author>
-
- 
- <entry>
-   <title>Introducing Hyde</title>
-   <link href="http://localhost:4000/2013/12/28/introducing-hyde/"/>
-   <updated>2013-12-28T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2013/12/28/introducing-hyde</id>
-   <content type="html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-20T12:28:43+05:30</updated><id>http://localhost:4000/</id><title type="html">OMKAR PATHAK</title><subtitle>Software Developer by Profession, </subtitle><author><name>Omkar Pathak</name></author><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/2013/12/28/introducing-hyde/" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00+05:30</published><updated>2013-12-28T00:00:00+05:30</updated><id>http://localhost:4000/2013/12/28/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/2013/12/28/introducing-hyde/">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
@@ -52,16 +33,7 @@
 
 &lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
-&lt;p&gt;Thanks!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Example content</title>
-   <link href="http://localhost:4000/2012/02/07/example-content/"/>
-   <updated>2012-02-07T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2012/02/07/example-content</id>
-   <content type="html">&lt;div class=&quot;message&quot;&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>Omkar Pathak</name></author><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler. Built on Poole Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by @mdo. Poole, and every theme built on it (like Hyde here) includes the following: Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, and example page) Mobile friendly design and development Easily scalable text and component sizing with rem units in the CSS Support for a wide gamut of HTML elements Related posts (time-based, because Jekyll) below each post Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter) Hyde features In addition to the features of Poole, Hyde adds the following: Sidebar includes support for textual modules and a dynamically generated navigation with active link support Two orientations for content and sidebar, default (left sidebar) and reverse (right sidebar), available via &amp;lt;body&amp;gt; classes Eight optional color schemes, available via &amp;lt;body&amp;gt; classes Head to the readme to learn more. Browser support Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above. Download Hyde is developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests. Thanks!</summary></entry><entry><title type="html">Example content</title><link href="http://localhost:4000/2012/02/07/example-content/" rel="alternate" type="text/html" title="Example content" /><published>2012-02-07T00:00:00+05:30</published><updated>2012-02-07T00:00:00+05:30</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content/">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
 
@@ -194,16 +166,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://localhost:4000/2012/02/06/whats-jekyll/"/>
-   <updated>2012-02-06T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2012/02/06/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name>Omkar Pathak</name></author><summary type="html">Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Inline HTML elements HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network. To bold text, use &amp;lt;strong&amp;gt;. To italicize text, use &amp;lt;em&amp;gt;. Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase. Citations, like — Mark otto, should use &amp;lt;cite&amp;gt;. Deleted text should use &amp;lt;del&amp;gt; and inserted text should use &amp;lt;ins&amp;gt;. Superscript text uses &amp;lt;sup&amp;gt; and subscript text uses &amp;lt;sub&amp;gt;. Most of these elements are styled by browsers with few modifications on our part. Heading Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Code Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus. // Example can be run directly in your JavaScript console // Create a function that takes two arguments and returns the sum of those arguments var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);// Call the function adder(2, 6);// &amp;gt; 8 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa. Gists via GitHub Pages Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Lists Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. HyperText Markup Language (HTML) The language used to describe and define the content of a Web page Cascading Style Sheets (CSS) Used to describe the appearance of Web content JavaScript (JS) The programming language used to build advanced Web sites and applications Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Images Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at. Tables Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Name Upvotes Downvotes Totals 21 23 Alice 10 11 Bob 4 3 Charlie 7 9 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Want to see something else added? Open an issue.</summary></entry><entry><title type="html">What’s Jekyll?</title><link href="http://localhost:4000/2012/02/06/whats-jekyll/" rel="alternate" type="text/html" title="What's Jekyll?" /><published>2012-02-06T00:00:00+05:30</published><updated>2012-02-06T00:00:00+05:30</updated><id>http://localhost:4000/2012/02/06/whats-jekyll</id><content type="html" xml:base="http://localhost:4000/2012/02/06/whats-jekyll/">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
@@ -211,9 +174,4 @@
 
 &lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
 
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
-
-</feed>
+&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>Omkar Pathak</name></author><summary type="html">Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub. It’s an immensely useful tool and one we encourage you to use here with Hyde. Find out more by visiting the project on GitHub.</summary></entry></feed>
