@@ -10,12 +10,12 @@ permalink:        pretty
 title:            OMKAR PATHAK
 tagline:          'Pythonista by &hearts;'
 description:      'Software Developer by Profession, '
-url:              http://hyde.getpoole.com
+url:              http://temp.omkarpathak.in
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Omkar Pathak'
+  url:            https://twitter.com/omkarpathak27
 
 paginate:         5
 
@@ -23,10 +23,14 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/OmkarPathak/omkarpathak.github.io
   
 plugins:
-  - jekyll-paginate
-  - redcarpet
-  - jekyll-gist
-  - pygments.rb
+    - jekyll-feed
+    - jekyll-redirect-from
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-avatar
+    - jemoji
+    - jekyll-mentions
+    - jekyll-include-cache
