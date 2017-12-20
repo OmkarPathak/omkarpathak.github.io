@@ -11,7 +11,7 @@ title:            OMKAR PATHAK
 tagline:          'Pythonista by &hearts;'
 description:      'Software Developer by Profession, '
 url:              http://temp.omkarpathak.in
-baseurl:          http://temp.omkarpathak.in
+baseurl:          /
 
 author:
   name:           'Omkar Pathak'
