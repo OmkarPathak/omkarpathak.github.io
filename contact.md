@@ -1,30 +1,28 @@
 ---
 layout: page
-title: Contact Me
+title: CONTACT ME
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<p class="message post">
+  Need help? Want to hire me as a freelancer for your work? Please contact me and I would be happy to help!
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/contact/';}"></iframe>
 
-There are currently two themes built on Poole:
+<!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
+<form class="form post" action="https://docs.google.com/forms/d/e/1FAIpQLSf_hWmD9pNG2OpgAN49pbfOoN6bgfQWZ57wUgLSGuIpqLaVng/formResponse"  method="post" target="hidden_iframe" 
+onsubmit="submitted=true;">
+   
+      <label>Name</label>
+      <input name="entry.838126762" type="text" required/>
+      
+      <label>Email</label>
+      <input name="entry.586886044" type="email" required />
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+      <label>Message</label>
+      <input name="entry.1558001583" type="text" required />
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+      <input type="submit" value="Send" />
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+</form>

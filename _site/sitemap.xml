@@ -19,6 +19,12 @@
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/photography/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sketching/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
