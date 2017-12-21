@@ -54,7 +54,7 @@ html {
  */
 
 .sidebar {
-  text-align: center;
+  text-align: left;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
@@ -67,6 +67,15 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .sidebar .sidebar-nav-item{
+    display: inline;
+    padding-right: 5px;
+    border-right: 1px solid white;
+    /* justify-content: space-between; */
   }
 }
 
@@ -90,6 +99,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  /* border-bottom: 1px solid gray; */
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -179,11 +189,11 @@ a.sidebar-nav-item:focus {
 
 /* Red */
 .theme-base-08 .sidebar {
-  background-color: #ac4142;
+  background-color: rgb(119, 121, 243);
 }
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+  color: rgb(87, 89, 253);
 }
 
 /* Orange */

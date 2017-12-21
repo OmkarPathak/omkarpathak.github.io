@@ -3,7 +3,7 @@ layout: page
 title: CONTACT ME
 ---
 
-<p class="message post">
+<p class="message post" style="margin-bottom: 20px;">
   Need help? Want to hire me as a freelancer for your work? Please contact me and I would be happy to help!
 </p>
 

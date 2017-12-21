@@ -3,7 +3,7 @@ layout: page
 title: PROJECTS
 ---
 
-<p class="message post">
+<p class="message post" style="margin-bottom: 20px;">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
 
