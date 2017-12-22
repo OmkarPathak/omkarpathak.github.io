@@ -3,7 +3,7 @@ layout: page
 title: PROJECTS
 ---
 
-<p class="message post" style="margin-bottom: 20px;">
+<p class="message scroll-effect" style="margin-bottom: 20px;">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
 
@@ -27,6 +27,6 @@ Some fun facts about the setup of this project include:
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-<div class="post">
+<div class="scroll-effect">
 Thanks for reading!
 </div>

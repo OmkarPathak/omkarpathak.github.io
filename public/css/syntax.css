@@ -95,7 +95,6 @@ input[type=submit]{
   text-shadow: 0 1px rgba(0,0,0,0.1); 
   background-color: #4d90fe;
   padding: 10px 8px;
-  font-family: roboto;
   font-size: 16px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
@@ -123,4 +122,18 @@ input[type=submit]:hover {
 
 .social-font{
 	font-size:30px;
+}
+
+#portfolio a h2{
+  color: black;
+  text-decoration: none;
+}
+
+#portfolio a h2:hover{
+  text-decoration: none;
+  color: rgb(87, 89, 253);
+}
+
+#portfolio a img{
+  padding-bottom: 10px;
 }

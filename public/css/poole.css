@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: black;
   text-decoration: none;
 }
 a strong {
@@ -76,7 +76,8 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  color: rgb(87, 89, 253);
 }
 
 /* Headings */
@@ -337,7 +338,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: rgb(87, 89, 253);
 }
 .page-title,
 .post-title {
