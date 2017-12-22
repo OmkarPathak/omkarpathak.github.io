@@ -196,6 +196,10 @@ a.sidebar-nav-item:focus {
   color: rgb(87, 89, 253);
 }
 
+.page .page-title{
+  color: rgb(87, 89, 253);
+}
+
 /* Orange */
 .theme-base-09 .sidebar {
   background-color: #d28445;
