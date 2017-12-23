@@ -1,6 +1,6 @@
 ---
     layout: default
-    title: Password Strength Evaluator using Machine Learning
+    title: Term Similarity using Machine Learning
     permalink: /projects/term-similarity-using-machine-learning/
 ---
 

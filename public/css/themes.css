@@ -76,6 +76,13 @@ hr{
   font-size: 2.3rem;
 }
 
+@media only screen and (max-width: 768px){
+  .sidebar-about h1{
+    color: white;
+    font-size: 2.1rem;
+  }
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;

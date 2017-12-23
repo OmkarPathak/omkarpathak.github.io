@@ -1,6 +1,6 @@
 ---
     layout: default
-    title: Pygorithm
+    title: Smart Surveillance System using Raspberry Pi
     permalink: /projects/smart-surveillance-system-using-raspberry-pi/
 ---
 
