@@ -85,9 +85,11 @@ hr{
   line-height: 1.75;
   /* border-bottom: 1px solid gray; */
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
+  /* font-size: 110%; */
 }
 .sidebar-nav-item.active {
   font-weight: bold;
