@@ -8,8 +8,8 @@ permalink:        pretty
 
 # Setup
 title:            OMKAR PATHAK
-tagline:          'Pythonista by &hearts;'
-description:      'Software Developer by Profession, '
+tagline:          ''
+description:      'Software Developer by Profession, <br /> Pythonista by &hearts;'
 url:              http://temp.omkarpathak.in
 baseurl:          /
 
@@ -17,7 +17,7 @@ author:
   name:           'Omkar Pathak'
   url:            https://twitter.com/omkarpathak27
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          2.1.0

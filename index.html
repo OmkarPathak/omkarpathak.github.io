@@ -3,35 +3,24 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div>
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  <b>Welcome</b> to my small place on the web. I am a full stack Python Developer.
+</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+<div class="scroll-effect">
+  <img src="{{ "public/img/about_me_2.jpg" | relative_url }}">
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<h2>Know More About My Work And Projects: </h2>
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+    Contributing to community by making helpful softwares is what I have always tried for.
+    See all my open source projects and contributions.
+    Elegant and effective code is what I aim for. Know more <a href="/projects/">here</a>. 
+</p>
+
+<h2>Know More About Me: </h2>
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+    Interested in knowing me? Well I am an amiable person to deal with.
+    See my skill set and experiences uptil now.
+    Know more about me <a href="/about/">here</a>. 
+</p>

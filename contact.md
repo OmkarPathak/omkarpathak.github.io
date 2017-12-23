@@ -4,11 +4,11 @@ title: CONTACT ME
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
-  Need help? Want to hire me as a freelancer for your work? Please contact me and I would be happy to help!
+  Need help? Want to hire me as a freelancer for your work? Feel free to contact me and I would be happy to help!
 </p>
 
 <script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/contact/';}"></iframe>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thank-you/';}"></iframe>
 
 <!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
 <form class="form scroll-effect" action="https://docs.google.com/forms/d/e/1FAIpQLSf_hWmD9pNG2OpgAN49pbfOoN6bgfQWZ57wUgLSGuIpqLaVng/formResponse"  method="post" target="hidden_iframe" 
@@ -21,7 +21,7 @@ onsubmit="submitted=true;">
       <input name="entry.586886044" type="email" required />
 
       <label>Message</label>
-      <input name="entry.1558001583" type="text" required />
+      <textarea name="entry.1558001583" rows="5" required></textarea>
 
       <input type="submit" value="Send" />
 

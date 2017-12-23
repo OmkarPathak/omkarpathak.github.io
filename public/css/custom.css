@@ -64,7 +64,7 @@
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
 
-input[type=text], input[type=password], input[type=email] {
+input[type=text], input[type=password], input[type=email], textarea{
   height: 44px;
   font-size: 16px;
   width: 100%;
@@ -79,7 +79,7 @@ input[type=text], input[type=password], input[type=email] {
   -moz-box-sizing: border-box;
 }
 
-input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, textarea:hover{
   border: 1px solid #b9b9b9;
   border-top: 1px solid #a0a0a0;
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
@@ -107,6 +107,23 @@ input[type=submit]:hover {
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
 }
 
+.btn-default{
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 10px 8px;
+  font-size: 16px;
+}
+
+.btn-default:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
 .image-half{
 	display: inline-block;
 	max-width: 98%;
@@ -117,7 +134,8 @@ input[type=submit]:hover {
 
 .social{
 	display: inline-block;
-	max-width: 100%;
+  max-width: 100%;
+  padding: 7px;
 }
 
 .social-font{
@@ -136,4 +154,25 @@ input[type=submit]:hover {
 
 #portfolio a img{
   padding-bottom: 10px;
+}
+
+#projects a h2:hover{
+  text-decoration: none;
+  color: rgb(87, 89, 253);
+}
+
+#projects a img{
+  padding-bottom: 10px;
+}
+
+.site-desc{
+  color: white;
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 768px){
+  .site-desc{
+    color: white;
+    font-size: 20px;
+  }
 }
