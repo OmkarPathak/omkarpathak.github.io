@@ -7,6 +7,8 @@ title: PROJECTS
   These are some of the projects that I have completed uptil now.
 </p>
 
+Also view some of my mini projects [here](/projects/mini-projects/)
+<hr>
 <!--  -->
 <div id="projects">
   <a href="/projects/pygorithm/"><h2>Pygorithm</h2></a>
