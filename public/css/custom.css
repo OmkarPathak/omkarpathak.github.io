@@ -206,3 +206,40 @@ input[type=submit]:hover {
 		opacity: 0;
 	}
 }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 225px;
+  margin-right: 10px;
+  background: rgb(122, 124, 236);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.testinomial-p{
+  font-size: 20px;
+  margin-top: 7%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  .testinomial-p{
+    font-size: 17px;
+    /* margin-top: 7%; */
+    padding: 10px;
+  }
+}

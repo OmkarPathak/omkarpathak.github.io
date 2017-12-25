@@ -95,11 +95,16 @@ hr{
 
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* font-size: 110%; */
+  font-weight: bold; 
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+  font-weight: bold; 
+}
+
+.active .underline{
+  border-bottom: 1px solid white;
 }
 
 /* Sticky sidebar
