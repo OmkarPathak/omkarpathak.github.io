@@ -5,7 +5,7 @@ title: CONTACT ME
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
   Need help? Want to hire me as a freelancer for your work? Feel free to contact me and I would be happy to help!
-
+  <br />
   Mail: <a href="mailto: omkarpathak27@gmail.com">omkarpathak27@gmail.com</a>
 </p>
 
