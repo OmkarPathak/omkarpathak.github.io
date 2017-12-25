@@ -11,7 +11,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <hr>
 <!--  -->
 <div id="projects">
-  <a href="/projects/pygorithm/"><h2>Pygorithm</h2></a>
+  <a href="/projects/pygorithm/">
+    <h2>Pygorithm</h2>
+    <span class="post-date">July 2017 - Present</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -28,7 +31,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 
 <!--  -->
 <div id="projects">
-  <a href="/projects/smart-surveillance-system-using-raspberry-pi/"><h2>Smart Surveillance System</h2></a>
+  <a href="/projects/smart-surveillance-system-using-raspberry-pi/">
+    <h2>Smart Surveillance System</h2>
+    <span class="post-date">November 2016 - February 2017</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -45,7 +51,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 
 <!--  -->
 <div id="projects">
-  <a href="/projects/garbage-level-monitoring-system/"><h2>Garbage Level Monitoring</h2></a>
+  <a href="/projects/garbage-level-monitoring-system/">
+    <h2>Garbage Level Monitoring</h2>
+    <span class="post-date">July 2017 - Present</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -62,7 +71,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 
 <!--  -->
 <div id="projects">
-  <a href="/projects/term-similarity-using-machine-learning/"><h2>Term Similarity using Machine Learning</h2></a>
+  <a href="/projects/term-similarity-using-machine-learning/">
+    <h2>Term Similarity using Machine Learning</h2>
+    <span class="post-date">December 2017</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -79,7 +91,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 
 <!--  -->
 <div id="projects">
-  <a href="/projects/password-strength-evaluator-using-machine-learning/"><h2>Password Strength evaluator using Machine Learning</h2></a>
+  <a href="/projects/password-strength-evaluator-using-machine-learning/">
+    <h2>Password Strength evaluator using Machine Learning</h2>
+    <span class="post-date">March 2017</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -96,7 +111,10 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 
 <!--  -->
 <div id="projects">
-  <a href="/projects/a-simple-note-taking-web-app/"><h2>A Simple Note taking Web App</h2></a>
+  <a href="/projects/a-simple-note-taking-web-app/">
+    <h2>A Simple Note taking Web App</h2>
+    <span class="post-date">September 2017 - October 2017</span>
+  </a>
 </div>
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">

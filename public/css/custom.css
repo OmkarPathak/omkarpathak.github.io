@@ -213,27 +213,27 @@ input[type=submit]:hover {
 
 .carousel-cell {
   width: 66%;
-  height: 225px;
+  height: 230px;
   margin-right: 10px;
   background: rgb(122, 124, 236);
   border-radius: 5px;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 
 /* cell number */
-.carousel-cell:before {
+/* .carousel-cell:before {
   display: block;
-  text-align: center;
+  text-align: justify;
   line-height: 200px;
   font-size: 80px;
   color: white;
-}
+} */
 
 .testinomial-p{
   font-size: 20px;
-  margin-top: 7%;
-  padding: 20px;
+  /* margin-top: 7%; */
+  padding: 3%;
 }
 
 @media only screen and (max-width: 768px){
@@ -241,5 +241,9 @@ input[type=submit]:hover {
     font-size: 17px;
     /* margin-top: 7%; */
     padding: 10px;
+  }
+
+  .carousel-cell{
+    width: 90%;
   }
 }
