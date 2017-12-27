@@ -246,4 +246,32 @@ input[type=submit]:hover {
   .carousel-cell{
     width: 90%;
   }
+
+  .image-three{
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 100%;
+    margin: 1%;
+  }
+}
+
+.image-three{
+	display: inline-block;
+	max-width: 98%;
+	height: auto;
+	width: 30%;
+	margin: 1%;
+}
+
+.blue-msg {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  background-color: rgb(122, 124, 236);
+}
+
+.blue-msg span{
+  font-size: 120%;
 }
