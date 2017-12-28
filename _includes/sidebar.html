@@ -17,7 +17,7 @@
           The code below dynamically generates a sidebar nav of pages with
           `layout: page` in the front-matter. See readme for usage.
         {% endcomment %}
-  
+
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
@@ -69,8 +69,8 @@
       </ul>
     </div>
 
-    <p style="padding-bottom:0; margin: 0; text-align: center">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-    <p style="margin: 0; padding:0; color: white; text-align: center">
+    <p style="padding-bottom:0; margin: 0; text-align: center; font-size: 15px">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p style="margin: 0; padding:0; color: white; text-align: center;">
       <a href="{{ "downloads/OmkarResume.pdf" | relative_url }}">Resume | </a>
       <a href="http://old-website.omkarpathak.in/">Old Website</a>
     </p>

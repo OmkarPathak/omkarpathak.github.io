@@ -97,10 +97,10 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   /* text-decoration: underline; */
   /* font-size: 110%; */
-  font-weight: bold; 
+  font-weight: bold;
 }
 .sidebar-nav-item.active {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .active .underline{
@@ -117,7 +117,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left:   1rem;
   }
 }
