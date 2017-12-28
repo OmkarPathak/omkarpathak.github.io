@@ -63,6 +63,9 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+.code{padding: 0;}
+.lineno{padding: 2px;}
+.rouge-table{margin: 0;}
 .code pre{padding: 0;}
 @media only screen and (max-width: 768px){
   .highlight { width: 100%; margin-left: 1%; margin-right: 1%;}
