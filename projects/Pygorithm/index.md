@@ -14,7 +14,7 @@ What is the project all about?
 
 * To sort your list
 
-{% highlight python %}
+{% highlight python linenos=table%}
     >>> from pygorithm.sorting import bubble_sort
     >>> my_list = [12, 4, 3, 5, 13, 1, 17, 19, 15]
     >>> sorted_list = bubble_sort.sort(my_list)
@@ -24,7 +24,7 @@ What is the project all about?
 
 * To get the code for function used
 
-{% highlight python %}
+{% highlight python linenos=table %}
     >>> from pygorithm.sorting import bubble_sort
     >>> code = bubble_sort.get_code()
     >>> print(code)
@@ -32,7 +32,7 @@ What is the project all about?
 
 * To get the time complexity of an algorithm
 
-{% highlight python %}
+{% highlight python linenos=table %}
     >>> from pygorithm.sorting import bubble_sort
     >>> time_complexity = bubble_sort.time_complexities()
     >>> print(time_complexity)
