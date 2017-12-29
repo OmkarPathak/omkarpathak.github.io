@@ -1,0 +1,54 @@
+<style>
+.share-box a {
+    display: inline-block;
+    -webkit-box-shadow: 0 0 1px #777;
+    box-shadow: 0 0 1px #777;
+    padding: 5px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none; }
+.share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
+
+.f{color: #3b5998 !important;}
+.f:hover{color: white !important; background-color: #3b5998; }
+
+.t{color: #4099FF !important; }
+.t:hover {color: #fff !important; background-color: #4099FF; }
+
+.g{color: #d34836 !important; }
+.g:hover {color: #fff !important;background-color: #d34836; }
+
+.r{color: #ff5700 !important; }
+.r:hover {color: #fff !important;background-color: #ff5700; }
+
+.l{color: #0077b5 !important; }
+.l:hover {color: #fff !important;background-color: #0077b5; }
+
+.e{color: #444444 !important; }
+.e:hover {color: #fff !important;background-color: #444444; }
+</style>
+
+<div class="share-box">
+<h5>Share this:</h5>
+
+<a class="f" href="https://www.facebook.com/sharer/sharer.php?u={{ post.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa"></i><span> facebook</span></a>
+
+<a class="t" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ post.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> twitter</span></a>
+        
+<a class="g" href="https://plus.google.com/share?url={{ post.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"></i><span> google</span></a>
+        
+<a class="r" href="http://www.reddit.com/submit?url={{ post.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"></i><span> reddit</span></a>
+
+<a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url={{ post.url }}&title={{ post.title }}&source=omkarpathak.in" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"></i><span> linkedin</span></a>
+
+<a class="e" href="mailto:?subject={{ post.title }}&amp;body=Check out this site {{ post.url }}"><i class="fa fa-envelope fa"></i><span> email</span></a>                          
+</div>
