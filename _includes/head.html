@@ -9,7 +9,11 @@
 
   <!-- SEO -->
   <meta name="description" content="{{ page.description }}">
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% else %}
   <meta name="keywords" content="portfolio, resume, omkar pathak, python, HTML, CSS, software developer profession, profession pythonista, personal website, india, india freelancers, freelancer">
+  {% endif %}
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
@@ -37,7 +41,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   <!-- Facebook Cards -->
-  <meta property="og:description" content="A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels."/>
+  <meta property="og:description" content="{{ page.description }}"/>
   <meta property="og:url" content="https://www.omkarpathak.in"/>
   <meta property="og:image" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
   <meta property="og:type" content="website"/>

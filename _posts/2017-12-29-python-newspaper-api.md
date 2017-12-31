@@ -2,6 +2,8 @@
 layout: post
 title: Python Download Articles using Newspaper API
 comments: true
+description: How to use and install Python newspaper api
+keywords: Python, newspaper, newspaper3k, python newspaper
 ---
 
 Many a times developers need to download the articles on the internet for various purposes. While interning, I was working on a project that needed some news articles to be fetched and analyzed. News articles are a great source of information but the problem lies in its format. News articles are not in a standard format as authors for different news articles are not the same. This is where **Newspaper API** helps us.
@@ -57,9 +59,9 @@ For downloading the article and retrieving its basic details such as title, auth
     >>> article.download()
     >>> article.html
     '<!DOCTYPE HTML><html itemscope itemtype="http://...'
-    
+
     >>> article.parse()
-    
+
     >>> article.title
     'New Year, new laws: Obamacare, pot, guns and drones'
 
@@ -98,5 +100,5 @@ Applying some basic NLP and analyzing the article
 
 Isn't that simple! Now go ahead and play with the extracted articles as you want. There are many other similar APIs such as [html2text](https://github.com/aaronsw/html2text), [Lassie](https://github.com/michaelhelmick/lassie), [Python-Goose](https://github.com/grangier/python-goose), [Textract](https://github.com/deanmalmgren/textract). But I would personally recommend using Newspaper API due to the simplicity it offers and some of its advanced features that you cannot get your hands off!
 
-I hope you learned something new from the article, comment below for any doubts. 
+I hope you learned something new from the article, comment below for any doubts.
 <br/>Happy Coding.. :)
