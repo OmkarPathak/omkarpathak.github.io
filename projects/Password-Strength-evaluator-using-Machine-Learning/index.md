@@ -1,7 +1,9 @@
 ---
-    layout: default
-    title: Password Strength Evaluator using Machine Learning
-    permalink: /projects/password-strength-evaluator-using-machine-learning/
+layout: default
+title: Password Strength Evaluator using Machine Learning
+permalink: /projects/password-strength-evaluator-using-machine-learning/
+description: Simple password evaluator which tells you the strength of your password based on previously generated dataset.
+image: https://www.omkarpathak.in/projects/Password-Strength-evaluator-using-Machine-Learning/Passwrd.png
 ---
 
 # Password Strength Evaluator Using Machine Learning

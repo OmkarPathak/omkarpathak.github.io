@@ -1,7 +1,8 @@
 ---
-    layout: default
-    title: Pygorithm
-    permalink: /projects/pygorithm/
+layout: default
+title: Pygorithm
+permalink: /projects/pygorithm/
+description: Pygorithm is a Python module which helps students to learn the implementation of all the major data structures and algorithms.
 ---
 
 # Pygorithm

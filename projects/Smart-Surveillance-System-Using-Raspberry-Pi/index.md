@@ -1,7 +1,9 @@
 ---
-    layout: default
-    title: Smart Surveillance System using Raspberry Pi
-    permalink: /projects/smart-surveillance-system-using-raspberry-pi/
+layout: default
+title: Smart Surveillance System using Raspberry Pi
+permalink: /projects/smart-surveillance-system-using-raspberry-pi/
+description: This is a smart surveillance system implemented using Raspberry Pi and OpenCV. A simple yet effecctive system, which helps detect unknown people and alerting the concerned authorities via messages.
+image: https://www.omkarpathak.in/projects/Smart-Surveillance-System-Using-Raspberry-Pi/Result.jpeg
 ---
 
 # Smart Surveillance System using Raspberry Pi
@@ -18,7 +20,7 @@ What is the project all about?
 - Twilio (for messages)
 - Pushetta (for push message alerts)
 
-This is the working screenshot of the face recognition model.<br /> 
+This is the working screenshot of the face recognition model.<br />
 
 ![Results]({{ "projects/Smart-Surveillance-System-Using-Raspberry-Pi/Result.jpeg" | relative_url }})
 
