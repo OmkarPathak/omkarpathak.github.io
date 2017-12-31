@@ -25,3 +25,4 @@ Later on I came to know about [Jekyll](http://jekyllrb.com). Its impressive load
 - Optimizing Guide for making your Jekyll website faster: [Check this](https://blog.webjeda.com/pagespeed-insights-100/)
 - For SEO Optimizations: [Check this](https://blog.webjeda.com/optimize-jekyll-seo/)
 - For Social Media Share Links: [Check this](https://superdevresources.com/share-buttons-jekyll/)
+- For Minify CSS: [Check this](https://cssminifier.com/)

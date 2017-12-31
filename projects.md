@@ -1,6 +1,8 @@
 ---
 layout: page
 title: PROJECTS
+description: Some of my projects and technologies that I have worked on
+image: https://www.omkarpathak.in/public/img/project_cover.jpg
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: BLOG
+description: I write blogs about my experiences with new technologies and softwares and the things that fascinates me
 ---
 
 <!-- <div class="posts">
@@ -43,7 +44,7 @@ title: BLOG
       {{ post.title }}
     </a>
   </h1>
-  
+
   <span class="post-date">{{ post.date | date_to_string }}</span>
 </div>
 <hr>
@@ -52,7 +53,7 @@ title: BLOG
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination"> 
+<div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}

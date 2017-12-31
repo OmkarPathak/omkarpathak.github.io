@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ABOUT ME
+description: A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels.
+image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
@@ -21,7 +23,7 @@ title: ABOUT ME
 
 You can see my projects [here](/projects/). I always strive to write elegant and efficient code. All my projects are open source and come with MIT license. You are free to modify the source code and free to use as you want.
 
-In high school and also in college, I was that kid that seemed to never pay attention. I hate attending lectures. But on the same side, I love to learn and explore new technologies and create few projects using them. 
+In high school and also in college, I was that kid that seemed to never pay attention. I hate attending lectures. But on the same side, I love to learn and explore new technologies and create few projects using them.
 
 <!-- Take an example of this website, my [previous website](old-website.omkarpathak.in) was built upon PHP and then I came to know about [Jekyll](https://jekyllrb.com/). Jekyll helped me create fabulous websites with faster load speeds and great ease. For personal websites and blogs, Jekyll is a great alternative to wordpress websites. -->
 
@@ -41,8 +43,8 @@ In high school and also in college, I was that kid that seemed to never pay atte
 
 * **Data Analyst Intern at Propeluss, Pune**
 October 2017 - Present
-  
-  - Writing various automation scripts to scrape data from various websites. 
+
+  - Writing various automation scripts to scrape data from various websites.
   - Applying Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles.
   - Also applied KNN with LSA for extracting relevant tags for various startups based on their works.
 

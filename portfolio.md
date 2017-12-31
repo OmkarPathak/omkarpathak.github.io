@@ -1,6 +1,7 @@
 ---
 layout: page
 title: PORTFOLIO
+description: Welcome to my small space on web. Below are some of my qualitites that I pursue as hobbies or when I bored. Other than these you can find me really fond of Agatha Christie novels.
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">

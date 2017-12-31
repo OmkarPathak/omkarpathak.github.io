@@ -15,22 +15,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- SEO -->
-  <meta name="description" content="A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels.">
+  <meta name="description" content="{{ page.description }}">
   <meta name="keywords" content="portfolio, resume, omkar pathak, python, HTML, CSS, software developer profession, profession pythonista, personal website, india, india freelancers, freelancer">
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
     {% else %}
-      {{ page.title }}
+      {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
 
   <!-- CSS -->
   <!-- <link rel="stylesheet" href="{{ "public/css/bootstrap.min.css" | relative_url }}"> -->
   <!-- <link rel="stylesheet" href="{{ "public/css/animate.css" | relative_url }}"> -->
-  <link rel="stylesheet" href="{{ "public/css/globals.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "public/css/themes.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "public/css/custom.css" | relative_url }}">
+<!--   <link rel="stylesheet" href="{{ "public/css/globals.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "public/css/themes.css" | relative_url }}"> -->
+  <link rel="stylesheet" href="{{ "public/css/styles.css" | relative_url }}">
   <!-- <link rel="stylesheet" href="{{ "public/css/flickity.min.css" | relative_url }}" media="screen"> -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,8 +53,8 @@
   <meta name="twitter:card" content="Omkar Pathak, Personal Website">
   <meta name="twitter:site" content="@omkarpathak27">
   <meta name="twitter:title" content= "{{ page.title }}">
-  <meta name="twitter:description" content="A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels.">
+  <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:creator" content="Omkar Pathak">
-  <meta name="twitter:image:src" content="https://www.omkarpathak.in/public/img/about_me_1.jpg">
+  <meta name="twitter:image:src" content="{{ page.image }}">
   <meta name="twitter:domain" content="https://www.omkarpathak.in">
 </head>
