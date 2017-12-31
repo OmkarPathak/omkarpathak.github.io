@@ -25,6 +25,8 @@ You can see my projects [here](/projects/). I always strive to write elegant and
 
 In high school and also in college, I was that kid that seemed to never pay attention. I hate attending lectures. But on the same side, I love to learn and explore new technologies and create few projects using them.
 
+Apart from programming I also love to travel. Experiencing new places and eating various cuisines is the favorite part of my life!
+
 <!-- Take an example of this website, my [previous website](old-website.omkarpathak.in) was built upon PHP and then I came to know about [Jekyll](https://jekyllrb.com/). Jekyll helped me create fabulous websites with faster load speeds and great ease. For personal websites and blogs, Jekyll is a great alternative to wordpress websites. -->
 
 ## Skill Set
