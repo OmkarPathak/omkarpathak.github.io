@@ -43,7 +43,11 @@
   <!-- Facebook Cards -->
   <meta property="og:description" content="{{ page.description }}"/>
   <meta property="og:url" content="https://www.omkarpathak.in"/>
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}"/>
+  {% else %}
   <meta property="og:image" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  {% endif %}
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Omkar Pathak"/>
 
@@ -53,6 +57,10 @@
   <meta name="twitter:title" content= "{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:creator" content="Omkar Pathak">
+  {% if page.image %}
   <meta name="twitter:image:src" content="{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  {% endif %}
   <meta name="twitter:domain" content="https://www.omkarpathak.in">
 </head>
