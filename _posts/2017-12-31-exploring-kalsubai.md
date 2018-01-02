@@ -3,7 +3,7 @@ layout: post
 title: Trip to Kalsubai, Highest Peak in Maharashtra
 description: Exploring Kalsubai highest peak of Maharashtra
 comments: true
-keywords: Kalsubai, trekking, exploring, kalsubai peak, one day trek, trek to kalsubai, overnight, overnight trek kalsubai, bari, highest, highest point in Maharashtra, bhandardara, kalsubai
+keywords: Kalsubai, trekking, exploring, kalsubai peak, one day trek, trek to kalsubai, overnight, overnight trek kalsubai, bari, highest, highest point in Maharashtra, bhandardara, kalsubai, kalsubai trek, blog about kalsubai
 image: https://www.omkarpathak.in/public/img/blog-images/kalsubai1.jpeg
 ---
 
