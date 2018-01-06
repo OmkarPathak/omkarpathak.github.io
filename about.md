@@ -44,7 +44,7 @@ Apart from programming I also love to travel. Experiencing new places and eating
 -*Vernon Law*
 
 * **Data Analyst Intern at Propeluss, Pune**
-October 2017 - Present
+October 2017 - January 2018
 
   - Writing various automation scripts to scrape data from various websites.
   - Applying Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles.
