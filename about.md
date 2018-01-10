@@ -60,3 +60,17 @@ June 2017 - July 2017
 
   - Was responsible for creating an internal project for the company using PHP and Laravel for testing purposes
   - Worked on a live project for creating closure reports using PHP and Excel
+
+<div class="scroll-effect">
+    <img src="{{ "public/img/about_me_3.jpg" | relative_url }}">
+</div>
+
+## Co-curricular and Extra-curricular Activities:
+
+- Participated in various National level events like COEP Mindspark (Inter college Technical event), Avishkar 2k17 (Inter college Project competition), Innovatus (Intra college Technical event)
+
+- Conducted a workshop for second year students to give them a brief overview about IoT by completing three mini projects and taught them basics of Python programming language
+
+- Contributor in Pune PyCon 2018 Website Designing and volunteering
+
+- Organizing head for the National level technical event - **Innovatus**
