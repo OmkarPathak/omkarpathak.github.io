@@ -69,7 +69,7 @@ June 2017 - July 2017
 
 - Participated in various National level events like COEP Mindspark (Inter college Technical event), Avishkar 2k17 (Inter college Project competition), Innovatus (Intra college Technical event)
 
-- Conducted a workshop for second year students to give them a brief overview about IoT by completing three mini projects and taught them basics of Python programming language
+- [Conducted a workshop](https://www.omkarpathak.in/2017/01/10/iot-workshop/) for second year students to give them a brief overview about IoT by completing three mini projects and taught them basics of Python programming language
 
 - Contributor in Pune PyCon 2018 Website Designing and volunteering
 
