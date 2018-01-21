@@ -74,3 +74,8 @@ June 2017 - July 2017
 - Contributor in Pune PyCon 2018 Website Designing and volunteering
 
 - Organizing head for the National level technical event - **Innovatus**
+
+
+## Awards and Achievements:
+
+- Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
