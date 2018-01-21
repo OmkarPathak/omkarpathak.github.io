@@ -1,4 +1,5 @@
 ---
+title: BEST OUTGOING STUDENT AWARD
 permalink: /best-outgoing-student-award/
 description: A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels.
 image: https://www.omkarpathak.in/public/img/best_outgoing_student_of_the_year.jpg
