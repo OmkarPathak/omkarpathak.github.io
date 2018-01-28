@@ -5,12 +5,12 @@ description: A computer geek and a Python enthusiast who loves to code. Huge fan
 image: https://www.omkarpathak.in/public/img/best_outgoing_student_of_the_year.jpg
 ---
 
+- Award was based on Academics, Extra-curricular and Co-curricular activities
+- Award was presented to one student from each engineering department
+
 <div class="scroll-effect">
     <img src="{{ "public/img/best_outgoing_student_of_the_year.jpg" | relative_url }}">
 </div>
-
-- Award was based on Academics, Extra-curricular and Co-curricular activities
-- Award was presented to one student from each engineering department
 
 <div class="scroll-effect">
     <img src="{{ "public/img/best_outgoing_student_award.jpg" | relative_url }}">
