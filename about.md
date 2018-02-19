@@ -79,3 +79,4 @@ June 2017 - July 2017
 ## Awards and Achievements:
 
 - Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
+- Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT
