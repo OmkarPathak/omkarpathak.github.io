@@ -80,3 +80,5 @@ June 2017 - July 2017
 
 - Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
 - Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
+- ***Quora's Top Writer*** for 2018
+- Won the Best Paper Award in National Level Conference on "Emerging Trends in Computing , Analytics and Security - 2018"(NCETCAS-2018)
