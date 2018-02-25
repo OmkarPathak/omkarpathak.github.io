@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  {% include head.html %}
-  <body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111548790-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-111548790-1');
+    </script>
+    {% include head.html %}
+  <body class="theme-base-08">
     {% include sidebar.html %}
     <div class="content container">
-      {{ content }}
+      <div class="container">
+          {{ content }}
+      </div>
     </div>
     {% include footer.html %}
   </body>
