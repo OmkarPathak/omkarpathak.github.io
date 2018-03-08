@@ -9,12 +9,58 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
   These are some of the projects that I have completed uptil now.
 </p>
 
-Also view some of my mini projects [here](/projects/mini-projects/)
 <hr>
+
+# Index
+*Click on the title of any project to see the detailed description*
+
+<hr>
+
+<div id="index">
+  <h2>Web Apps:</h2>
+  <ul>
+    <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
+  </ul>
+
+  <h2>Machine Learning:</h2>
+  <ul>
+    <li><a href="#password-strength-evaluator-using-machine-learning">Password Strength Evaluator: How strong is your password?</a></li>
+    <li><a href="#term-similarity-using-machine-learning">Term Similarity: unusual == remarkable?</a></li>
+    <li><a href="#email-spam-filtering">Email Spam Filtering</a></li>
+    <li><a href="https://github.com/OmkarPathak/Playing-with-datasets/tree/master/SMS%20Spam%20Filtering">SMS Spam Filtering</a></li>
+  </ul>
+
+  <h2>IoT:</h2>
+  <ul>
+    <li><a href="#smart-surveillance-system-using-raspberry-pi">Smart Surveillance System</a></li>
+    <li><a href="#garbage-level-monitoring-system">Garbage Level Monitoring System</a></li>
+  </ul>
+
+  <h2>APIs:</h2>
+  <ul>
+    <li><a href="#pygorithm">Pygorithm: Fun with algorithms pythonic way!</a></li>
+  </ul>
+
+  <h2>Command Line Apps:</h2>
+  <ul>
+    <li><a href="/projects/mini-projects/#reminder-app">A reminder application to remind you about the upcoming birthdays</a></li>
+    <li><a href="/projects/mini-projects/#codechef-downloader">Codechef Problem Statement Downloader</a></li>
+    <li><a href="/projects/mini-projects/#simple-note-taking">Simple Note Taking App</a></li>
+  </ul>
+
+  <h2>Games:</h2>
+  <ul>
+    <li><a href="/projects/mini-projects/#tic-tac-toe">Tic Tac Toe using AI</a></li>
+    <li><a href="/projects/mini-projects/#classic-snake-game">Classic Snake Game</a></li>
+  </ul>
+</div>
+
+<hr>
+
 <!--  -->
 <div id="projects">
   <a href="/projects/pygorithm/">
-    <h2>Pygorithm</h2>
+    <h2 id="pygorithm">Pygorithm</h2>
     <span class="post-date">July 2017 - Present</span>
   </a>
 </div>
@@ -34,7 +80,7 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <!--  -->
 <div id="projects">
   <a href="/projects/smart-surveillance-system-using-raspberry-pi/">
-    <h2>Smart Surveillance System</h2>
+    <h2 id="smart-surveillance-system-using-raspberry-pi">Smart Surveillance System</h2>
     <span class="post-date">November 2016 - February 2017</span>
   </a>
 </div>
@@ -54,7 +100,7 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <!--  -->
 <div id="projects">
   <a href="/projects/garbage-level-monitoring-system/">
-    <h2>Garbage Level Monitoring</h2>
+    <h2 id="garbage-level-monitoring-system">Garbage Level Monitoring</h2>
     <span class="post-date">July 2017 - Present</span>
   </a>
 </div>
@@ -74,7 +120,7 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <!--  -->
 <div id="projects">
   <a href="/projects/term-similarity-using-machine-learning/">
-    <h2>Term Similarity using Machine Learning</h2>
+    <h2 id="term-similarity-using-machine-learning">Term Similarity using Machine Learning</h2>
     <span class="post-date">December 2017</span>
   </a>
 </div>
@@ -94,7 +140,7 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <!--  -->
 <div id="projects">
   <a href="/projects/password-strength-evaluator-using-machine-learning/">
-    <h2>Password Strength evaluator using Machine Learning</h2>
+    <h2 id="password-strength-evaluator-using-machine-learning">Password Strength evaluator using Machine Learning</h2>
     <span class="post-date">March 2017</span>
   </a>
 </div>
@@ -114,7 +160,7 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 <!--  -->
 <div id="projects">
   <a href="/projects/a-simple-note-taking-web-app/">
-    <h2>A Simple Note taking Web App</h2>
+    <h2 id="note-taking-web-app">A Simple Note taking Web App</h2>
     <span class="post-date">September 2017 - October 2017</span>
   </a>
 </div>
@@ -128,6 +174,26 @@ Also view some of my mini projects [here](/projects/mini-projects/)
 **Know More**: [Click here..](/projects/a-simple-note-taking-web-app/)
 
 **Technology Used**: Flask, SQLite
+
+<hr>
+
+<!--  -->
+<div id="projects">
+  <a href="/projects/email-spam-filtering/">
+    <h2 id="email-spam-filtering">Email Spam Filtering</h2>
+    <span class="post-date">January 2018</span>
+  </a>
+</div>
+
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  A simple email spam filtering method. Was trying to play with data
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/Playing-with-datasets/tree/master/Email%20Spam%20Filtering)
+
+**Know More**: [Click here..](/projects/email-spam-filtering/)
+
+**Technology Used**: Python, Scikit-Learn, Pandas
 
 <hr>
 

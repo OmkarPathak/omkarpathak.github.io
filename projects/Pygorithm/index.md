@@ -10,6 +10,7 @@ What is the project all about?
 
 - A Python module to learn all the major algorithms on the go!
 - Users just have to import the required module and they can use the functions, see the code and time complexities
+- Documentation can be found [here](http://pygorithm.readthedocs.io/en/latest/)
 
 ## Results
 
@@ -40,3 +41,16 @@ What is the project all about?
 {% endhighlight %}
 
 **Source Code**: [Github](https://github.com/OmkarPathak/pygorithm)
+
+
+## Got covered in:
+
+
+
+- [ImportPython](http://importpython.com/blog/post/importpython-issue-124-python-packaging-algorithms-easter-eggs-machine-learning-and-more)
+
+- [Fosstack](https://fosstack.com/algorithms-with-python/)
+
+- [FullStackFeed](https://fullstackfeed.com/pygorithm-a-python-module-for-learning-all-major-algorithms/)
+
+- [Ingo Kleiber](https://kleiber.me/blog/2017/08/10/tutorial-decorator-primer/)
