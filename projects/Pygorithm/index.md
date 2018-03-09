@@ -45,7 +45,7 @@ What is the project all about?
 
 ## Got covered in:
 
-
+- [ITCodeMonkey](https://www.itcodemonkey.com/article/653.html), Tagged under Hotest Github Project :)
 
 - [ImportPython](http://importpython.com/blog/post/importpython-issue-124-python-packaging-algorithms-easter-eggs-machine-learning-and-more)
 
