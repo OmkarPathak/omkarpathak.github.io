@@ -2,6 +2,7 @@
 layout: post
 title: Why I Switched to Jekyll
 comments: true
+image: /public/img/blog-images/jekyll.png
 ---
 
 Previously I was pretty much happy with my website which was created using PHP. Mainly,

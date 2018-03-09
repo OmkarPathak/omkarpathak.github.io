@@ -4,6 +4,7 @@ title: Python Download Articles using Newspaper API
 comments: true
 description: How to use and install Python newspaper api
 keywords: Python, newspaper, newspaper3k, python newspaper
+image: /public/img/blog-images/python.jpg
 ---
 
 Many a times developers need to download the articles on the internet for various purposes. While interning, I was working on a project that needed some news articles to be fetched and analyzed. News articles are a great source of information but the problem lies in its format. News articles are not in a standard format as authors for different news articles are not the same. This is where **Newspaper API** helps us.

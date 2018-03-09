@@ -3,7 +3,7 @@ layout: post
 title: Two Day Workshop on IoT
 comments: true
 keywords: Iot workshop, iot, students, workshops, pune, omkar pathak, omkar pathak iot workshop
-image: https://www.omkarpathak.in/public/img/blog-images/iot_workshop_cover.jpg
+image: /public/img/blog-images/iot_workshop_cover.jpg
 ---
 
 ## What was the main objective behind the Workshop?
