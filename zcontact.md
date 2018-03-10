@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CONTACT ME
+permalink: /contact/
 description: A computer geek and a Python enthusiast who loves to code. Huge fan of open source softwares and an active contributor on GitHub. Also love to sketch and read Agatha Christie's novels.
 image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
