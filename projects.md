@@ -20,6 +20,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
   <h2>Web Apps:</h2>
   <ul>
     <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
+    <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
   </ul>
 
   <h2>Machine Learning:</h2>
@@ -194,6 +195,26 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Know More**: [Click here..](/projects/email-spam-filtering/)
 
 **Technology Used**: Python, Scikit-Learn, Pandas
+
+<hr>
+
+<!--  -->
+<div id="projects">
+  <a href="/projects/gym-member-manager/">
+    <h2 id="gym-member-manager">Gymnasium Member Manager</h2>
+    <span class="post-date">March-April 2018</span>
+  </a>
+</div>
+
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  A simple member manager software made for a local gymnasium. This software helps tp keep track of members and their payments in a convenient way.
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/Django-Gym-Member-Manager)
+
+**Know More**: [Click here..](/projects/gym-member-manager/)
+
+**Technology Used**: Python, Django
 
 <hr>
 
