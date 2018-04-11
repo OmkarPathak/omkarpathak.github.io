@@ -2,8 +2,8 @@
 layout: post
 title: Using Python __getitem__ and __setitem__
 comments: true
-description: How to use python's \__getitem__ and \__setitem__ properties
-keywords: Python, classes, getitem, setitem, python getitem, python setitem
+description: How to use Python's __getitem__ and __setitem__ properties
+keywords: Python, classes, getitem, setitem, python getitem, python setitem, python magic methods, python omkar, omkar pathak getitem, omkar pathak setitem
 image: /public/img/blog-images/python.jpg
 ---
 
