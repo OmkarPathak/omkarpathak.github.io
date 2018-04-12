@@ -4,6 +4,7 @@ title: Smart Surveillance System using Raspberry Pi
 permalink: /projects/smart-surveillance-system-using-raspberry-pi/
 description: This is a smart surveillance system implemented using Raspberry Pi and OpenCV. A simple yet effecctive system, which helps detect unknown people and alerting the concerned authorities via messages.
 image: https://www.omkarpathak.in/projects/Smart-Surveillance-System-Using-Raspberry-Pi/Result.jpeg
+keywords: smart surveillance system, raspberry pi, iot, pi-camera, smart surveillance, iot projects, iot pune
 ---
 
 # Smart Surveillance System using Raspberry Pi

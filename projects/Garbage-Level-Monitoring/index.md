@@ -4,6 +4,7 @@ title: Garbage Level Monitoring System
 permalink: /projects/garbage-level-monitoring-system/
 description: A real-time system used to monitor levels of all garbage bins from a single place. Based on IoT and Cloud Computing
 image: https://www.omkarpathak.in/projects/Garbage-Level-Monitoring/SGLM_Dashboard.png
+keywords: garbage monitoring system, garbage monitoring, iot, iot projects, omkar pathak projects
 ---
 
 # Garbage Level Monitoring System

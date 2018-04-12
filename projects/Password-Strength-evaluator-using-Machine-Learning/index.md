@@ -4,6 +4,7 @@ title: Password Strength Evaluator using Machine Learning
 permalink: /projects/password-strength-evaluator-using-machine-learning/
 description: Simple password evaluator which tells you the strength of your password based on previously generated dataset.
 image: https://www.omkarpathak.in/projects/Password-Strength-evaluator-using-Machine-Learning/Passwrd.png
+keywords: machine learning project, omkar pathak machine learning, password strength evaluator, password strength project, password manager project
 ---
 
 # Password Strength Evaluator Using Machine Learning

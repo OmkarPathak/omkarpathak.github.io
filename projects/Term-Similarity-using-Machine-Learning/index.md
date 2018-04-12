@@ -3,6 +3,7 @@ layout: default
 title: Term Similarity using Machine Learning
 permalink: /projects/term-similarity-using-machine-learning/
 description: A simple project used to find similar terms using Machine Learning technique like Nearest Neighbour and TF-IDF.
+keywords: term similarity, tf-idf, machine learning, automatic tagging, similar terms
 ---
 
 # Term Similarity using Machine Learning

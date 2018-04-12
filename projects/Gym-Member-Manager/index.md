@@ -4,6 +4,7 @@ title: Gym Member Manager
 permalink: /projects/gym-member-manager/
 description: A simple member manager software made for a local gymnasium. This software helps tp keep track of members and their payments in a convenient way.
 image: https://www.omkarpathak.in/projects/Gym-Member-Manager/gym-member-manager2b.png
+keywords: omkar pathak gym manager, gym member manager, gym member management, gym management, gym manager github
 ---
 
 # Gym Member Manager

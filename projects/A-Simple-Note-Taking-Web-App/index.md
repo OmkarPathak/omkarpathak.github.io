@@ -4,6 +4,7 @@ title: A Simple Note Taking Web App
 permalink: /projects/a-simple-note-taking-web-app/
 description: A simple Web app that helps you to quickly store and retrieve all your important notes at one place.
 image: https://www.omkarpathak.in/projects/A-Simple-Note-Taking-Web-App/NewNote.png
+keywords: omkar pathak, simple note taking web app, flask web app, flask, web app
 ---
 
 # A Simple Note Taking Web App
