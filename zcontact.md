@@ -12,22 +12,36 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
   Mail: <a href="mailto: omkarpathak27@gmail.com">omkarpathak27@gmail.com</a>
 </p>
 
-<script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thank-you/';}"></iframe>
+<!-- For sending emails via JS -->
+<script src="https://smtpjs.com/v2/smtp.js">
+</script>
 
 <!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
-<form class="form scroll-effect" action="https://docs.google.com/forms/d/e/1FAIpQLSf_hWmD9pNG2OpgAN49pbfOoN6bgfQWZ57wUgLSGuIpqLaVng/formResponse"  method="post" target="hidden_iframe"
-onsubmit="submitted=true;">
+<form class="form scroll-effect">
 
       <label>Name</label>
-      <input name="entry.838126762" type="text" required/>
+      <input id="name" type="text" required/>
 
       <label>Email</label>
-      <input name="entry.586886044" type="email" required />
+      <input type="email" id="email" required />
 
       <label>Message</label>
-      <textarea name="entry.1558001583" rows="5" required></textarea>
+      <textarea id="message" rows="5" required></textarea>
 
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send" onclick="SendEmail()"/>
 
 </form>
+
+<script>
+  function SendEmail() {
+    // API: https://www.smtpjs.com/
+
+    Email.send(document.getElementById("email").value,
+    "omkarpathak27@gmail.com",
+    "Message from: " + document.getElementById("name").value,
+    document.getElementById("message").value,
+    {token: "c82f279a-3729-445b-be7d-48ad3c9b85a4"});
+
+    window.location.href = "/thank-you/";
+  }
+</script>
