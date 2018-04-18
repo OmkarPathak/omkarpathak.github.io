@@ -41,6 +41,6 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
       }
       );
 
-    alert("Done!");
+    // alert("Done!");
   }
 </script>
