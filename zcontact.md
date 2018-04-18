@@ -12,12 +12,8 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
   Mail: <a href="mailto: omkarpathak27@gmail.com">omkarpathak27@gmail.com</a>
 </p>
 
-<!-- For sending emails via JS -->
-<script src="https://smtpjs.com/v2/smtp.js">
-</script>
-
 <!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
-<form class="form scroll-effect">
+<form class="form scroll-effect" action="/thank-you/">
 
       <label>Name</label>
       <input id="name" type="text" required/>
@@ -35,13 +31,16 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 <script>
   function SendEmail() {
     // API: https://www.smtpjs.com/
+    emailjs.send(
+      "gmail",
+      "personal_website",
+      {
+        name: document.getElementById("name").value,
+        message: document.getElementById("message").value,
+        email: document.getElementById("email").value
+      }
+      );
 
-    Email.send(document.getElementById("email").value,
-    "omkarpathak27@gmail.com",
-    "Message from: " + document.getElementById("name").value,
-    document.getElementById("message").value,
-    {token: "c82f279a-3729-445b-be7d-48ad3c9b85a4"});
-
-    window.location.href = "/thank-you/";
+    alert("Done!");
   }
 </script>
