@@ -13,7 +13,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 </p>
 
 <!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
-<form class="form scroll-effect" id="myForm" action="/thank-you/">
+<form class="form scroll-effect" id="myForm">
 
       <label>Name</label>
       <input id="name" type="text" required/>
@@ -24,13 +24,13 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
       <label>Message</label>
       <textarea id="message" rows="5" required></textarea>
 
-      <input type="submit" value="Send" onclick="SendEmail()"/>
+      <input type="submit" id="submit" value="Send"/>
 
 </form>
 
 <script>
   function SendEmail() {
-    // API: https://www.smtpjs.com/
+    // API: https://www.emailjs.com/
     emailjs.send(
       "gmail",
       "personal_website",
@@ -40,9 +40,14 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
         email: document.getElementById("email").value
       }
       );
-
-    if (document.getElementById("myForm")) {
-            setTimeout("submitForm()", 3000); // set timout
-       }
   }
+
+  document.getElementById("myForm").addEventListener("submit", function(event){
+      event.preventDefault();
+      SendEmail();
+      setTimeout(function(){
+        window.location = "/thank-you/";
+       }, 3000);
+      // alert('Done!');
+  });
 </script>
