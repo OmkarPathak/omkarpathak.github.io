@@ -13,7 +13,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 </p>
 
 <!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
-<form class="form scroll-effect" action="/thank-you/">
+<form class="form scroll-effect" id="myForm" action="/thank-you/">
 
       <label>Name</label>
       <input id="name" type="text" required/>
@@ -41,6 +41,8 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
       }
       );
 
-    // alert("Done!");
+    if (document.getElementById("myForm")) {
+            setTimeout("submitForm()", 3000); // set timout
+       }
   }
 </script>
