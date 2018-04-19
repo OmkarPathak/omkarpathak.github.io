@@ -23,7 +23,9 @@
           {% if node.title != null %}
             {% if node.layout == "page" %}
               {% if node.title != 'BEST OUTGOING STUDENT AWARD' %}
-                <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><span class="underline">{{ node.title }}</span></a>
+                {% unless node.url contains 'page' %}
+                  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><span class="underline">{{ node.title }}</span></a>
+                {% endunless %}
               {% endif %}
             {% endif %}
           {% endif %}
