@@ -20,7 +20,7 @@ Later on I came to know about [Jekyll](http://jekyllrb.com). Its impressive load
 
 ## Tweaks I had used:
 
-- For image optimizations I had used: [http://optimizilla.com/](http://optimizilla.com/) and [https://tinypng.com/](https://tinypng.com/)
+- For image optimizations I had used: [http://www.jpeg-optimizer.com/](http://www.jpeg-optimizer.com/) [http://optimizilla.com/](http://optimizilla.com/) and [https://tinypng.com/](https://tinypng.com/)
 - Setting up domain Emails: [Check this](https://blog.webjeda.com/free-domain-email-zoho/)
 - Optimizing Guide for making your Jekyll website faster: [Check this](https://blog.webjeda.com/pagespeed-insights-100/)
 - For SEO Optimizations: [Check this](https://blog.webjeda.com/optimize-jekyll-seo/)
