@@ -18,19 +18,8 @@ What is the project all about?
 ## Technologies Used
 * Django (Python web development framework)
 
-## Results
+## Working
 
-- Easily add members
-![add-members]({{ "projects/Gym-Member-Manager/gym-member-manager1.png" | relative_url }})
-
-- Search and update the member information
-![search-update-members]({{ "projects/Gym-Member-Manager/gym-member-manager2a.png" | relative_url }})
-![search-update-members]({{ "projects/Gym-Member-Manager/gym-member-manager2b.png" | relative_url }})
-
-- View all the admitted members and their fee status
-![view-all-members]({{ "projects/Gym-Member-Manager/gym-member-manager3.png" | relative_url }})
-
-- Reports Generation
-![reports]({{ "projects/Gym-Member-Manager/gym-member-manager4.png" | relative_url }})
+![Working]({{ "projects/Gym-Member-Manager/Gym-Member-Manager.gif" | relative_url }})
 
 **Source Code**: [Github](https://github.com/OmkarPathak/Django-Gym-Member-Manager)
