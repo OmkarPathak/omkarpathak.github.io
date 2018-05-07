@@ -21,6 +21,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
   <ul>
     <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
     <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
+    <li><a href="#django-to-do">A dead simple Django To Do Web App</a></li>
   </ul>
 
   <h2>Machine Learning:</h2>
@@ -213,6 +214,26 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Source Code**: [Github](https://github.com/OmkarPathak/Django-Gym-Member-Manager)
 
 **Know More**: [Click here..](/projects/gym-member-manager/)
+
+**Technology Used**: Python, Django
+
+<hr>
+
+<!--  -->
+<div id="projects">
+  <a href="/projects/django-to-do-web-app/">
+    <h2 id="django-to-do">A dead simple Django To Do Web App</h2>
+    <span class="post-date">May 2018</span>
+  </a>
+</div>
+
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  This is a sample project that a novice django developer can use to get started
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/Django-to-do)
+
+**Know More**: [Click here..](/projects/django-to-do-web-app/)
 
 **Technology Used**: Python, Django
 
