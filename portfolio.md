@@ -9,22 +9,25 @@ description: Welcome to my small space on web. Below are some of my qualitites t
 </p>
 
 <div id="portfolio" class="scroll-effect">
-  <a href="/projects/"><h2 style="padding-bottom: 5px">My Work and Projects</h2>
-    <!-- <br /> -->
+  <a href="/projects/"><h2 style="padding-bottom: 5px">My Projects</h2>
     <img src="{{ "public/img/project_cover.jpg" | relative_url }}">
   </a>
 </div>
 
 <div id="portfolio" class="scroll-effect">
+  <a href="/freelancing/"><h2 style="padding-bottom: 5px">Freelance Web Development Projects</h2>
+    <img src="{{ "public/img/freelancing_cover.png" | relative_url }}">
+  </a>
+</div>
+
+<div id="portfolio" class="scroll-effect">
   <a href="/photography/"><h2 style="padding-bottom: 5px">Photography</h2>
-    <!-- <br /> -->
     <img src="{{ "public/img/photography_cover.jpg" | relative_url }}">
   </a>
 </div>
 
 <div id="portfolio" class="scroll-effect">
   <a href="/sketching/"><h2 style="padding-bottom: 5px">Sketching</h2>
-    <!-- <br /> -->
     <img src="{{ "public/img/sketching_cover.jpg" | relative_url }}">
   </a>
 </div>
