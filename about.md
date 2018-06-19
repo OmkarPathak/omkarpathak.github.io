@@ -6,7 +6,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
-  Hey there! I am Omkar Pathak, a computer geek and a Python enthusiast currently in my last year of Computer Engineering. I love to code and I code primarily in Python language. Huge fan of open source softwares and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels.
+  Hey there! I am Omkar Pathak, a computer geek and a Python aficionado. I love to code and I code primarily in Python language. Huge fan of open source softwares and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium.
 </p>
 
 <div class="scroll-effect">
@@ -43,11 +43,18 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 -*Vernon Law*
 
+* **Computer Graduate Intern at Truso, Pune**
+June 2018 - July 2018
+
+  - Created RESTful apis
+  - Tried my hands on Angular 5/6
+  - Was responsible for Django backend development
+
 * **Data Analyst Intern at Propeluss, Pune**
 October 2017 - January 2018
 
-  - Writing various automation scripts to scrape data from various websites.
-  - Applying Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles.
+  - Wrote various automation scripts to scrape data from various websites.
+  - Applied Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles.
   - Also applied KNN with LSA for extracting relevant tags for various startups based on their works.
 
 * **Technical Content Writer at GeeksForGeeks**
