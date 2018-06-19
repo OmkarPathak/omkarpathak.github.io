@@ -85,6 +85,7 @@ June 2017 - July 2017
 
 ## Awards and Achievements:
 
+- **Top** rated Python developer in Pune and **Sixth** in India at [Github](http://git-awards.com/users/omkarpathak)
 - Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
 - Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
 - ***Quora's Top Writer*** for 2018
