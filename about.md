@@ -50,7 +50,7 @@ June 2018 - July 2018
   - Tried my hands on Angular 5/6
   - Was responsible for Django backend development
 
-* **Data Analyst Intern at Propeluss, Pune**
+* **Data Engineering Intern at Propeluss, Pune**
 October 2017 - January 2018
 
   - Wrote various automation scripts to scrape data from various websites.
