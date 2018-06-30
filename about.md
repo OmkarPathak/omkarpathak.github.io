@@ -10,7 +10,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 </p>
 
 <div class="scroll-effect">
-    <img src="{{ "public/img/about_me_1.jpg" | relative_url }}">
+    <img src="{{ "public/img/about_me_5.jpg" | relative_url }}">
 </div>
 
 # Probably you may want to know more about me
@@ -85,7 +85,7 @@ June 2017 - July 2017
 
 ## Awards and Achievements:
 
-- **Top** rated Python developer in Pune and **Sixth** in India at [Github](http://git-awards.com/users/omkarpathak)
+- **Top** rated Python developer in Pune, Maharashtra, India and **Fifth** in India at [Github](http://git-awards.com/users/omkarpathak) in 2018
 - Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
 - Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
 - ***Quora's Top Writer*** for 2018
