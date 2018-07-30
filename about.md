@@ -43,7 +43,10 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 -*Vernon Law*
 
-* **Computer Graduate Intern at Truso, Pune**
+* **Data Engineer at Schlumberger, Pune**
+July 2018 - Present
+
+* **Full Stack Developer Intern at Truso, Pune**
 June 2018 - July 2018
 
   - Created RESTful apis
