@@ -3,6 +3,8 @@ my website included the information about me and my work. But, eventually PHP di
 
 Later on I came to know about [Jekyll](http://jekyllrb.com). Its impressive loading speeds, ease of use left me no option but to try it! This website that you are currently viewing is entirely built using Jekyll.
 
+P.S: Special thanks to Hyde theme
+
 ## Setting up Jekyll
 
 * First and foremost we will need Ruby. If you do not have Ruby installed, install it from [here](https://www.ruby-lang.org/en/downloads/)

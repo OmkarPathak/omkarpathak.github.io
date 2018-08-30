@@ -7,7 +7,7 @@ keywords: python, python magic methods, python methods, omkar python, freelance 
 image: /public/img/blog-images/python.jpg
 ---
 
-In my previous post we talked about Python's `__getitem__` and `__setitem__` methods. These methods are called magic methods or special methods or dunger methods. Well what is the **magic** about these methods? This is exactly what we are going to see today. 
+In my previous post we talked about Python's `__getitem__` and `__setitem__` methods. These methods are called magic methods or special methods or dunder methods. Well what is the **magic** about these methods? This is exactly what we are going to see today. 
 
 P.S: You will fall in love with Python language (again! ;) )
 
@@ -15,7 +15,7 @@ And it's gonna be a long post. So, let's get started.
 
 # What exactly are magic methods?
 
-Magic methods or Dunger methods are just normal methods but with special powers. **These magic methods in Python, help you to define the *magic* to your classes**. These magic methods are defined by adding double underscores (__) as prefix and suffix to the method name. To be frank, there isn't any magic going on. These methods are not well documented in the Python docs and hence we will be seeing these in detail today.
+Magic methods or Dunder methods are just normal methods but with special powers. **These magic methods in Python, help you to define the *magic* to your classes**. These magic methods are defined by adding double underscores (__) as prefix and suffix to the method name. To be frank, there isn't any magic going on. These methods are not well documented in the Python docs and hence we will be seeing these in detail today.
 
 # Magic methods for Initialization
 
