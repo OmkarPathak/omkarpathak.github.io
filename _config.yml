@@ -17,7 +17,7 @@ author:
   name:           'Omkar Pathak'
   url:            https://twitter.com/omkarpathak27
 
-paginate:         5
+paginate:         6
 paginate_path: 	  /blog/page:num/
 
 # Custom vars

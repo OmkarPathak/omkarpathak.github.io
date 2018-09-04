@@ -38,7 +38,7 @@ description: I write blogs about my experiences with new technologies and softwa
 
 <!-- post list -->
 {% for post in paginator.posts %}
-<div>
+<div class="image-half">
   <h1 class="post-title">
     <a href="{{ post.url }}">
       <div class="scroll-effect">
@@ -51,8 +51,19 @@ description: I write blogs about my experiences with new technologies and softwa
   </h1>
 
   <span class="post-date">{{ post.date | date_to_string }}</span>
+  {% assign num_words = post.content | number_of_words %}
+  {% assign minutes = num_words | divided_by: 180 %}
+  {% if num_words < 360 %}
+    <span class="post-date">1 min</span>
+  {% else %}
+    <span class="post-date">{{ num_words | divided_by:180 }} mins</span>
+  {% endif %}
+  
 </div>
+{% assign loopindex = forloop.index | modulo: 2 %}
+{% if loopindex == 0 %}
 <hr>
+{% endif %}
 {% endfor %}
 
 
