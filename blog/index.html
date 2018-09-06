@@ -50,13 +50,13 @@ description: I write blogs about my experiences with new technologies and softwa
     </a>
   </h1>
 
-  <span class="post-date">{{ post.date | date_to_string }}</span>
-  {% assign num_words = post.content | number_of_words %}
+  <span style="color:#9a9a9a;">{{ post.date | date_to_string }}</span>
+  {% assign num_words = content | number_of_words %}
   {% assign minutes = num_words | divided_by: 180 %}
   {% if num_words < 360 %}
-    <span class="post-date"><i class="fa fa-eye"></i> 1 min read</span>
+    <span style="color:#9a9a9a; margin-left: 3%"><i class="fa fa-eye"></i> 1 min read</span>
   {% else %}
-    <span class="post-date"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
+    <span style="color:#9a9a9a; margin-left: 3%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
   {% endif %}
   
 </div>
