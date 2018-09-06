@@ -4,7 +4,15 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span style="color:#9a9a9a;">{{ page.date | date_to_string }}</span>
+  {% assign num_words = content | number_of_words %}
+  {% assign minutes = num_words | divided_by: 180 %}
+  {% if num_words < 360 %}
+    <span style="color:#9a9a9a; margin-left: 1%"><i class="fa fa-eye"></i> 1 min read</span>
+  {% else %}
+    <span style="color:#9a9a9a; margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
+  {% endif %}
+  <hr>
   {{ content }}
 </div>
 
