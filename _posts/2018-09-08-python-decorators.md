@@ -55,7 +55,7 @@ my_func = some_function()
 my_func()                  # prints 'In Nested Function Definition'
 ```
 
-Here `nested_function` is defined and returned each time we call `some_function()`. **Note that while returning the `nested_function` we did not include function brackets**. This Python property enables us return the function and use it as many times as `my_func()` is called. This type of functions are also called as **Closures**.
+Here `nested_function` is defined and returned each time we call `some_function()`. **Note that while returning the `nested_function` we did not include `()` brackets**. This Python property enables us return the function and use it as many times as `my_func()` is called. This type of functions are also called as **Closures**.
 
 # How decorators are defined
 
@@ -133,18 +133,20 @@ In the above example `timeit()` decorator will calculate the time taken by the f
 Just like functions, we can also pass arguments to our decorators. Let us extend our basic decorator:
 
 ```python
-def  my_decorator(my_func):
-    def inner_function(*args, **kwargs):
-        print('I am inside my decorator')
-        my_func(*args, *kwargs)
-    return inner_function
+def my_decorator_with_args(arg1, arg2):
+    def my_decorator(my_func):
+        def inner_function(*args, **kwargs):
+            print('I am inside my decorator and I have ' + arg1 + ' and ' + arg2)
+            my_func(*args, *kwargs)
+        return inner_function
+    return my_decorator
 
-@my_decorator
+@my_decorator_with_args('potatoes', 'tomatoes')
 def my_func(fruit):
     print('I like:', fruit)
 
 my_func('mango')        
-# prints 'I am inside my decorator'
+# prints 'I am inside my decorator and I have potatoes and tomatoes'
 # and then
 # prints 'I like: mango' 
 ```
