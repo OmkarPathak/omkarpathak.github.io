@@ -38,7 +38,6 @@ description: I write blogs about my experiences with new technologies and softwa
 
 <!-- post list -->
 {% for post in paginator.posts %}
-<div class="image-half">
   <h1 class="post-title">
     <a href="{{ post.url }}">
       <div class="scroll-effect">
@@ -59,11 +58,7 @@ description: I write blogs about my experiences with new technologies and softwa
     <span style="color:#9a9a9a; margin-left: 3%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
   {% endif %}
   
-</div>
-{% assign loopindex = forloop.index | modulo: 2 %}
-{% if loopindex == 0 %}
 <hr>
-{% endif %}
 {% endfor %}
 
 

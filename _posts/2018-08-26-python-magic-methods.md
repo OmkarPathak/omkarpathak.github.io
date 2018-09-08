@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Python magic methods or special methods
+title: Demystifying Python OOP (Part 1) - Magic methods or Special methods
 comments: true
 description: A long description about what are python magic methods or special methods and how to use them
 keywords: python, python magic methods, python methods, omkar python, freelance web developer, omkar pathak freelancer pune, pune
-image: /public/img/blog-images/python.jpg
+image: /public/img/blog-images/python.png
 ---
 
 In my previous post we talked about Python's `__getitem__` and `__setitem__` methods. These methods are called magic methods or special methods or dunder methods. Well what is the **magic** about these methods? This is exactly what we are going to see today. 
