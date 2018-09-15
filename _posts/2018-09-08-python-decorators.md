@@ -91,7 +91,7 @@ def my_func():
     print('I am inside my function')
 ```
 
-is equivqlent to
+is equivalent to
 
 ```python
 def my_func():
