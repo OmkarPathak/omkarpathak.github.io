@@ -32,10 +32,11 @@ Apart from programming I also love to travel. Experiencing new places and eating
 ## Skill Set
 
 - **Programming Languages**: Python, C, PHP, C++, Shell Script
-- **Front End**: HTML, CSS, JavaScript
+- **Front End**: HTML, CSS, JavaScript, Angular 6/7
 - **Databases**: MySQL, SQLite, MongoDB
 - **Frameworks**: Django, Flask (Python), Laravel (PHP)
 - **Operating Systems**: Linux, Unix, Windows
+- **Tools/Libraries/Technologies**: Scikit-Learn, OpenCV, Cloud (GCP, Azure, DigitalOcean)
 
 ##   Experience
 
@@ -45,6 +46,7 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 * **Data Engineer at Schlumberger, Pune**
 July 2018 - Present
+  - Currently implementing a full CI/CD Pipeline on Azure
 
 * **Full Stack Developer Intern at Truso, Pune**
 June 2018 - July 2018
