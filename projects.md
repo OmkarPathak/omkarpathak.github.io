@@ -42,6 +42,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
   <h2>APIs:</h2>
   <ul>
     <li><a href="#pygorithm">Pygorithm: Fun with algorithms pythonic way!</a></li>
+    <li><a href="https://github.com/OmkarPathak/Word-Counter">wordcounter: Python package for counting number of words and doing much more</a></li>
   </ul>
 
   <h2>Command Line Apps:</h2>
@@ -55,6 +56,12 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
   <ul>
     <li><a href="/projects/mini-projects/#tic-tac-toe">Tic Tac Toe using AI</a></li>
     <li><a href="/projects/mini-projects/#classic-snake-game">Classic Snake Game</a></li>
+  </ul>
+
+  <h2>Comprehensive Guides/ Tutorials:</h2>
+  <ul>
+    <li><a href="https://github.com/OmkarPathak/Data-Structures-using-Python">Implemtation of Data Structures and Algorithms in Python</a></li>
+    <li><a href="https://github.com/OmkarPathak/CCDSAP-Prep">Practice problems wih notes for CodeChef Certified Data Structure & Algorithms Programme</a></li>
   </ul>
 </div>
 
