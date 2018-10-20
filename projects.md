@@ -23,6 +23,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
     <li><a href="#django-invoice-generator">Django Invoice Generator</a></li>
     <li><a href="#django-to-do">A dead simple Django To Do Web App</a></li>
+    <li><a href="#django-bookworm">Django Bookworm</a></li>
   </ul>
 
   <h2>Machine Learning:</h2>
@@ -264,6 +265,25 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Know More**: [Click here..](/projects/django-invoice-generator/)
 
 **Technology Used**: Python, Django
+
+<hr>
+
+<div id="projects">
+  <a href="/projects/django-invoice-generator/">
+    <h2 id="django-bookworm">Django Bookworm</h2>
+    <span class="post-date">October 2018</span>
+  </a>
+</div>
+
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  A fun project to store my learning from each book that I read
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/Django-Bookworm)
+
+**Know More**: [Click here..](/projects/django-bookworm/)
+
+**Technology Used**: Python, Django, NLTK, REST Api
 
 <hr>
 
