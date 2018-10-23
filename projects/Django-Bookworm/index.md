@@ -7,7 +7,7 @@ image: https://www.omkarpathak.in/projects/Django-Bookworm/django-bookworm.gif
 keywords: bookworm app, to do, bookworm web app, django, django bookworm web app, omkar pathak, omkar, omkar bookworm, omkar pathak bookworm
 ---
 
-# Garbage Level Monitoring System
+# Django Bookworm
 What is the project all about?
 
 - This is a fun project to store my learning from each book that I read.
