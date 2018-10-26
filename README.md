@@ -28,3 +28,5 @@ P.S: Special thanks to Hyde theme
 - For SEO Optimizations: [Check this](https://blog.webjeda.com/optimize-jekyll-seo/)
 - For Social Media Share Links: [Check this](https://superdevresources.com/share-buttons-jekyll/)
 - For Minify CSS: [Check this](https://cssminifier.com/)
+
+Special thanks to [@reallinfo](https://github.com/reallinfo) for the beautiful and thoughtful logo :smile:
