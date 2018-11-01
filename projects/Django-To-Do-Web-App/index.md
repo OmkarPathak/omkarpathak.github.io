@@ -7,10 +7,12 @@ image: https://www.omkarpathak.in/public/img/projects/django-to-do.gif
 keywords: todo app, to do, todo web app, django, django todo web app, omkar pathak, omkar, omkar todo, omkar pathak todo
 ---
 
-# Garbage Level Monitoring System
+# Django To Do Web App (Taskकर)
 What is the project all about?
 
-This is a sample project that a novice django developer can use to get started
+- This is a sample project that a novice django developer can use to get started
+- Implemented while teaching django to a friend
+- Very simple that even your granny can use
 
 ## Working
 

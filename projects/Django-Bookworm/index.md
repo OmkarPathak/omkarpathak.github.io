@@ -14,6 +14,8 @@ What is the project all about?
 - I created a text summarization module myself to create a summary from the paragraph.
 - Learnt REST API
 - Learnt Telegram bot configuration
+- Get simple stats about how many books and chapters you have read in a month
+- Get moivational quotes on homepage to keep you motivated to read more books
 
 ## Working
 
@@ -28,7 +30,8 @@ What is the project all about?
 - Get summary from all the chapters that you describe
 
 ## Technologies Used
-* Django (Python web development framework)
-* NLTK (for text summarization)
+- Django (Python web development framework)
+- NLTK (for text summarization)
+- AJAX for searching and other asynchronous tasks
 
 **Source Code**: [Github](https://github.com/OmkarPathak/Django-Bookworm)
