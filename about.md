@@ -46,7 +46,8 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 * **Data Engineer at Schlumberger, Pune**
 July 2018 - Present
-  - Currently implementing a full CI/CD Pipeline on Azure
+  - Currently implementing a full CI/CD Pipeline on Azure for custom Innformatica Migrations
+  - Automating daily jobs
 
 * **Full Stack Developer Intern at Truso, Pune**
 June 2018 - July 2018
