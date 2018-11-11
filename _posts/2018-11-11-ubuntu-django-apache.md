@@ -4,7 +4,7 @@ title: Deploying Django applications using Apache 2.4 and Ubuntu
 comments: true
 description: A detailed guide for deploying applications using apache 2.2 and ubuntu
 keywords: django, omkar django, omkar pathak django, ubuntu, django apache ubuntu, apache ubuntu, python, django python, apache 2.4
-image: /public/img/blog-images/python.png
+image: /public/img/blog-images/linux.jpg
 tags: [django, python, web, apache]
 ---
 
