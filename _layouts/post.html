@@ -12,6 +12,11 @@ layout: default
   {% else %}
     <span style="color:#9a9a9a; margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
   {% endif %}
+  <span>
+    {% for tag in page.tags %}
+      <a href="#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
+    {% endfor %}
+  </span>
   <hr>
   {{ content }}
 </div>

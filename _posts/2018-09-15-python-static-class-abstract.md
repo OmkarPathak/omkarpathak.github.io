@@ -5,6 +5,7 @@ comments: true
 description: A detailed guide for using Python's Static, Class and Abstract methods
 keywords: python, python abstract, python class, python abstract methods, method, python omkar pathak, omkar python, freelance web developer, omkar pathak freelancer pune, pune, python static ethod, static
 image: /public/img/blog-images/python.png
+tags: [python]
 ---
 
 Many times while code reviews, I have seen people defining their classes and methods but incorrectly using decorators that Python provides for methods. So today I am going to talk more about these decorators and how and why to use them. We will see couple of real world scenarios where we can use them.

@@ -5,6 +5,7 @@ comments: true
 description: A detailed description about what exactly are Python decorators and how exactly to use them
 keywords: python, python decorators, python omkar pathak, omkar python, freelance web developer, omkar pathak freelancer pune, pune, decorators, python decorator
 image: /public/img/blog-images/python.png
+tags: [python]
 ---
 
 # What are Python Decorators?

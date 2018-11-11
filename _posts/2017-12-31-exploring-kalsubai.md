@@ -5,6 +5,7 @@ description: Exploring Kalsubai highest peak of Maharashtra
 comments: true
 keywords: Kalsubai, trekking, exploring, kalsubai peak, one day trek, trek to kalsubai, overnight, overnight trek kalsubai, bari, highest, highest point in Maharashtra, bhandardara, kalsubai, kalsubai trek, blog about kalsubai
 image: /public/img/blog-images/kalsubai1.jpeg
+tags: [trekking]
 ---
 
 It all started on 29th December 2017 when a group of 45 enthusiasts joined to explore **Kalsubai** which is the highest peak of Maharashtra with a height of 1646m (about 5400ft). This trek was organized by [Swachhand Outdoors](https://www.facebook.com/swachhandoutdoors/) which is a voluntary organization formed with an aim of promoting Mountaineering and Adventure Sports and spreading awareness about Environment Conservation.

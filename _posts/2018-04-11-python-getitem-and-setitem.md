@@ -5,6 +5,7 @@ comments: true
 description: How to use Python's __getitem__ and __setitem__ properties
 keywords: Python, classes, getitem, setitem, python getitem, python setitem, python magic methods, python omkar, omkar pathak getitem, omkar pathak setitem
 image: /public/img/blog-images/python.png
+tags: [python]
 ---
 
 I have always said that I am really fond of Python language. Today I am going to show you another big reason for the same. Python gives most of the flexibility for the developers to develop their code efficiently. And that is why Python allows its user to create their custom classes using the inbuilt classes such as list, str, etc.

@@ -5,6 +5,7 @@ comments: true
 description: How to setup Jekyll contact form easily that will send the response directly to your email
 keywords: javascript, jekyll, contact form, jekyll contact, jekyll contact form, emailjs, jekyll emailjs contact form, jekyll omkar, omkar pathak jekyll, omkar pathak jekyll contact form, freelance web developer, omkar pathak freelancer pune, pune
 image: /public/img/blog-images/jekyll.png
+tags: [jekyll]
 ---
 
 ## Why do you need a Contact Form?
