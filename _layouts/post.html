@@ -14,7 +14,7 @@ layout: default
   {% endif %}
   <span>
     {% for tag in page.tags %}
-      <a href="#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
+      <a href="/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
     {% endfor %}
   </span>
   <hr>
