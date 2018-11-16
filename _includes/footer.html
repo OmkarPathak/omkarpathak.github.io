@@ -1,8 +1,14 @@
 <script src="{{ "public/js/scrollreveal.min.js" | relative_url }}"></script>
-<!-- <script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
-<script src="{{ "public/js/bootstrap.min.js" | relative_url }}"></script>
+<script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "public/js/unitegallery.min.js" | relative_url }}"></script>
+<script src="{{ "public/js/ug-theme-tiles.js" | relative_url }}"></script>
+<!-- <script src="{{ "public/js/bootstrap.min.js" | relative_url }}"></script>
 <script src="{{ "public/js/flickity.min.js" | relative_url }}"></script> -->
 <script type="text/javascript">
   window.sr = ScrollReveal();
   sr.reveal('.scroll-effect');
+
+  $(document).ready(function(){ 
+    $("#gallery").unitegallery(); 
+  }); 
 </script>
