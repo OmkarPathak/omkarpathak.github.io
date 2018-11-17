@@ -1,0 +1,13 @@
+{
+    "name": "Omkar Pathak",
+    "short_name": "Omii",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#7a7cec",
+    "icons": [
+      {
+        "src": "public/favicon.ico"
+      }
+    ]
+  }
