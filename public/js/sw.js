@@ -31,8 +31,8 @@ var CACHE_NAME = 'omkar-pathak-cache-v1';
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.extname == '.js' or file.path contains '/assets/images' %}
-    urlsToCache.push("{{ file.path }}")
+    {% if file.extname == '.js' or file.extname == '.css' or file.path contains '/assets/images' %}
+        urlsToCache.push("{{ file.path }}")
     {% endif %}
 {% endfor %}
 
