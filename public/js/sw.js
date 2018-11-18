@@ -36,7 +36,7 @@ var CACHE_NAME = 'omkar-pathak-cache-v1';
     {% endif %}
 {% endfor %}
 
-
+// Installation of service worker
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
@@ -55,7 +55,11 @@ self.addEventListener('fetch', function(event) {
           if (response) {
             return response;
           }
-          return fetch(event.request);
+          return fetch(event.request).then(function(response){
+            return caches.open(CACHE.version).then(function (cache){
+              cache.put(event.request, response.clone());
+            });
+          });
         }
       )
     );
