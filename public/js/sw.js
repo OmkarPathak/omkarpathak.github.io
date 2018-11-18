@@ -32,7 +32,8 @@ var CACHE_NAME = 'omkar-pathak-cache-v1';
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
     {% if file.extname == '.js' or file.extname == '.css' or file.path contains '/assets/images' %}
-        urlsToCache.push("{{ file.path }}")
+      console.log(file);  
+      urlsToCache.push("/{{ file.path }}")
     {% endif %}
 {% endfor %}
 
@@ -47,20 +48,6 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('fetch', function(event) {
-    event.respondWith(
-      caches.match(event.request)
-        .then(function(response) {
-          // Cache hit - return response
-          return response || fetch(event.request).then(function(response){
-            return caches.open(CACHE_NAME).then(function (cache){
-              cache.put(event.request, response.clone());
-            });
-          });
-        }
-      )
-    );
-  });
 
 // Activate service worker
 this.addEventListener('activate', function (event) {
@@ -74,5 +61,34 @@ this.addEventListener('activate', function (event) {
             }
         }));
     })
+  );
+});
+
+// self.addEventListener('fetch', function(event) {
+//     event.respondWith(
+//       caches.match(event.request)
+//         .then(function(response) {
+//           // Cache hit - return response
+//           return response || fetch(event.request).then(function(response){
+//             return caches.open(CACHE_NAME).then(function (cache){
+//               cache.put(event.request, response.clone());
+//             });
+//           });
+//         }
+//       )
+//     );
+//   });
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
+        return fetch(event.request);
+      }
+    )
   );
 });

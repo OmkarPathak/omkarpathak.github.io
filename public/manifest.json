@@ -7,7 +7,14 @@
     "theme_color": "#7a7cec",
     "icons": [
       {
-        "src": "public/favicon.ico"
+        "src": "/public/favicon.ico",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/public/favicon.ico",
+        "type": "image/png",
+        "sizes": "192x192"
       }
     ]
   }
