@@ -32,8 +32,7 @@ var CACHE_NAME = 'omkar-pathak-cache-v1';
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
     {% if file.extname == '.js' or file.extname == '.css' or file.path contains '/assets/images' %}
-      console.log(file);  
-      urlsToCache.push("/{{ file.path }}")
+      urlsToCache.push("{{ file.path }}")
     {% endif %}
 {% endfor %}
 
@@ -50,19 +49,19 @@ self.addEventListener('install', function(event) {
 
 
 // Activate service worker
-this.addEventListener('activate', function (event) {
-  // Remove all caches that aren't whitelisted
-  var cacheWhitelist = [CACHE_NAME];
-  event.waitUntil(
-        caches.keys().then(function (keyList) {
-        return Promise.all(keyList.map(function (key) {
-            if (cacheWhitelist.indexOf(key) === -1) {
-                return caches.delete(key);
-            }
-        }));
-    })
-  );
-});
+// this.addEventListener('activate', function (event) {
+//   // Remove all caches that aren't whitelisted
+//   var cacheWhitelist = [CACHE_NAME];
+//   event.waitUntil(
+//         caches.keys().then(function (keyList) {
+//         return Promise.all(keyList.map(function (key) {
+//             if (cacheWhitelist.indexOf(key) === -1) {
+//                 return caches.delete(key);
+//             }
+//         }));
+//     })
+//   );
+// });
 
 // self.addEventListener('fetch', function(event) {
 //     event.respondWith(
@@ -79,16 +78,28 @@ this.addEventListener('activate', function (event) {
 //     );
 //   });
 
-self.addEventListener('fetch', function(event) {
+// self.addEventListener('fetch', function(event) {
+//   console.log('Handling fetch event for', event.request.url);
+//   event.respondWith(
+//     caches.match(event.request)
+//       .then(function(response) {
+//         // Cache hit - return response
+//         if (response) {
+//           console.log('Found response in cache:', response);
+//           return response;
+//         }
+//         return fetch(event.request).then(function(response){
+//           console.log('Response from network is:', response);
+//         });
+//       }
+//     )
+//   );
+// });
+
+self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      }
-    )
+    caches.match(event.request, {ignoreSearch:true}).then(response => {
+      return response || fetch(event.request);
+    })
   );
 });
