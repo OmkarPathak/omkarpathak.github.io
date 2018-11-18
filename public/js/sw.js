@@ -53,7 +53,7 @@ self.addEventListener('fetch', function(event) {
         .then(function(response) {
           // Cache hit - return response
           return response || fetch(event.request).then(function(response){
-            return caches.open(CACHE.version).then(function (cache){
+            return caches.open(CACHE_NAME).then(function (cache){
               cache.put(event.request, response.clone());
             });
           });
@@ -61,3 +61,18 @@ self.addEventListener('fetch', function(event) {
       )
     );
   });
+
+// Activate service worker
+this.addEventListener('activate', function (event) {
+  // Remove all caches that aren't whitelisted
+  var cacheWhitelist = [CACHE_NAME];
+  event.waitUntil(
+        caches.keys().then(function (keyList) {
+        return Promise.all(keyList.map(function (key) {
+            if (cacheWhitelist.indexOf(key) === -1) {
+                return caches.delete(key);
+            }
+        }));
+    })
+  );
+});
