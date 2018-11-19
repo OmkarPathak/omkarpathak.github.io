@@ -8,12 +8,22 @@
     "background_color": "#7a7cec",
     "icons": [
       {
-        "src": "public/logo-192-192.ico",
+        "src": "/public/logo-192-192.ico",
         "type": "image/ico",
         "sizes": "192x192"
       },
       {
-        "src": "public/logo-192-192.ico",
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/public/logo-192-192.ico",
         "type": "image/ico",
         "sizes": "512x512"
       }
