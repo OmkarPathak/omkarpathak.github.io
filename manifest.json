@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "Omkar Pathak",
   "short_name": "Omkar Pathak",
   "lang": "en-US",
@@ -24,3 +25,35 @@
     }
   ]
 }
+=======
+    "name": "Omkar Pathak",
+    "short_name": "Omkar Pathak",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#7a7cec",
+    "background_color": "#7a7cec",
+    "icons": [
+      {
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/public/logo-192-192.ico",
+        "type": "image/ico",
+        "sizes": "144x144 64x64 32x32 24x24 16x16"
+      }
+    ]
+  }
+>>>>>>> e99d983d8d759c80a000627dabe35e889dc785c6
