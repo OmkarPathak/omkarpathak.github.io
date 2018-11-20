@@ -28,9 +28,9 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 
 </form>
 
+<!-- // API: https://www.emailjs.com/ -->
 <script>
   function SendEmail() {
-    // API: https://www.emailjs.com/
     emailjs.send(
       "gmail",
       "personal_website",
@@ -48,6 +48,5 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
       setTimeout(function(){
         window.location = "/thank-you/";
        }, 3000);
-      // alert('Done!');
   });
 </script>
