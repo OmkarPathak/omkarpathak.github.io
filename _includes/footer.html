@@ -2,8 +2,7 @@
 <script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "public/js/unitegallery.min.js" | relative_url }}"></script>
 <script src="{{ "public/js/ug-theme-tiles.js" | relative_url }}"></script>
-<!-- <script src="{{ "public/js/bootstrap.min.js" | relative_url }}"></script>
-<script src="{{ "public/js/flickity.min.js" | relative_url }}"></script> -->
+<script src="{{ "public/js/custom.js" | relative_url }}"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
   sr.reveal('.scroll-effect');
@@ -11,19 +10,4 @@
   $(document).ready(function(){ 
     $("#gallery").unitegallery(); 
   }); 
-
-  // Registration of service worker
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register("/sw.js").then(function(registration) {
-        // Registration was successful
-        // console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        // registration failed :(
-        // console.log('ServiceWorker registration failed: ', err);
-      });
-    });
-  }else{
-    console.log('Service Workers not supported');
-  }
 </script>

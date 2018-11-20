@@ -1,31 +1,26 @@
 {
-    "name": "Omkar Pathak",
-    "short_name": "Omkar Pathak",
-    "lang": "en-US",
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#7a7cec",
-    "background_color": "#7a7cec",
-    "icons": [
-      {
-        "src": "/public/logo-192-192.ico",
-        "type": "image/ico",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/public/logo-192-192.ico",
-        "type": "image/ico",
-        "sizes": "512x512"
-      },
-      {
-        "src": "/public/logo-192-192.ico",
-        "type": "image/ico",
-        "sizes": "144x144"
-      },
-      {
-        "src": "/public/logo-192-192.ico",
-        "type": "image/ico",
-        "sizes": "512x512"
-      }
-    ]
-  }
+  "name": "Omkar Pathak",
+  "short_name": "Omkar Pathak",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#7a7cec",
+  "background_color": "#7a7cec",
+  "icons": [
+    {
+      "src": "/public/logo-192-192.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/public/logo-192-192.ico",
+      "type": "image/ico",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/public/logo-192-192.ico",
+      "type": "image/ico",
+      "sizes": "144x144"
+    }
+  ]
+}

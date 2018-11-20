@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, shrink-to-fit=no">
 
   <!-- Manifest file -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
 
   <!-- SEO -->
   <meta name="description" content="{{ page.description }}">
@@ -24,8 +24,7 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "public/css/styles.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "public/css/google-font.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "public/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Icons -->
@@ -41,9 +40,6 @@
   <meta name="msapplication-navbutton-color" content="#7a7cec">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="msapplication-starturl" content="/">
-
-  <!-- Image Gallery -->
-  <link rel="stylesheet" href="{{ "public/css/unite-gallery.css" | relative_url }}">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
