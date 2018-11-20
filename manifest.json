@@ -25,7 +25,7 @@
       {
         "src": "/public/logo-192-192.ico",
         "type": "image/ico",
-        "sizes": "512x512"
+        "sizes": "144x144 64x64 32x32 24x24 16x16"
       }
     ]
   }
