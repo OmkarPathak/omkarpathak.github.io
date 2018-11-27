@@ -47,55 +47,6 @@ self.addEventListener('install', function(event) {
   );
 });
 
-
-// Activate service worker
-// this.addEventListener('activate', function (event) {
-//   // Remove all caches that aren't whitelisted
-//   var cacheWhitelist = [CACHE_NAME];
-//   event.waitUntil(
-//         caches.keys().then(function (keyList) {
-//         return Promise.all(keyList.map(function (key) {
-//             if (cacheWhitelist.indexOf(key) === -1) {
-//                 return caches.delete(key);
-//             }
-//         }));
-//     })
-//   );
-// });
-
-// self.addEventListener('fetch', function(event) {
-//     event.respondWith(
-//       caches.match(event.request)
-//         .then(function(response) {
-//           // Cache hit - return response
-//           return response || fetch(event.request).then(function(response){
-//             return caches.open(CACHE_NAME).then(function (cache){
-//               cache.put(event.request, response.clone());
-//             });
-//           });
-//         }
-//       )
-//     );
-//   });
-
-// self.addEventListener('fetch', function(event) {
-//   console.log('Handling fetch event for', event.request.url);
-//   event.respondWith(
-//     caches.match(event.request)
-//       .then(function(response) {
-//         // Cache hit - return response
-//         if (response) {
-//           console.log('Found response in cache:', response);
-//           return response;
-//         }
-//         return fetch(event.request).then(function(response){
-//           console.log('Response from network is:', response);
-//         });
-//       }
-//     )
-//   );
-// });
-
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request, {ignoreSearch:true}).then(response => {
