@@ -51,7 +51,7 @@ First step while installing service workers is to create a file named `sw.js` in
 
 **Note**: This file *HAS* to be in root of your website/blog or else it won't work
 
-Firstly, we will make a list of all the URLs that we want to chache so that we can leverage the offline mode. This can be done by adding the following lines to `sw.js`
+Firstly, we will make a list of all the URLs that we want to cache so that we can leverage the offline mode. This can be done by adding the following lines to `sw.js`
 
 ```javascript
 {% raw %}
