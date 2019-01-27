@@ -28,6 +28,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
   <h2>Machine Learning:</h2>
   <ul>
+    <li><a href="#resume-parser">Resume Parser</a></li>
     <li><a href="#password-strength-evaluator-using-machine-learning">Password Strength Evaluator: How strong is your password?</a></li>
     <li><a href="#term-similarity-using-machine-learning">Term Similarity: unusual == remarkable?</a></li>
     <li><a href="#email-spam-filtering">Email Spam Filtering</a></li>
@@ -284,6 +285,25 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Know More**: [Click here..](/projects/django-bookworm/)
 
 **Technology Used**: Python, Django, NLTK, REST Api
+
+<hr>
+
+<div id="projects">
+  <a href="/projects/resume-parser/">
+    <h2 id="resume-parser">Resume Parser</h2>
+    <span class="post-date">January 2019</span>
+  </a>
+</div>
+
+<p class="message scroll-effect" style="margin-bottom: 20px;">
+  A simple resume parser used for extracting information from resumes
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/ResumeParser)
+
+**Know More**: [Click here..](/projects/resume-parser/)
+
+**Technology Used**: Python, Django, NLTK, SpaCy
 
 <hr>
 
