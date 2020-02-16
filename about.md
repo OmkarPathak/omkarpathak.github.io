@@ -91,6 +91,7 @@ June 2017 - July 2017
 
 ## Awards and Achievements:
 
+- Winner at Paintball competition organized by Commerzone IT Park in Jan 2020
 - **Top** rated Python developer in Pune, Maharashtra, India and **Fifth** in India at [Github](http://git-awards.com/users/omkarpathak) in 2018
 - Awarded ['The Best Outgoing Student Award 2017-18'](/best-outgoing-student-award/)
 - Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
