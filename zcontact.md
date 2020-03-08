@@ -12,8 +12,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
   Mail: <a href="mailto: omkarpathak27@gmail.com">omkarpathak27@gmail.com</a>
 </p>
 
-<!-- Tutorial from:https://blog.webjeda.com/google-form-customize/ -->
-<form class="form scroll-effect" id="myForm">
+<form action="https://send.pageclip.co/F3ZnuWiabYOD7hQPSOqcrl3vAoIKOrTD/website-form" class="pageclip-form" method="post">
 
       <label>Name</label>
       <input id="name" type="text" required/>
@@ -28,25 +27,4 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 
 </form>
 
-<!-- // API: https://www.emailjs.com/ -->
-<script>
-  function SendEmail() {
-    emailjs.send(
-      "gmail",
-      "personal_website",
-      {
-        name: document.getElementById("name").value,
-        message: document.getElementById("message").value,
-        email: document.getElementById("email").value
-      }
-      );
-  }
-
-  document.getElementById("myForm").addEventListener("submit", function(event){
-      event.preventDefault();
-      SendEmail();
-      setTimeout(function(){
-        window.location = "/thank-you/";
-       }, 3000);
-  });
-</script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
