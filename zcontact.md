@@ -15,15 +15,17 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 <form action="https://send.pageclip.co/F3ZnuWiabYOD7hQPSOqcrl3vAoIKOrTD/website-form" class="pageclip-form" method="post">
 
       <label>Name</label>
-      <input id="name" type="text" required/>
+      <input name="name" type="text" required/>
 
       <label>Email</label>
-      <input type="email" id="email" required />
+      <input type="email" name="email" required />
 
       <label>Message</label>
-      <textarea id="message" rows="5" required></textarea>
+      <textarea name="message" rows="5" required></textarea>
 
-      <input type="submit" id="submit" value="Send"/>
+      <button class="button pageclip-form__submit" type="submit">
+        <span>Submit</span>
+      </button>
 
 </form>
 
