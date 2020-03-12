@@ -3,7 +3,7 @@ layout: post
 title: Pageclip - A server for your HTML forms
 comments: true
 description: A step by step guide on how you can create forms for your static website
-keywords: omkar pathak, jekyll blog, jekyll, forms, html, contact forms, html contact forms, pageclip, omkar pageclip, omkar pathak pageclip, pageclip blog
+keywords: omkar pathak, jekyll blog, jekyll, forms, html, contact forms, html contact forms, pageclip, omkar pageclip, omkar pathak pageclip, seo, pageclip blog
 image: https://i.imgur.com/Jwx2XKL.png
 tags: [website, forms, html, tutorial]
 ---
