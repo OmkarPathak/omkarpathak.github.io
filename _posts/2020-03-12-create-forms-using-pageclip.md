@@ -36,30 +36,30 @@ what I was exactly looking for.
 
 Here are the steps you can follow to setup pageclip for your portfolio website:
 
-1. Create an account on [Pageclip](https://pageclip.co/signup)
-2. Once you signup, you'll be asked for your domain name
-3. Next step is to create a new form using the `+` symbol. Once you click on the `+` button, you'll get a prompt like this
+**Step 1**: Create an account on [Pageclip](https://pageclip.co/signup)
+**Step 2**: Once you signup, you'll be asked for your domain name
+**Step 3**: Next step is to create a new form using the `+` symbol. Once you click on the `+` button, you'll get a prompt like this
   
   ![Imgur](https://i.imgur.com/5VSKf8i.png)
- 
-4. Just give a meaningful form name for your reference
-5. You can tick the option to *specify addresses to email on each submission* where you can specify email IDs to which you want to send the responses to
-6. Click on create form and you'll see a form created with the name you specified in step 4
-7. Now you can click on your create form name from the left panel where you can find all the instructions to setup the HTML code. General steps would be:
+
+**Step 4**: Just give a meaningful form name for your reference
+**Step 5**: You can tick the option to *specify addresses to email on each submission* where you can specify email IDs to which you want to send the responses to
+**Step 6**: Click on create form and you'll see a form created with the name you specified in step 4
+**Step 7**: Now you can click on your create form name from the left panel where you can find all the instructions to setup the HTML code. General steps would be:
   
-**Step 1**: First we have to add required Javascript in `<body>` and `</body>` tags
+**Step 7a**: First we have to add required Javascript in `<body>` and `</body>` tags
     
 ```html
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 ```
     
-**Step 2**: Now we have to add their custom CSS
+**Step 7b**: Now we have to add their custom CSS
     
 ```html
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 ```
     
-**Step 3**: You can now add your custom form in your website. Note the action attribute provided on your dashboard, this is the URl where you post ypour data to 
+**Step 7c**: You can now add your custom form in your website. Note the action attribute provided on your dashboard, this is the URl where you post ypour data to 
     
 ```html
 <form action="https://send.pageclip.co/<your_token>/<your_form_name>" class="pageclip-form" method="post">
