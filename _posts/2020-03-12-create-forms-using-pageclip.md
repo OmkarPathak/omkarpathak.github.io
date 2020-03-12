@@ -47,27 +47,32 @@ Here are the steps you can follow to setup pageclip for your portfolio website:
 6. Click on create form and you'll see a form created with the name you specified in step 4
 7. Now you can click on your create form name from the left panel where you can find all the instructions to setup the HTML code. General steps would be:
   
-    a. **Step 1**: First we have to add required Javascript in `<body>` and `</body>` tags
-    ```js
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-    ```
-    b. **Step 2**: Now we have to add their custom CSS
-    ```js
-    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-    ```
-    c. **Step 3**: You can now add your custom form in your website. Note the action attribute provided on your dashboard, this is the URl where you post ypour data to 
-    ```
-    <form action="https://send.pageclip.co/<your_token>/<your_form_name>" class="pageclip-form" method="post">
-      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-      <input type="text" name="name" value="Roscoe Jones" />
-      <input type="email" name="email" value="roscoe@example.com" />
+**Step 1**: First we have to add required Javascript in `<body>` and `</body>` tags
+    
+```html
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+```
+    
+**Step 2**: Now we have to add their custom CSS
+    
+```html
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+```
+    
+**Step 3**: You can now add your custom form in your website. Note the action attribute provided on your dashboard, this is the URl where you post ypour data to 
+    
+```html
+<form action="https://send.pageclip.co/<your_token>/<your_form_name>" class="pageclip-form" method="post">
+  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+  <input type="text" name="name" value="Roscoe Jones" />
+  <input type="email" name="email" value="roscoe@example.com" />
 
-      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-      <button type="submit" class="pageclip-form__submit">
-        <span>Send</span>
-      </button>
-    </form>
-    ```
+  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+  <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
+</form>
+```
 
 More information about the same can be found in [Docs](https://pageclip.co/docs#website-integration)
 
