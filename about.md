@@ -6,7 +6,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
-  Hey there! I am Omkar Pathak, a computer geek and a Python aficionado. I love to code and I code primarily in Python language. Huge fan of open source softwares and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium.
+  Hey there! Welcome to my small space on the web. I am Omkar Pathak, a computer geek and a Python aficionado. I love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. I have also started taking an active interest in [photography](/photography/) lately.
 </p>
 
 <div class="scroll-effect">
@@ -17,15 +17,15 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 
 *- Because everyone has a unique story..*
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
-  My passion is creating full stack web applications while my interest lies in Data Science and Machine Learning. I am huge fan of Python language and love to give back to the Python community by making some useful projects.
-</p>
+<!-- <p class="message scroll-effect" style="margin-bottom: 20px;"> -->
+My passion is creating full stack web applications while my interest lies in Data Science and Machine Learning. I am huge fan of Python language and love to give back to the Python community by making some useful projects.
+<!-- </p> -->
 
-You can see my projects [here](/projects/). I always strive to write elegant and efficient code. All my projects are open source and come with MIT license. You are free to modify the source code and free to use as you want.
+In high school and college, I was the kid that seemed to never pay attention. I hated attending lectures. But on the same page, I love to learn and explore new technologies. I am very keen in applying my knowledge to practical use cases and creating a few projects using them.
 
-In high school and also in college, I was that kid that seemed to never pay attention. I hate attending lectures. But on the same side, I love to learn and explore new technologies and create few projects using them.
+You can see all my projects [here](/projects/). I always strive to write concise and effective code. Most of my projects are open-sourced and come with MIT/GPL3 license. You are free to modify the source code and free to use as you want.
 
-Apart from programming I also love to travel. Experiencing new places and eating various cuisines is the favorite part of my life!
+Apart from programming I also love to travel. Lush green serene places excite me to a greater extent. Experiencing new places and eating various cuisines is the favourite part of my life!
 
 <!-- Take an example of this website, my [previous website](old-website.omkarpathak.in) was built upon PHP and then I came to know about [Jekyll](https://jekyllrb.com/). Jekyll helped me create fabulous websites with faster load speeds and great ease. For personal websites and blogs, Jekyll is a great alternative to wordpress websites. -->
 
@@ -33,7 +33,7 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 - **Programming Languages**: Python, C, PHP, C++, Shell Script
 - **Front End**: HTML, CSS, JavaScript, Angular 6/7
-- **Databases**: MySQL, SQLite, MongoDB
+- **Databases**: MySQL, SQLite, MongoDB, Oracle
 - **Frameworks**: Django, Flask (Python), Laravel (PHP)
 - **Operating Systems**: Linux, Unix, Windows
 - **Tools/Libraries/Technologies**: Scikit-Learn, OpenCV, Cloud (GCP, Azure, DigitalOcean)
@@ -46,8 +46,11 @@ Apart from programming I also love to travel. Experiencing new places and eating
 
 * **Data Engineer at Schlumberger, Pune**
 July 2018 - Present
-  - Currently implementing a full CI/CD Pipeline on Azure for custom Informatica Migrations
-  - Automating daily jobs
+  - Author and maintainer of Source to Hub project which loads data directly from source into google bigquery. Project mainly aimed at eliminating intermediate data loading in native hadoop clusters for more efficiency, reliability and speed
+  - Responsible for implementing and managing an end-to-end CI/CD Pipeline with custom validations for Informatica migrations which brought migration time to 1.5 hours from 9 hours without any manual intervention
+  - Enhancing, auditing and maintaining custom data ingestion framework that ingest around 1TB of data each day to over 70 business units
+  - Working with L3 developer team to ensure the discussed Scrum PBI’s are delivered on time for data ingestions
+  - Planning and Executing QA and Production Release Cycle activities
 
 * **Full Stack Developer Intern at Truso, Pune**
 June 2018 - July 2018
