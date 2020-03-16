@@ -6,7 +6,7 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
 
 <p class="message scroll-effect" style="margin-bottom: 20px;">
-  Hey there! Welcome to my small space on the web. I am Omkar Pathak, a computer geek and a Python aficionado. I love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. I have also started taking an active interest in [photography](/photography/) lately.
+  Hey there! Welcome to my small space on the web. I am Omkar Pathak, a computer geek and a Python aficionado. I love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. I have also started taking an active interest in <a href="/photography/">photography</a> lately.
 </p>
 
 <div class="scroll-effect">
