@@ -5,7 +5,7 @@ description: A computer geek and a Python enthusiast who loves to code. Huge fan
 image: https://www.omkarpathak.in/public/img/about_me_1.jpg
 ---
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p class="message scroll-effect" style="margin-bottom: 20px;border: 1px solid #D3D3D3;">
   Hey there! Welcome to my small space on the web. I am Omkar Pathak, a computer geek and a Python aficionado. I love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. I have also started taking an active interest in <a href="/photography/">photography</a> lately.
 </p>
 
@@ -13,9 +13,13 @@ image: https://www.omkarpathak.in/public/img/about_me_1.jpg
     <img src="{{ "public/img/about_me_5.jpg" | relative_url }}">
 </div>
 
-# Probably you may want to know more about me
+<h1>Probably you may want to know more about me</h1>
 
-*- Because everyone has a unique story..*
+<i style="color: gray">- Because everyone has a unique story..</i>
+
+<b>Index:</b>
+* TOC
+{:toc}
 
 <!-- <p class="message scroll-effect" style="margin-bottom: 20px;"> -->
 My passion is creating full stack web applications while my interest lies in Data Science and Machine Learning. I am huge fan of Python language and love to give back to the Python community by making some useful projects.
@@ -40,9 +44,8 @@ Apart from programming I also love to travel. Lush green serene places excite me
 
 ##   Experience
 
-*Experience is a hard teacher because she gives the test first, the lesson afterward.*
-
--*Vernon Law*
+<i style="color: gray">Experience is a hard teacher because she gives the test first, the lesson afterward.</i><br>
+<i style="color: gray">-Vernon Law</i>
 
 * **Data Engineer at Schlumberger, Pune**
 July 2018 - Present
@@ -77,10 +80,6 @@ June 2017 - July 2017
   - Was responsible for creating an internal project for the company using PHP and Laravel for testing purposes
   - Worked on a live project for creating closure reports using PHP and Excel
 
-<div class="scroll-effect">
-    <img src="{{ "public/img/about_me_3.jpg" | relative_url }}">
-</div>
-
 ## Co-curricular and Extra-curricular Activities:
 
 - Participated in various National level events like COEP Mindspark (Inter college Technical event), Avishkar 2k17 (Inter college Project competition), Innovatus (Intra college Technical event)
@@ -90,7 +89,6 @@ June 2017 - July 2017
 - Contributor in Pune PyCon 2018 Website Designing and volunteering
 
 - Organizing head for the National level technical event - **Innovatus**
-
 
 ## Awards and Achievements:
 
