@@ -1,83 +1,56 @@
-// This is the service worker with the Cache-first network
+---
+layout: null
+---
 
-const CACHE = "pwabuilder-precache";
-const precacheFiles = [
-  'index.html'
-];
+var urlsToCache = [];
 
-self.addEventListener("install", function (event) {
-  console.log("[PWA Builder] Install Event processing");
+var CACHE_NAME = 'omkar-pathak-cache-v3';
 
-  console.log("[PWA Builder] Skip waiting on install");
-  self.skipWaiting();
+// Cache posts
+// Limits the number of posts that gets cached to 3
+// Reads a piece of front-matter in each post that directs the second loop to the folder where the assets are held
+{% for post in site.posts limit:3 %}
+  urlsToCache.push("{{ post.url }}")
+  {% for file in site.static_files %}
+    {% if file.path contains post.assets %}
+      urlsToCache.push("{{ file.path }}")
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
+// Cache pages
+// Do nothing if it's either an AMP page (as these are served via Googles cache) or the blog page
+// Fallback to the offline pages for these
+{% for page in site.html_pages %}
+  {% if page.path contains 'amp-html' or page.path contains 'blog' %}
+  {% else if %}
+    urlsToCache.push("{{ page.url }}")
+  {% endif %}
+{% endfor %}
+
+// Cache assets
+// Removed assets/posts because I only want assets from the most recent posts getting cached
+{% for file in site.static_files %}
+    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' %}
+      urlsToCache.push("{{ file.path }}")
+    {% endif %}
+{% endfor %}
+
+// Installation of service worker
+self.addEventListener('install', function(event) {
+  // Perform install steps
   event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Caching pages during install");
-      return cache.addAll(precacheFiles);
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request, {ignoreSearch:true}).then(response => {
+      return response || fetch(event.request);
     })
   );
 });
-
-// Allow sw to control of current page
-self.addEventListener("activate", function (event) {
-  console.log("[PWA Builder] Claiming clients for current page");
-  event.waitUntil(self.clients.claim());
-});
-
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) { 
-  if (event.request.method !== "GET") return;
-
-  event.respondWith(
-    fromCache(event.request).then(
-      function (response) {
-        // The response was found in the cache so we responde with it and update the entry
-
-        // This is where we call the server to get the newest version of the
-        // file to use the next time we show view
-        event.waitUntil(
-          fetch(event.request).then(function (response) {
-            return updateCache(event.request, response);
-          })
-        );
-
-        return response;
-      },
-      function () {
-        // The response was not found in the cache so we look for it on the server
-        return fetch(event.request)
-          .then(function (response) {
-            // If request was success, add or update it in the cache
-            event.waitUntil(updateCache(event.request, response.clone()));
-
-            return response;
-          })
-          .catch(function (error) {
-            console.log("[PWA Builder] Network request failed and no cache." + error);
-          });
-      }
-    )
-  );
-});
-
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        return Promise.reject("no-match");
-      }
-
-      return matching;
-    });
-  });
-}
-
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}
