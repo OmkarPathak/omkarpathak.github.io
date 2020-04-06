@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v5';
+var CACHE_NAME = 'omkar-pathak-cache-v6';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
@@ -47,10 +47,29 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('fetch', event => {
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.filter((cacheName) => {
+          return cacheName !== CACHE_NAME
+        }).map((cacheName) => {
+          return caches.delete(cacheName);
+        })
+      );
+    })
+  );
+});
+
+self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response => {
-      return response || fetch(event.request);
+    caches.open(CACHE_NAME).then(async (cache) => {
+      return cache.match(event.request).then((response) => {
+        return response || fetch(event.request).then((response) => {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      });
     })
   );
 });

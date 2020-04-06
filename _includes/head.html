@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Manifest file -->
-  <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
 
   <!-- SEO -->
   <meta name="description" content="{{ page.description }}">
@@ -27,7 +27,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ 'public/css/custom.css' | relative_url }}">
   <link rel="stylesheet" href="{{ 'public/css/styles.css' | relative_url }}">
@@ -51,21 +51,13 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-  <!-- Email.js for Contact Forms -->
-  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script type="text/javascript">
-     (function(){
-        emailjs.init("user_S8G6qEuCYjOoqqfK1ZffC");
-     })();
-  </script>
-
   <!-- Facebook Cards -->
   <meta property="og:description" content="{{ page.description }}"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   {% if page.image %}
   <meta property="og:image" content="{{ page.image }}"/>
   {% else %}
-  <meta property="og:image" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  <meta property="og:image" content="https://i.imgur.com/FYxQwXN.jpg"/>
   {% endif %}
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Omkar Pathak"/>
@@ -80,7 +72,7 @@
   {% if page.image %}
   <meta name="twitter:image:src" content="{{ page.image }}">
   {% else %}
-  <meta name="twitter:image:src" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  <meta name="twitter:image:src" content="https://i.imgur.com/FYxQwXN.jpg"/>
   {% endif %}
   <meta name="twitter:domain" content="https://www.omkarpathak.in">
 </head>
