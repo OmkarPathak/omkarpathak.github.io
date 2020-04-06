@@ -2,7 +2,7 @@
 	"name" : "Omkar Pathak",
 	"short_name" : "Omkar Pathak",
 	"lang" : "en-US",
-	"start_url" : "https://omkarpathak.in/",
+	"start_url" : "/",
 	"display" : "standalone",
 	"theme_color" : "#7a7cec",
 	"background_color" : "#7a7cec",
@@ -19,10 +19,6 @@
 		{
 			"src": "https://omkarpathak.in/public/icon-128x128.png",
 			"sizes": "128x128"
-		},
-		{
-			"src": "https://omkarpathak.in/public/icon-144x144.png",
-			"sizes": "144x144"
 		},
 		{
 			"src": "https://omkarpathak.in/public/icon-152x152.png",

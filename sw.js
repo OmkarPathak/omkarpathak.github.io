@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v4';
+var CACHE_NAME = 'omkar-pathak-cache-v5';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
@@ -31,7 +31,7 @@ var CACHE_NAME = 'omkar-pathak-cache-v4';
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' %}
+    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' or file.extname == '.jpeg' or file.extname == '.svg' %}
       urlsToCache.push("{{ file.path }}")
     {% endif %}
 {% endfor %}
