@@ -30,13 +30,13 @@ image: https://i.imgur.com/FYxQwXN.jpg
         <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="{{ site.url }}{{ site.baseurl }}/#experience">
+            <a href="{{ '/#experience' | prepend:site.baseurl }}">
                 <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Experience</button>
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/#skills">
+            <a href="{{ '/#skills' | prepend:site.baseurl }}">
                 <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Skills</button>
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/#awards">
+            <a href="{{ '/#awards' | prepend:site.baseurl }}">
                 <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Achievements</button>
             </a>
         </div>
