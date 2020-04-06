@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Password Strength Evaluator using Machine Learning
 permalink: /projects/password-strength-evaluator-using-machine-learning/
 description: Simple password evaluator which tells you the strength of your password based on previously generated dataset.

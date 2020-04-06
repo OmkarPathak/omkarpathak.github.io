@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Django Invoice Manager
 permalink: /projects/django-invoice-generator/
 description: A minimal django app to create invoices and sales reports

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Garbage Level Monitoring System
 permalink: /projects/garbage-level-monitoring-system/
 description: A real-time system used to monitor levels of all garbage bins from a single place. Based on IoT and Cloud Computing

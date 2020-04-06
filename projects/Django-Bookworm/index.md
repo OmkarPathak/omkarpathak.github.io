@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Django Bookworm
 permalink: /projects/django-bookworm/
 description: A fun project to store my learning from each book that I read

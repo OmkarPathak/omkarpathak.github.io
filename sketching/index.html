@@ -1,44 +1,11 @@
 ---
-layout: default
+layout: page
 title: Sketching
 description: Few of my sketches
 image: https://www.omkarpathak.in/public/img/sketches/2.jpg
 ---
-
-<div class="scroll-effect">
-    <img src="{{ "public/img/sketches/2.jpg" | relative_url }}">
-</div>
-
-<div class="scroll-effect">
-    <img src="{{ "public/img/sketches/1.jpg" | relative_url }}">
-</div>
-
-<div>
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/3.jpg" | relative_url }}">
-    </div>
-
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/4.jpg" | relative_url }}">
-    </div>
-</div>
-
-<div>
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/5.jpg" | relative_url }}">
-    </div>
-
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/6.jpg" | relative_url }}">
-    </div>
-</div>
-
-<div>
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/7.jpg" | relative_url }}">
-    </div>
-
-    <div class="scroll-effect image-half">
-        <img src="{{ "public/img/sketches/8.jpg" | relative_url }}">
-    </div>
+<div id="gallery" style="display:none;">
+{% for image in site.sketches %}
+    <img alt="" src="{{ image | relative_url }}" data-image="{{ image | relative_url }}">
+{% endfor %}
 </div>

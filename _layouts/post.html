@@ -2,60 +2,39 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span style="color:#9a9a9a;">{{ page.date | date_to_string }}</span>
-  {% assign num_words = content | number_of_words %}
-  {% assign minutes = num_words | divided_by: 180 %}
-  {% if num_words < 360 %}
-    <span style="color:#9a9a9a; margin-left: 1%"><i class="fa fa-eye"></i> 1 min read</span>
-  {% else %}
-    <span style="color:#9a9a9a; margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
-  {% endif %}
-  <span>
-    {% for tag in page.tags %}
-      <a href="/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
-    {% endfor %}
-  </span>
-  <hr>
-  {{ content }}
+<div class="jumbotron-fluid section text-white text-center" id="pages">
+  <div class="container section">
+    <div class="post">
+      <h1 class="post-title vollkron">{{ page.title }}</h1>
+      <span>{{ page.date | date_to_string }}</span>
+      {% assign num_words = content | number_of_words %}
+      {% assign minutes = num_words | divided_by: 180 %}
+      {% if num_words < 360 %}
+        <span style="margin-left: 1%"><i class="fa fa-eye"></i> 1 min read</span>
+      {% else %}
+        <span style="margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
+      {% endif %}
+      <br>
+      <div style="padding-top: 20px;">
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
+        {% endfor %}
+      </div>
+      <hr>
+    </div>
+  </div>
 </div>
 
-<!-- <div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div> -->
+<div class="section">
+  <div class="container" data-aos="fade">
+    {{ content }}
+    <p>All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a> unless otherwise specified</p>
 
-<!-- <div class="text-center" style="text-align: center;">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Ad -->
-<!--   <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-2261473149388676"
-       data-ad-slot="4342769301"
-       data-ad-format="auto"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div> -->
+    {% include social-share-buttons.html %}
 
-<p>All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a> unless otherwise specified</p>
-
-{% include social-share-buttons.html %}
-
-{% if page.comments %}
-
-  {% include disqus.html %}
-
-{% endif %}
+    {% if page.comments %}
+      {% include disqus.html %}
+    {% endif %}
+  </div>
+</div>
+<div style="margin-top: 3%;"></div>

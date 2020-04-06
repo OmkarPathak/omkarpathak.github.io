@@ -4,76 +4,331 @@ title: Home
 description: Hello there! I am Omkar Pathak, a computer geek and a Python aficionado. I love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. I have also started taking an active interest in photography lately.
 image: https://www.omkarpathak.in/public/img/about_me_4.jpg
 ---
+<div class="jumbotron jumbotron-fluid  d-flex align-items-center" id="header-image">
+    <div class="container">
+        <div class="row" id="banner-content">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-right: 5%;">
+                <div>
+                    <h1 class="display-4 text-white vollkron">Omkar Pathak</h1>
+                    <p class="lead text-white vollkron">Software Developer by Profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body</p>
+                </div>
+            </div>
 
-<div class="scroll-effect">
-  <!--<img src="{{ "public/img/about_me_4.jpg" | relative_url }}"> -->
-  <img src="https://i.imgur.com/FYxQwXN.jpg">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div>
+                  <img src="{{ 'public/images/banner_7.svg' | relative_url }}" alt="">
+              </div>
+          </div>
+        </div>
+    </div>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;border: 1px solid #D3D3D3;">
-  Hello there! <b>Welcome</b> to my small place on the web. I am a full stack Python Developer.
-</p>
+<div class="section" id="about">
+    <div class="container text-center">
+        <h1 class="display-4 vollkron">About Me</h1>
+        <hr data-content="</>" class="hr-text">
+        <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p>
 
-<h2>Know More About My Work And Projects</h2>
-<p class="message scroll-effect" style="margin-bottom: 20px;border: 1px solid #D3D3D3;">
-  Contributing to the community by making helpful software is what I have always tried for. See all my open-source projects and contributions. 
-  I also help small businesses get their online presence and help them to automate their tasks by creating various web apps and software. Till date, I have helped Gymnasiums, dairy products supplier, colleges, mechanical job vendors, financial institutes, coaching classes to automate their tasks.
-  <br />
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="{{ site.url }}{{ site.baseurl }}/#experience">
+                <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Experience</button>
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/#skills">
+                <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Skills</button>
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/#awards">
+                <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Achievements</button>
+            </a>
+        </div>
+    </div>
 
-  Know more <a href="/projects/">here</a>.
-</p>
+    <div class="container">
+        <div class="row in-section" data-aos="fade">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10%">
+                <img src="{{ 'public/images/about_1.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
 
-<h2>Know More About Me</h2>
-<p class="message scroll-effect" style="margin-bottom: 20px;border: 1px solid #D3D3D3;">
-    Interested in knowing me? Well I am an amiable person to deal with.<br />
-    See my skill set and experiences uptil now.<br />
-    Know more about me <a href="/about/">here</a>.
-</p>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center p-3">
+                <p class="algreya" style="font-size: 22px;">
+                    I  love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. See all my <a class="anchor" href="https://github.com/omkarpathak" target="_blank">open-source projects</a> and contributions.  
+                    <br>
+                    <br>
+                    I also help small businesses get their online presence and help them to automate their tasks by creating various web apps and software. Till date, I have helped Gymnasiums, dairy products supplier, colleges, mechanical job vendors, financial institutes, coaching classes to automate their tasks. Know more <a href="{{ '/projects/' | prepend:site.baseurl }}">here</a>.
+                </p>
+            </div>
+        </div>
 
-<h2>Blogs</h2>
-<p class="message scroll-effect" style="margin-bottom: 20px;border: 1px solid #D3D3D3;">
-    I also write blogs on technical and non-technical topics. Whenever I learn something new, whenever I feel to share some of 
-    my experiences, I try to share those in blog posts. You can see all my blog posts <a href="/blog/archive/">here</a>
-</p>
+        <div class="row in-section" data-aos="fade">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 d-flex align-items-center order-12 p-3">
+                <p class="algreya" style="font-size: 20px;">
+                    My passion is creating full stack web applications while my interest lies in Data Science and Machine Learning. I am huge fan of Python language and love to give back to the Python community.
+                    <br>
+                    <br>
+                    In high school and college, I was the kid that seemed to never pay attention. I hated attending lectures. But on the same page, I love to learn and explore new technologies. I am very keen in applying my knowledge to practical use cases and creating a few projects using them.     
+                </p>
+            </div>
 
-<!-- <h2>Some Fun Facts about me: </h2>
-<div>
-    <p class="blue-msg scroll-effect image-three">
-        Projects Completed
-        <br>
-        <span>7</span>
-    </p>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 order-sm-1 order-md-12 order-1" style="padding: 5%">
+                <img src="{{ 'public/images/about_2.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+        </div>
 
-    <p class="blue-msg scroll-effect image-three">
-        Kahitari Lihi
-        <br>
-        <span>75</span>
-    </p>
+        <div class="row in-section" data-aos="fade">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10%">
+                <img src="{{ 'public/images/about_3.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
 
-    <p class="blue-msg scroll-effect image-three">
-        Pizzas Ordered
-        <br>
-        <span>75</span>
-    </p>
-</div> -->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center p-3">
+                <p class="algreya" style="font-size: 20px;">
+                    I always strive to write concise and effective code. Most of my projects are open-sourced and come with MIT/GPL3 license. You are free to modify the source code and free to use as you want.
+                    <br>
+                    <br>
+                    Apart from programming I also love to travel. Lush green serene places excite me to a greater extent. Experiencing new places and eating various cuisines is the favourite part of my life! I have also started taking an active interest in <a href="{{ '/photography/' | prepend: site.baseurl }}">photography</a> lately.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h2>Testimonials</h2>
+<div class="section bg-light" data-aos="fade" id="experience">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Experience</h1>
+                <hr data-content="</>" class="hr-text">
+                <p class="text-muted algreya" style="font-size: 20px;">
+                    <i>Experience is a hard teacher because she gives the test first, the lesson afterward
+                    <br>
+                    -Vernon Law</i>
+                </p>
+            </div>
+        </div>
 
-<p><i>What people say about me..</i></p>
-<p class="message scroll-effect" style="border: 1px solid #D3D3D3;">
-  I am very happy of working with Omkar.
-  The support he provided for his codes available on github is really appreciatable.
-  His availability to answer all my of questions, made me to accomplish my objectives on time and helped me to learn coding.
-  <br />
-  <br />
-  <i>- Kubra Saeedi (Sweden)</i>
-</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="{{ 'public/images/banner_5.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+        </div>
+    </div>
 
-<p class="message scroll-effect" style="border: 1px solid #D3D3D3;">
-  "The difference between ordinary and extraordinary is that <b>Extra</b>" and I have always found Omkar adding that extra factor in whatever work he does. He is hardworking, honest and is always in pursuit of knowledge. The first impression about Omkar that anyone will find is his technical acumen and intelligence. His real skill lies in bringing novelty in the projects he undertakes. He has a good handson experience with Python and has developed good application based on <b>Internet of Things</b>.
-  <br />
-  <br />
-  <i>- Shriya Jadhav (Assistant Professor, MMCOE)</i>
-</p>
+    <div class="card-columns container">
+        <div class="card bg-white" data-aos="fade">
+            <div class="card-header text-center">
+                <h4>Data Engineer at Schlumberger, Pune</h4>
+                <p class="text-muted">July 2018 - Present</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Author and maintainer of Source to Hub project which loads data directly from source into google bigquery. Project mainly aimed at eliminating intermediate data loading in native hadoop clusters for more efficiency, reliability and speed
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Responsible for implementing and managing an end-to-end CI/CD Pipeline with custom validations for Informatica migrations which brought migration time to 1.5 hours from 9 hours without any manual intervention
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Enhancing, auditing and maintaining custom data ingestion framework that ingest around 1TB of data each day to over 70 business units
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Working with L3 developer team to ensure the discussed Scrum PBI’s are delivered on time for data ingestions
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Planning and Executing QA and Production Release Cycle activities
+                    </li>
+                </ul>
+              </p>
+            </div>
+        </div>
 
-<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/omkarpathak27"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
+        <div class="card bg-white" data-aos="fade">
+            <div class="card-header text-center">
+                <h4>Full Stack Developer Intern at Truso, Pune</h4>
+                <p class="text-muted">June 2018 - July 2018</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Created RESTful apis
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Tried my hands on Angular 5/6
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Was responsible for Django backend development
+                    </li>
+                </ul>
+              </p>
+            </div>
+        </div>
+
+        <div class="card bg-white" data-aos="fade">
+            <div class="card-header text-center">
+                <h4>Data Engineering Intern at Propeluss, Pune</h4>
+                <p class="text-muted">October 2017 - January 2018</p>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Wrote various automation scripts to scrape data from various websites
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Applied Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Also applied KNN with LSA for extracting relevant tags for various startups based on their works
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-white" data-aos="fade">
+            <div class="card-header text-center">
+                <h4>Technical Content Writer at GeeksForGeeks</h4>
+                <p class="text-muted">July 2017 - September 2017</p>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Published 4 articles for the topics such as Data Structures and Algorithms and Python
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-white" data-aos="fade">
+            <div class="card-header text-center">
+                <h4>Web Developer Intern at Softtestlab Technologies, Pune</h4>
+                <p class="text-muted">June 2017 - July 2017</p>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Was responsible for creating an internal project for the company using PHP and Laravel for testing purposes
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Worked on a live project for creating closure reports using PHP and Excel
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section bg-white" data-aos="fade" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Skills</h1>
+                <hr data-content="</>" class="hr-text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="{{ 'public/images/skills.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+        </div>
+
+        <div class="row" style="margin-top: 50px;" data-aos="fade">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-tasks" style="font-size: 30px;"></i>
+                <p style="padding-top: 10px;"><b>Programming Languages</b>
+                    <br>Python, C, PHP, C++, Shell Script
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-database" style="font-size: 30px;"></i>
+                <p style="padding-top: 10px;"><b>Databases</b>
+                    <br>BigQuery, MySQL, SQLite, MongoDB, Oracle
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-code-branch" style="font-size: 30px;"></i>
+                <p style="padding-top: 10px;"><b>Frameworks</b>
+                    <br>Django, Flask (Python), Laravel (PHP), GitHub, GitLab
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-cogs" style="font-size: 30px;"></i>
+                <p style="padding-top: 10px;"><b>Tools</b>
+                    <br>Scikit-Learn, OpenCV, Cloud (GCP, Azure, DigitalOcean), CI/CD
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section bg-light" data-aos="fade" id="awards">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Awards and Achievements</h1>
+                <hr data-content="</>" class="hr-text">
+            </div>
+        </div>
+
+        <div class="row" data-aos="fade">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="{{ 'public/images/awards.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;" data-aos="fade">
+            <div class="col offset-md-2 offset-lg-2">
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Winner at Paintball competition organized by Commerzone IT Park in Jan 2020
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        <b>Top</b> rated Python developer in Pune, Maharashtra, India and <b>Fifth</b> in India at <a href="http://git-awards.com/users/omkarpathak" target="_blank">Github</a> in 2018 - Present
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Awarded <a href="{{ '/best-outgoing-student-award/' | prepend: site.baseurl }}">'The Best Outgoing Student Award 2017-18'</a>
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        <b>Quora’s Top Writer</b> for 2018
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Won the Best Paper Award in National Level Conference on “Emerging Trends in Computing , Analytics and Security - 2018”(NCETCAS-2018)
+                    </li>
+                </ul>
+
+                <h3 data-aos="fade">Co-curricular and Extra-curricular Activities:</h3>
+                <ul>
+                    <li class="algreya" style="font-size: 19px;">
+                        Participated in various National level events like COEP Mindspark (Inter college Technical event), Avishkar 2k17 (Inter college Project competition), Innovatus (Intra college Technical event)
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Conducted various workshops for engineering students to give them a brief overview about IoT by completing three mini projects and taught them basics of Python programming language
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Contributor in Pune PyCon 2018 Website Designing and volunteering
+                    </li>
+                    <li class="algreya" style="font-size: 19px;">
+                        Organizing head for the National level technical event - Innovatus
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/omkarpathak27"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a> -->

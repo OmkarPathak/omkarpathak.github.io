@@ -1,950 +1,186 @@
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
+:root{
+    --primary-color: #7779f3;
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
+    scroll-behavior: smooth;
 }
 
-body {
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Vollkorn', serif;
 }
 
-/* No `:visited` state is required by default (browsers will use `a`) */
-a {
-  color: black;
-  text-decoration: none;
-}
-a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: none;
-  color: rgb(87, 89, 253);
+p, .section .container a{
+    font-size: 22px;
+    font-family: 'Alegreya', serif;
+    font-display: swap;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+.anchor{
+    color: var(--primary-color);
 }
 
-/* Body text */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+.anchor:hover{
+    color: #5759fd;
 }
 
-strong {
-  color: #303030;
+.algreya{
+    font-family: 'Alegreya', serif;
+    color: #717171;
+    font-display: swap;
+}
+
+.vollkron{
+    font-family: 'Vollkorn', serif;
+    font-display: swap;
+}
+
+.section{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.in-section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
 }
 
 
-/* Lists */
-ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
+.navbar.active .nav-link {
+    color: #555;
 }
 
-/* Misc */
-hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555;
-  text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
-}
-
-/* Code */
-code,
-pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
-}
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
-
-/* Pygments via Jekyll */
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-.highlight pre {
-  margin-bottom: 0;
-}
-
-/* Gist via GitHub Pages */
-.gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
-}
-.gist .markdown-body {
-  padding: 15px;
-}
-.gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-.gist .gist-file .gist-data {
-  font-size: .8rem !important;
-  line-height: 1.4;
-}
-.gist code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-/* Quotes */
-blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
-}
-blockquote p:last-child {
-  margin-bottom: 0;
-}
-@media (min-width: 30em) {
-  blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
-  }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-}
-
-/* Tables */
-table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse;
-}
-td,
-th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+.navbar.active .navbar-brand {
+    color: var(--primary-color);
 }
 
 
-/*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
 
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
 }
 
-
-/*
- * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
- */
-
-.message {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
+#header-image{
+    transform: skew(0deg, -7deg) translateY(-120px);
+    margin-top: -10%;
+    height: 85vh;
+    background: var(--primary-color);
+    background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
+    /* background-image: url(https://startbootstrap.com/assets/img/overlay.svg),linear-gradient(to right,var(--primary-color) 0%,#5759fd 100%);; */
 }
 
-
-/*
- * Container
- *
- * Center the page content.
- */
-
-.container {
-  max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
+#header-image #banner-content{
+    margin-top: 35%;
+    transform: skew(0deg, 7deg) translateY(120px);
 }
 
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+#pages{
+    background: var(--primary-color);
+    background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
 }
 
-
-/*
- * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
- */
-
-.page,
-.post {
-  margin-bottom: 4em;
-}
-
-/* Blog post or page title */
-.page-title,
-.post-title,
-.post-title a {
-  color: rgb(87, 89, 253);
-}
-.page-title,
-.post-title {
-  margin-top: 0;
-}
-
-/* Meta data line below post title */
-.post-date {
-  display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
-}
-
-/* Related posts */
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
-}
-.related-posts {
-  padding-left: 0;
-  list-style: none;
-}
-.related-posts h3 {
-  margin-top: 0;
-}
-.related-posts li small {
-  font-size: 75%;
-  color: #999;
-}
-.related-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none;
-}
-.related-posts li a:hover small {
-  color: inherit;
-}
-
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-
-.pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
-}
-
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
-}
-.pagination-item:first-child {
-  margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
-}
-
-@media (min-width: 30em) {
-  .pagination {
-    margin: 3rem 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 50%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
-}
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
-html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
-.sidebar {
-  text-align: left;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
-}
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
-
-hr{
+.hr-text {
+    line-height: 1em;
     position: relative;
-    /* margin: 1.5rem 0; */
+    outline: 0;
     border: 0;
-    border-top: 1px solid #eee;
-    /* border-bottom: 1px solid #fff; */
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    width: 50%;
 }
 
-@media only screen and (max-width: 768px){
-  .sidebar .sidebar-nav-item{
-    display: inline;
-    padding-right: 8px;
-    /* border-right: 1px solid white; */
-    /* margin-left: 5px; */
-    /* justify-content: space-between; */
-  }
-}
-
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 2.3rem;
-}
-
-@media only screen and (max-width: 768px){
-  .sidebar-about h1{
-    color: white;
-    font-size: 2.1rem;
-  }
-}
-
-/* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
-  /* border-bottom: 1px solid gray; */
-}
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  /* text-decoration: underline; */
-  /* font-size: 110%; */
-  font-weight: bold;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-.active .underline{
-  border-bottom: 1px solid white;
-}
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 0.5rem;
-    left:   1rem;
-  }
-}
-
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
-.content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-}
-
-@media (min-width: 48em) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
-}
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: rgb(119, 121, 243);
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: rgb(87, 89, 253);
-}
-
-.page .page-title{
-  color: rgb(87, 89, 253);
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
-}
-
-
-.highlight .hll { background-color: #ffc; }
-.highlight .c { color: #999; } /* Comment */
-.highlight .err { color: #a00; background-color: #faa } /* Error */
-.highlight .k { color: #069; } /* Keyword */
-.highlight .o { color: #555 } /* Operator */
-.highlight .cm { color: #09f; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #099 } /* Comment.Preproc */
-.highlight .c1 { color: #999; } /* Comment.Single */
-.highlight .cs { color: #999; } /* Comment.Special */
-.highlight .gd { background-color: #fcc; border: 1px solid #c00 } /* Generic.Deleted */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #f00 } /* Generic.Error */
-.highlight .gh { color: #030; } /* Generic.Heading */
-.highlight .gi { background-color: #cfc; border: 1px solid #0c0 } /* Generic.Inserted */
-.highlight .go { color: #aaa } /* Generic.Output */
-.highlight .gp { color: #009; } /* Generic.Prompt */
-.highlight .gs { } /* Generic.Strong */
-.highlight .gu { color: #030; } /* Generic.Subheading */
-.highlight .gt { color: #9c6 } /* Generic.Traceback */
-.highlight .kc { color: #069; } /* Keyword.Constant */
-.highlight .kd { color: #069; } /* Keyword.Declaration */
-.highlight .kn { color: #069; } /* Keyword.Namespace */
-.highlight .kp { color: #069 } /* Keyword.Pseudo */
-.highlight .kr { color: #069; } /* Keyword.Reserved */
-.highlight .kt { color: #078; } /* Keyword.Type */
-.highlight .m { color: #f60 } /* Literal.Number */
-.highlight .s { color: #d44950 } /* Literal.String */
-.highlight .na { color: #4f9fcf } /* Name.Attribute */
-.highlight .nb { color: #366 } /* Name.Builtin */
-.highlight .nc { color: #0a8; } /* Name.Class */
-.highlight .no { color: #360 } /* Name.Constant */
-.highlight .nd { color: #99f } /* Name.Decorator */
-.highlight .ni { color: #999; } /* Name.Entity */
-.highlight .ne { color: #c00; } /* Name.Exception */
-.highlight .nf { color: #c0f } /* Name.Function */
-.highlight .nl { color: #99f } /* Name.Label */
-.highlight .nn { color: #0cf; } /* Name.Namespace */
-.highlight .nt { color: #2f6f9f; } /* Name.Tag */
-.highlight .nv { color: #033 } /* Name.Variable */
-.highlight .ow { color: #000; } /* Operator.Word */
-.highlight .w { color: #bbb } /* Text.Whitespace */
-.highlight .mf { color: #f60 } /* Literal.Number.Float */
-.highlight .mh { color: #f60 } /* Literal.Number.Hex */
-.highlight .mi { color: #f60 } /* Literal.Number.Integer */
-.highlight .mo { color: #f60 } /* Literal.Number.Oct */
-.highlight .sb { color: #c30 } /* Literal.String.Backtick */
-.highlight .sc { color: #c30 } /* Literal.String.Char */
-.highlight .sd { color: #c30; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #c30 } /* Literal.String.Double */
-.highlight .se { color: #c30; } /* Literal.String.Escape */
-.highlight .sh { color: #c30 } /* Literal.String.Heredoc */
-.highlight .si { color: #a00 } /* Literal.String.Interpol */
-.highlight .sx { color: #c30 } /* Literal.String.Other */
-.highlight .sr { color: #3aa } /* Literal.String.Regex */
-.highlight .s1 { color: #c30 } /* Literal.String.Single */
-.highlight .ss { color: #fc3 } /* Literal.String.Symbol */
-.highlight .bp { color: #366 } /* Name.Builtin.Pseudo */
-.highlight .vc { color: #033 } /* Name.Variable.Class */
-.highlight .vg { color: #033 } /* Name.Variable.Global */
-.highlight .vi { color: #033 } /* Name.Variable.Instance */
-.highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
-.highlight pre { white-space: pre; overflow: auto; }
-.css .o,
-.css .o + .nt,
-.css .nt + .nt { color: #999; }
-.code{padding: 0;}
-.lineno{padding: 2px;}
-.rouge-table{margin: 0;}
-.code pre{padding: 0;}
-@media only screen and (max-width: 768px){
-  .highlight { width: 100%; margin-left: 1%; margin-right: 1%;}
-}
-
-input[type=text], input[type=password], input[type=email], textarea{
-  height: 44px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  background: #fff;
-  border: 1px solid #d9d9d9;
-  border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
-  padding: 0 8px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, textarea:hover{
-  border: 1px solid #b9b9b9;
-  border-top: 1px solid #a0a0a0;
-  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-}
-
-input[type=submit]{
-  /* border: 1px solid #3079ed; */
-  border: 0px;
-  width: 100px;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.1);
-  background-color: #4d90fe;
-  padding: 10px 8px;
-  font-size: 16px;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
-}
-
-input[type=submit]:hover {
-  /* border: 1px solid #2f5bb7; */
-  border: 0px;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
-}
-
-.btn-default{
-  border: 0px;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.1);
-  background-color: #4d90fe;
-  padding: 10px 8px;
-  font-size: 16px;
-}
-
-.btn-default:hover {
-  /* border: 1px solid #2f5bb7; */
-  border: 0px;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
-}
-
-.image-half{
-	display: inline-block;
-	max-width: 98%;
-	height: auto;
-	width: 47%;
-	margin: 1%;
-}
-
-.social{
-	display: inline-block;
-  max-width: 100%;
-  padding: 7px;
-}
-
-.social-font{
-	font-size:30px;
-}
-
-#portfolio a h2{
-  color: black;
-  text-decoration: none;
-}
-
-#portfolio a h2:hover{
-  text-decoration: none;
-  color: rgb(87, 89, 253);
-}
-
-#portfolio a img{
-  padding-bottom: 10px;
-}
-
-#projects a h2:hover{
-  text-decoration: none;
-  color: rgb(87, 89, 253);
-}
-
-#projects a img{
-  padding-bottom: 10px;
-}
-
-.site-desc{
-  color: white;
-  font-size: 26px;
-}
-
-@media only screen and (max-width: 768px){
-  .site-desc{
-    color: white;
-    font-size: 20px;
-  }
-}
-
-
-.sidebar-about span {
-	/* font-family: monospace; */
-	font-size: 30px;
-}
-
-.sidebar-about span:after {
-	content:"_";
-	opacity: 0;
-	animation: cursor 1s infinite;
-}
-
-@keyframes cursor {
-	0% {
-		opacity: 0;
-	}
-	40% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 1;
-	}
-	90% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-.carousel {
-  background: #FAFAFA;
-}
-
-.carousel-cell {
-  width: 66%;
-  height: 230px;
-  margin-right: 10px;
-  background: rgb(122, 124, 236);
-  border-radius: 5px;
-  text-align: justify;
-  color: white;
-}
-
-/* cell number */
-/* .carousel-cell:before {
-  display: block;
-  text-align: justify;
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-} */
-
-.testinomial-p{
-  font-size: 20px;
-  /* margin-top: 7%; */
-  padding: 3%;
-}
-
-@media only screen and (max-width: 768px){
-  .testinomial-p{
-    font-size: 17px;
-    /* margin-top: 7%; */
-    padding: 10px;
-  }
-
-  .carousel-cell{
-    width: 90%;
-  }
-
-  .image-three{
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
     display: inline-block;
-    max-width: 98%;
-    height: auto;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: black;
+    background-color: #fcfcfa;
+}
+
+.hr-text:before {
+    content: '';
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
     width: 100%;
-    margin: 1%;
-  }
+    height: 1px;
 }
 
-.image-three{
-	display: inline-block;
-	max-width: 98%;
-	height: auto;
-	width: 30%;
-	margin: 1%;
+.social-media-icon{
+    margin: 5px;
+    font-size: 20px;
 }
 
-.blue-msg {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: white;
-  text-align: center;
-  background-color: rgb(122, 124, 236);
+.social-media-icon a{
+    color: white;
 }
 
-.blue-msg span{
-  font-size: 120%;
+.card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+*[id]:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 75px; 
+    visibility: hidden; 
 }

@@ -13,11 +13,26 @@ layout: compress
         gtag('config', 'UA-111548790-1');
     </script>
     {% include head.html %}
-  <body class="theme-base-08">
-    {% include sidebar.html %}
-    <div class="content container">
+    <body class="theme-base-08">
+        <!-- Navbar-->
+        <header class="header poppins">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container"><a href="{{ site.url }}{{ site.baseurl }}/" class="navbar-brand text-uppercase font-weight-bold vollkron" style="cursor: pointer;">Omkar Pathak</a>
+                    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                    
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto vollkron">
+                            <li class="nav-item"><a href="{{ site.url }}{{ site.baseurl }}/#about" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                            <li class="nav-item"><a href="{{ '/projects/' | prepend:site.baseurl }}" class="nav-link text-uppercase font-weight-bold">Projects</a></li>
+                            <li class="nav-item"><a href="{{ '/portfolio/' | prepend:site.baseurl }}" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+                            <li class="nav-item"><a href="{{ '/blog/' | prepend:site.baseurl }}" class="nav-link text-uppercase font-weight-bold">Blog</a></li>
+                            <li class="nav-item"><a href="{{ '/contact/' | prepend:site.baseurl }}" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+        {% include footer.html %}
+    </body>
 </html>

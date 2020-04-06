@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: A Simple Note Taking Web App
 permalink: /projects/a-simple-note-taking-web-app/
 description: A simple Web app that helps you to quickly store and retrieve all your important notes at one place.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Pygorithm
 permalink: /projects/email-spam-filtering/
 description: A simple email spam filtering method. Was trying to play with data

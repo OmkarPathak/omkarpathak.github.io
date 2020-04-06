@@ -5,7 +5,7 @@ description: Some of my projects and technologies that I have worked on
 image: https://www.omkarpathak.in/public/img/project_cover.jpg
 ---
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   These are some of the projects that I have completed uptil now.
 </p>
 
@@ -17,7 +17,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <div id="index">
-  <h2>Web Apps:</h2>
+  <h2 data-aos="fade">Web Apps:</h2>
   <ul>
     <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
     <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
@@ -26,7 +26,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="#django-bookworm">Django Bookworm</a></li>
   </ul>
 
-  <h2>Machine Learning:</h2>
+  <h2 data-aos="fade">Machine Learning:</h2>
   <ul>
     <li><a href="#resume-parser">Resume Parser</a></li>
     <li><a href="#password-strength-evaluator-using-machine-learning">Password Strength Evaluator: How strong is your password?</a></li>
@@ -35,32 +35,32 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="https://github.com/OmkarPathak/Playing-with-datasets/tree/master/SMS%20Spam%20Filtering">SMS Spam Filtering</a></li>
   </ul>
 
-  <h2>IoT:</h2>
+  <h2 data-aos="fade">IoT:</h2>
   <ul>
     <li><a href="#smart-surveillance-system-using-raspberry-pi">Smart Surveillance System</a></li>
     <li><a href="#garbage-level-monitoring-system">Garbage Level Monitoring System</a></li>
   </ul>
 
-  <h2>APIs:</h2>
+  <h2 data-aos="fade">APIs:</h2>
   <ul>
     <li><a href="#pygorithm">Pygorithm: Fun with algorithms pythonic way!</a></li>
     <li><a href="https://github.com/OmkarPathak/Word-Counter">wordcounter: Python package for counting number of words and doing much more</a></li>
   </ul>
 
-  <h2>Command Line Apps:</h2>
+  <h2 data-aos="fade">Command Line Apps:</h2>
   <ul>
-    <li><a href="/projects/mini-projects/#reminder-app">A reminder application to remind you about the upcoming birthdays</a></li>
-    <li><a href="/projects/mini-projects/#codechef-downloader">Codechef Problem Statement Downloader</a></li>
-    <li><a href="/projects/mini-projects/#simple-note-taking">Simple Note Taking App</a></li>
+    <li><a href="{{ '/projects/mini-projects/#reminder-app' | prepend:site.baseurl }}">A reminder application to remind you about the upcoming birthdays</a></li>
+    <li><a href="{{ '/projects/mini-projects/#codechef-downloader' | prepend:site.baseurl }}">Codechef Problem Statement Downloader</a></li>
+    <li><a href="/{{ 'projects/mini-projects/#simple-note-taking' | prepend:site.baseurl }}">Simple Note Taking App</a></li>
   </ul>
 
-  <h2>Games:</h2>
+  <h2 data-aos="fade">Games:</h2>
   <ul>
-    <li><a href="/projects/mini-projects/#tic-tac-toe">Tic Tac Toe using AI</a></li>
-    <li><a href="/projects/mini-projects/#classic-snake-game">Classic Snake Game</a></li>
+    <li><a href="{{ '/projects/mini-projects/#tic-tac-toe' | prepend:site.baseurl }}">Tic Tac Toe using AI</a></li>
+    <li><a href="{{ '/projects/mini-projects/#classic-snake-game' | prepend:site.baseurl }}">Classic Snake Game</a></li>
   </ul>
 
-  <h2>Comprehensive Guides/ Tutorials:</h2>
+  <h2 data-aos="fade">Comprehensive Guides/ Tutorials:</h2>
   <ul>
     <li><a href="https://github.com/OmkarPathak/Data-Structures-using-Python">Implemtation of Data Structures and Algorithms in Python</a></li>
     <li><a href="https://github.com/OmkarPathak/CCDSAP-Prep">Practice problems wih notes for CodeChef Certified Data Structure & Algorithms Programme</a></li>
@@ -70,14 +70,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/pygorithm/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/pygorithm/'  | prepend:site.baseurl }}">
     <h2 id="pygorithm">Pygorithm</h2>
     <span class="post-date">July 2017 - Present</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   Pygorithm is a Python module which helps students to learn the implementation of all the major data structures and algorithms.
 </p>
 
@@ -90,14 +90,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/smart-surveillance-system-using-raspberry-pi/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/smart-surveillance-system-using-raspberry-pi/' | prepend:site.baseurl }}">
     <h2 id="smart-surveillance-system-using-raspberry-pi">Smart Surveillance System</h2>
     <span class="post-date">November 2016 - February 2017</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   This is a smart surveillance system implemented using Raspberry Pi and OpenCV. A simple yet effecctive system, which helps detect unknown people and alerting the concerned authorities via messages.
 </p>
 
@@ -110,14 +110,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/garbage-level-monitoring-system/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/garbage-level-monitoring-system/' | prepend:site.baseurl }}">
     <h2 id="garbage-level-monitoring-system">Garbage Level Monitoring</h2>
     <span class="post-date">July 2017 - Present</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   This project is also implemented using Raspberry Pi. A real-time system used to monitor levels of all garbage bins from a single place.
 </p>
 
@@ -130,14 +130,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/term-similarity-using-machine-learning/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/term-similarity-using-machine-learning/' | prepend:site.baseurl }}">
     <h2 id="term-similarity-using-machine-learning">Term Similarity using Machine Learning</h2>
     <span class="post-date">December 2017</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A simple project used to find similar terms using Machine Learning technique like <b>Nearest Neighbour</b> and <b>TF-IDF</b>.
 </p>
 
@@ -150,14 +150,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/password-strength-evaluator-using-machine-learning/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/password-strength-evaluator-using-machine-learning/' | prepend:site.baseurl }}">
     <h2 id="password-strength-evaluator-using-machine-learning">Password Strength evaluator using Machine Learning</h2>
     <span class="post-date">March 2017</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   Simple password evaluator which tells you the strength of your password based on previously generated dataset.
 </p>
 
@@ -170,14 +170,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/a-simple-note-taking-web-app/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/a-simple-note-taking-web-app/' | prepend:site.baseurl }}">
     <h2 id="note-taking-web-app">A Simple Note taking Web App</h2>
     <span class="post-date">September 2017 - October 2017</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A simple Web app that helps you to quickly store and retrieve all your important notes at one place.
 </p>
 
@@ -190,14 +190,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/email-spam-filtering/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/email-spam-filtering/' | prepend:site.baseurl }}">
     <h2 id="email-spam-filtering">Email Spam Filtering</h2>
     <span class="post-date">January 2018</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A simple email spam filtering method. Was trying to play with data
 </p>
 
@@ -210,14 +210,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/gym-member-manager/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/gym-member-manager/' | prepend:site.baseurl }}">
     <h2 id="gym-member-manager">Gymnasium Member Manager</h2>
     <span class="post-date">March-April 2018</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A simple member manager software made for a local gymnasium. This software helps tp keep track of members and their payments in a convenient way.
 </p>
 
@@ -230,14 +230,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <!--  -->
-<div id="projects">
-  <a href="/projects/django-to-do-web-app/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/django-to-do-web-app/' | prepend:site.baseurl }}">
     <h2 id="django-to-do">A dead simple Django To Do Web App</h2>
     <span class="post-date">May 2018</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   This is a sample project that a novice django developer can use to get started
 </p>
 
@@ -249,14 +249,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
 <hr>
 
-<div id="projects">
-  <a href="/projects/django-invoice-generator/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/django-invoice-generator/' | prepend:site.baseurl }}">
     <h2 id="django-invoice-generator">Django Invoice Generator</h2>
     <span class="post-date">August 2018</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   I made this project to help a friend to keep track of his payments and generate invoices to help
   him make quick bills and also to generate sales reports on monthy basis
 </p>
@@ -269,14 +269,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
 <hr>
 
-<div id="projects">
-  <a href="/projects/django-invoice-generator/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/django-invoice-generator/' | prepend:site.baseurl }}">
     <h2 id="django-bookworm">Django Bookworm</h2>
     <span class="post-date">October 2018</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A fun project to store my learning from each book that I read
 </p>
 
@@ -288,14 +288,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
 <hr>
 
-<div id="projects">
-  <a href="/projects/resume-parser/">
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/resume-parser/' | prepend:site.baseurl }}">
     <h2 id="resume-parser">Resume Parser</h2>
     <span class="post-date">January 2019</span>
   </a>
 </div>
 
-<p class="message scroll-effect" style="margin-bottom: 20px;">
+<p data-aos="fade" style="margin-bottom: 20px;">
   A simple resume parser used for extracting information from resumes
 </p>
 

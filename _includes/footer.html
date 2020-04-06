@@ -1,13 +1,63 @@
-<script src="{{ "public/js/scrollreveal.min.js" | relative_url }}"></script>
-<script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
-<script src="{{ "public/js/unitegallery.min.js" | relative_url }}"></script>
-<script src="{{ "public/js/ug-theme-tiles.js" | relative_url }}"></script>
-<script src="{{ "public/js/custom.js" | relative_url }}"></script>
-<script type="text/javascript">
-  window.sr = ScrollReveal();
-  sr.reveal('.scroll-effect');
 
-  $(document).ready(function(){ 
-    $("#gallery").unitegallery(); 
-  }); 
+<footer id="sticky-footer" class="py-4 bg-dark">
+  <div class="container-fluid">
+      <div class="row text-center">
+          <div class="col">
+              <p class="algreya" style="margin: 0; color: white; font-size: 18px;">Thanks <a href="https://undraw.co/illustrations">Undraw</a> for beautiful illustrations</p>
+              <p class="algreya" style="margin: 0; color: white; font-size: 18px;">Copyright &copy; {{ site.time | date: '%Y' }} Omkar Pathak</p>  
+          </div>
+      </div>
+      <div class="row text-center">
+        <div class="col">
+            <p class="algreya" style="margin: 0; color: white; font-size: 18px;">All rights reserved</p>
+          </div>
+      </div>
+
+      <div class="row text-center">
+          <div class="col-12">
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                  <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-twitter"></i></button></a>
+                  <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-github"></i></button></a>
+                  <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-linkedin"></i></button></a>
+                  <a href="https://www.facebook.com/{{ site.facebook_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-facebook-square"></i></button></a>
+                  <a href="https://www.quora.com/profile/{{ site.quora_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-quora"></i></button></a>
+                  <a href="https://www.instagram.com/{{ site.instagram_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-instagram"></i></button></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="{{ 'public/js/unitegallery.min.js' | relative_url }}"></script>
+<script src="{{ 'public/js/ug-theme-tiles.js' | relative_url }}"></script>
+<script>
+    $(function () {
+        $(window).on('scroll', function () {
+            if ( $(window).scrollTop() > 10 ) {
+                $('.navbar').addClass('active');
+            } else {
+                $('.navbar').removeClass('active');
+            }
+        });
+    });
+
+    AOS.init();
+
+    $("img").addClass("img-fluid");
+    $("a").addClass("anchor");
+
+    $( ".card" ).hover(
+        function() {
+            $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+        }, function() {
+            $(this).removeClass('shadow-lg');
+        }
+    );
+
+    $("#gallery").unitegallery();
 </script>

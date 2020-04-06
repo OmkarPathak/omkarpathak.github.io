@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Resume Parser
 permalink: /projects/resume-parser/
 description: A simple resume parser used for extracting information from resumes

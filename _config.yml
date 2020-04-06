@@ -1,7 +1,6 @@
 # Dependencies
-# markdown:         redcarpet
-# highlighter:      pygments
 markdown: kramdown
+highlighter: rouge
 
 # Permalinks
 permalink:        pretty
@@ -12,7 +11,7 @@ title:            OMKAR PATHAK
 tagline:          ''
 description:      'Software Developer by Profession, <br /> Pythonista by &hearts;'
 url:              http://www.omkarpathak.in
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Omkar Pathak'
@@ -21,7 +20,6 @@ author:
 paginate:         6
 paginate_path: 	  /blog/page:num/
 
-# Custom vars
 version:          2.1.0
 
 github:
@@ -44,5 +42,55 @@ facebook_username: omkarpathak27
 quora_username: Omkar-Pathak-18 
 instagram_username: omkarpathak27
 
-# sass:
-#     style: compressed
+sketches:
+  - public/img/sketches/2.jpg
+  - public/img/sketches/1.jpg
+  - public/img/sketches/5.jpg
+  - public/img/sketches/6.jpg
+  - public/img/sketches/4.jpg
+  - public/img/sketches/3.jpg
+  - public/img/sketches/7.jpg
+  - public/img/sketches/8.jpg
+
+photography:
+  - public/img/photography/1.jpg
+  - public/img/photography/2.jpg
+  - public/img/photography/3.jpg
+  - public/img/photography/4.jpg
+  - public/img/photography/5.jpg
+  - public/img/photography/6.jpg
+  - public/img/photography/7.jpg
+  - public/img/photography/8.jpg
+  - public/img/photography/10.jpg
+  - public/img/photography/11.jpg
+  - public/img/photography/12.jpg
+  - public/img/photography/13.jpg
+  - public/img/photography/14.jpg
+  - public/img/photography/15.jpg
+  - public/img/photography/16.jpg
+  - public/img/photography/17.jpg
+  - public/img/photography/18.png
+  - public/img/photography/19.png
+  - public/img/photography/20.png
+  - public/img/photography/21.png
+  - public/img/photography/22.png
+  - public/img/photography/23.png
+  - public/img/photography/24.png
+  - public/img/photography/25.png
+  - public/img/photography/26.png
+  - public/img/photography/27.png
+  - public/img/photography/28.png
+  - public/img/photography/29.png
+  - public/img/photography/30.png
+  - public/img/photography/31.png
+  - public/img/photography/32.jpeg
+  - public/img/photography/33.jpeg
+  - public/img/photography/34.jpeg
+  - public/img/photography/35.jpeg
+  - public/img/photography/36.jpeg
+
+photography_imgur:
+  - https://i.imgur.com/Axmtv05.jpg
+  - https://i.imgur.com/B8j7bvS.jpg
+  - https://i.imgur.com/IoSjpmk.jpg
+  - https://i.imgur.com/ugsTtid.jpg

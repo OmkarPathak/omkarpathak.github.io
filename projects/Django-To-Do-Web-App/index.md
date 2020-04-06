@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Django To Do Web App
 permalink: /projects/django-to-do-web-app/
 description: A dead simple Django ToDo Web App

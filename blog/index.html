@@ -1,94 +1,67 @@
 ---
 layout: page
-title: BLOG
+title: BLOGS
 description: I write blogs about my experiences with new technologies and softwares and the things that fascinate me
 ---
 
-<!-- <div class="posts">
-  {% for post in site.posts %}
-  <div>
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<div class="row text-center" data-aos="fade">
+  <div class="col">
+    <p>You can find all my blog posts <a href="{{ '/blog/archive/' | prepend:site.baseurl}}">here</a></p>
   </div>
-  <hr>
-  {% endfor %}
-</div> -->
-
-<!-- <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->
+</div>
 
 <!-- post list -->
+<div class="row">
 {% for post in paginator.posts %}
-  <h1 class="post-title">
-    <a href="{{ post.url }}">
-      <div class="scroll-effect">
-        {% if post.image %}
-          <img src="{{ post.image | relative_url}}">
-        {% endif %}
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+    <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
+      <a href="{{ post.url | prepend:site.baseurl}}"><img class="card-img-top" src="{{ post.image | relative_url}}" alt="Card image cap" style="border-radius: 0;"></a>
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text">{{ post.date | date_to_string }}</p>
+        <a href="{{ post.url | prepend:site.baseurl}}">
+          <button type="button" class="btn btn-outline-primary" style="border-radius: 0;">Read</button>
+        </a>
       </div>
-      {{ post.title }}
-    </a>
-  </h1>
-
-  <span style="color:#9a9a9a;">{{ post.date | date_to_string }}</span>
-  {% assign num_words = post.content | number_of_words %}
-  {% assign minutes = num_words | divided_by: 180 %}
-  {% if num_words < 360 %}
-    <span style="color:#9a9a9a; margin-left: 3%"><i class="fa fa-eye"></i> 1 min read</span>
-  {% else %}
-    <span style="color:#9a9a9a; margin-left: 3%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
-  {% endif %}
-  
-<hr>
+    </div>
+  </div>
 {% endfor %}
-
-<p class="message scroll-effect" style="text-align: center">
-  You can find all my blog posts <a href="/blog/archive/">here</a>
-</p>
-
-
-<!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span>{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
 </div>
-{% endif %}
+
+
+<div class="row section">
+  <div class="col-12">
+    <!-- pagination -->
+    {% if paginator.total_pages > 1 %}
+    <ul class="pagination justify-content-center">
+      {% if paginator.previous_page %}
+        <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+      {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">&laquo; Previous</a>
+        </li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">{{ page }}</a>
+          </li>
+        {% elsif page == 1 %}
+          <li class="page-item"><a class="page-link" href="{{ site.url }}{{ site.baseurl }}/blog/">{{ page }}</a></li>
+        {% else %}
+          <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <li class="page-item">  <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+      {% else %}
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Next &raquo;</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

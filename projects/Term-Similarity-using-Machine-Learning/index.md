@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Term Similarity using Machine Learning
 permalink: /projects/term-similarity-using-machine-learning/
 description: A simple project used to find similar terms using Machine Learning technique like Nearest Neighbour and TF-IDF.

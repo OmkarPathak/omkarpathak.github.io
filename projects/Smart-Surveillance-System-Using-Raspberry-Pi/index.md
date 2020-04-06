@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Smart Surveillance System using Raspberry Pi
 permalink: /projects/smart-surveillance-system-using-raspberry-pi/
 description: This is a smart surveillance system implemented using Raspberry Pi and OpenCV. A simple yet effecctive system, which helps detect unknown people and alerting the concerned authorities via messages.

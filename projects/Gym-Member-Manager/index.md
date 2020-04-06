@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Gym Member Manager
 permalink: /projects/gym-member-manager/
 description: A simple member manager software made for a local gymnasium. This software helps tp keep track of members and their payments in a convenient way.
