@@ -34,6 +34,7 @@ plugins:
     - jemoji
     - jekyll-mentions
     - jekyll-paginate
+    - jekyll-pwa-plugin
 
 twitter_username: omkarpathak27
 github_username: OmkarPathak
@@ -41,6 +42,19 @@ linkedin_username: omkar-pathak-94473811b
 facebook_username: omkarpathak27
 quora_username: Omkar-Pathak-18 
 instagram_username: omkarpathak27
+
+pwa:
+  sw_src_filepath: sw.js # Optional
+  sw_dest_filename: sw.js # Optional
+  dest_js_directory: public/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts,images}/**/*.{js,css,eot,svg,ttf,woff,jpg,png,jpeg}"
+    - index.html
+  precache_glob_ignores: # Optional
+    # - sw-register.js
+    - "fonts/**/*"
 
 sketches:
   - public/img/sketches/2.jpg

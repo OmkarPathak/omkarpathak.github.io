@@ -1,55 +1,46 @@
----
-layout: null
----
-
 {
-    "name": "Omkar Pathak",
-    "short_name": "Omkar Pathak",
-    "lang": "en-US",
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#7a7cec",
-    "background_color": "#7a7cec",
-    "icons": [
-      {
-        "src": "/public/icon-72x72.png",
-        "type": "image/png",
-        "sizes": "72x72"
-      },
-      {
-        "src": "/public/icon-96x96.png",
-        "type": "image/png",
-        "sizes": "96x96"
-      },
-      {
-        "src": "/public/icon-128x128.png",
-        "type": "image/png",
-        "sizes": "128x128"
-      },
-      {
-        "src": "public/icon-144x144.png",
-        "type": "image/png",
-        "sizes": "144x144"
-      },
-      {
-        "src": "/public/icon-152x152.png",
-        "type": "image/png",
-        "sizes": "152x152"
-      },
-      {
-        "src": "/public/icon-192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/public/icon-384x384.png",
-        "type": "image/png",
-        "sizes": "384x384"
-      },
-      {
-        "src": "/public/icon-512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ]
-  }
+	"name" : "Omkar Pathak",
+	"short_name" : "Omkar Pathak",
+	"lang" : "en-US",
+	"start_url" : "https://omkarpathak.in/",
+	"display" : "standalone",
+	"theme_color" : "#7a7cec",
+	"background_color" : "#7a7cec",
+	"icons" : [
+		{
+			"src": "https://omkarpathak.in/public/icon-72x72.png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-96x96.png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-128x128.png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-144x144.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-152x152.png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-192x192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-384x384.png",
+			"sizes": "384x384"
+		},
+		{
+			"src": "https://omkarpathak.in/public/icon-512x512.png",
+			"sizes": "512x512"
+		}],
+	"url" : "https://omkarpathak.in",
+	"screenshots" : [],
+	"orientation" : "portrait-primary",
+	"description" : "Hello there! I am Omkar Pathak, a software developer by profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body"
+}
