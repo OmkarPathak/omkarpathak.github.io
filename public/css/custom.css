@@ -2,6 +2,21 @@
     --primary-color: #7779f3;
 }
 
+#banner-content span:after{
+    content:"_";
+    opacity:0;
+    animation:cursor 1s infinite
+}
+
+@keyframes cursor{
+    0%,100%,40%{
+        opacity:0
+    }
+    50%,90%{
+        opacity:1
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
