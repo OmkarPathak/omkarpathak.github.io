@@ -184,6 +184,15 @@ p, .section .container a{
     object-fit: cover;
 }
 
+.card:hover{
+    transition: all 200ms ease-in;
+    webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 @media (min-width: 768px) {
     .card-columns {
         column-count: 2;
