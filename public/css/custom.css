@@ -131,11 +131,6 @@ p, .section .container a{
     transform: skew(0deg, 7deg) translateY(120px);
 }
 
-#pages{
-    background: var(--primary-color);
-    background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
-}
-
 .hr-text {
     line-height: 1em;
     position: relative;
@@ -330,4 +325,18 @@ p, .section .container a{
         border-radius: 50%;
     }
 
+}
+
+#awards, #experience{
+    background-image: url("/public/images/geometry2.webp");
+}
+
+/* #sticky-footer{
+    background-image: url("/public/images/prism.png");
+} */
+
+#pages{
+    background: var(--primary-color);
+    background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
+    background-image: linear-gradient(rgba(87, 89, 253, 0.6), rgba(87, 89, 253, 0.6)), url("/public/images/Sports.png");
 }
