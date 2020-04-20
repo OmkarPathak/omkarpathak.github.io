@@ -24,6 +24,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="#django-invoice-generator">Django Invoice Generator</a></li>
     <li><a href="#django-to-do">A dead simple Django To Do Web App</a></li>
     <li><a href="#django-bookworm">Django Bookworm</a></li>
+    <li><a href="#django-notekeeper">Django Notekeeper</a></li>
   </ul>
 
   <h2 data-aos="fade">Machine Learning:</h2>
@@ -270,7 +271,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <hr>
 
 <div id="projects" data-aos="fade">
-  <a href="{{ '/projects/django-invoice-generator/' | prepend:site.baseurl }}">
+  <a href="{{ '/projects/django-bookworm/' | prepend:site.baseurl }}">
     <h2 id="django-bookworm">Django Bookworm</h2>
     <span class="post-date">October 2018</span>
   </a>
@@ -304,6 +305,25 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Know More**: [Click here..](/projects/resume-parser/)
 
 **Technology Used**: Python, Django, NLTK, SpaCy
+
+<hr>
+
+<div id="projects" data-aos="fade">
+  <a href="{{ '/projects/django-notekeeper/' | prepend:site.baseurl }}">
+    <h2 id="django-notekeeper">Django Notekeeper</h2>
+    <span class="post-date">December 2019</span>
+  </a>
+</div>
+
+<p data-aos="fade" style="margin-bottom: 20px;">
+  A pretty easy django notes app with some advanced features. Have a note save it!
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/django-notekeeper)
+
+**Know More**: [Click here..](/projects/django-notekeeper/)
+
+**Technology Used**: Python, Django, Django-Cryptography
 
 <hr>
 

@@ -25,10 +25,14 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Vollkorn', serif;
 }
 
-p, .section .container a{
+.section .container a,p, #post-content{
     font-size: 22px;
     font-family: 'Alegreya', serif;
     font-display: swap;
+}
+
+#post-content .highlight{
+    font-size: 16px;
 }
 
 .anchor{
