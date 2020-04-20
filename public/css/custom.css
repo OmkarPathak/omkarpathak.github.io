@@ -26,17 +26,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .section .container a,p, #page-content, #post-content{
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Alegreya', serif;
     font-display: swap;
 }
 
 #page-content .highlight{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #post-content .highlight{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .anchor{
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6{
 
 .algreya{
     font-family: 'Alegreya', serif;
-    font-size: 22px;
+    font-size: 20px;
     font-display: swap;
 }
 
