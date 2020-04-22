@@ -348,3 +348,10 @@ h1, h2, h3, h4, h5, h6{
     background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
     background-image: linear-gradient(rgba(87, 89, 253, 0.6), rgba(87, 89, 253, 0.6)), url("/public/images/Sports.png");
 }
+
+#markdown-toc{
+    border: 1px solid lightgray;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
