@@ -20,7 +20,6 @@ layout: default
           <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
         {% endfor %}
       </div>
-      <hr>
     </div>
   </div>
 </div>
@@ -28,7 +27,14 @@ layout: default
 <div class="section">
   <div class="container" data-aos="fade" id="post-content">
     {{ content }}
-    <p>All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a> unless otherwise specified</p>
+    
+    <hr>
+    
+    <div class="row text-center">
+      <div class="col">
+        <p>All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a> unless otherwise specified</p>
+      </div>
+    </div>
 
     {% include social-share-buttons.html %}
 
