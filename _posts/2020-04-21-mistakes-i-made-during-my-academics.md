@@ -3,7 +3,7 @@ layout: post
 title: Mistakes I made during my Academics
 comments: true
 description: A small walk through all my mistakes I think I made during my academical years
-keywords: omkar pathak, blog, mistakes, mistakes i made, omkar pathak mistakes made during academics
+keywords: omkar pathak, blog, mistakes, mistakes i made, omkar pathak mistakes made during academics, mistakes made during my academics
 image: https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80
 tags: [website, life]
 ---

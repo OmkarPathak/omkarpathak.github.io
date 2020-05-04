@@ -360,3 +360,7 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+blockquote{
+    padding: 15px;background-color: #E8E8E8;
+}
