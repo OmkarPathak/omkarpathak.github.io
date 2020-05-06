@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v7';
+var CACHE_NAME = 'omkar-pathak-cache-v8';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
@@ -31,20 +31,21 @@ var CACHE_NAME = 'omkar-pathak-cache-v7';
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' or file.extname == '.jpeg' or file.extname == '.svg' or file.path contains 'blog' %}
-      urlsToCache.push("{{ file.path }}")
+    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' or file.extname == '.jpeg' or file.extname == '.svg' %}
+      {% if file.path contains 'blog' or file.path contains 'projects' or file.path contains 'photography' or file.path contains 'sketches' %}
+      {% else %}
+        urlsToCache.push("{{ file.path }}")
+      {% endif %}
     {% endif %}
 {% endfor %}
 
 // Installation of service worker
 self.addEventListener('install', function(event) {
   // Perform install steps
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        return cache.addAll(urlsToCache);
-      })
-  );
+  caches.open(CACHE_NAME)
+    .then(function(cache) {
+      return cache.addAll(urlsToCache);
+    })
 });
 
 self.addEventListener('activate', (event) => {
