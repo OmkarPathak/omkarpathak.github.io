@@ -4,27 +4,30 @@ layout: default
 
 <div class="jumbotron-fluid section text-white text-center" id="pages">
   <div class="container section">
-    <div class="post">
-      <h1 class="post-title vollkron">{{ page.title }}</h1>
-      <span>{{ page.date | date_to_string }}</span>
-      {% assign num_words = content | number_of_words %}
-      {% assign minutes = num_words | divided_by: 180 %}
-      {% if num_words < 360 %}
-        <span style="margin-left: 1%"><i class="fa fa-eye"></i> 1 min read</span>
-      {% else %}
-        <span style="margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
-      {% endif %}
-      <br>
-      <div style="padding-top: 20px;">
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
-        {% endfor %}
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="post">
+        <h1 class="post-title vollkron">{{ page.title }}</h1>
+        <span>{{ page.date | date_to_string }}</span>
+        {% assign num_words = content | number_of_words %}
+        {% assign minutes = num_words | divided_by: 180 %}
+        {% if num_words < 360 %}
+          <span style="margin-left: 1%"><i class="fa fa-eye"></i> 1 min read</span>
+        {% else %}
+          <span style="margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
+        {% endif %}
+        <br>
+        <div style="padding-top: 20px;">
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
+          {% endfor %}
+        </div>
       </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
     </div>
   </div>
 </div>
 
-<div class="section">
+<div class="">
   <div class="container" data-aos="fade" id="post-content">
     {{ content }}
     

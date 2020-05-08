@@ -112,28 +112,6 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 
-
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
-    }
-
-    .navbar .nav-link:hover,
-    .navbar .nav-link:focus {
-        color: var(--primary-color);
-        text-decoration: none;
-    }
-
-    #banner-image{
-        margin-top: 15%;
-    }
-}
-
 /* #header-image{
     transform: skew(0deg, -7deg) translateY(-120px);
     margin-top: -10%;
@@ -355,6 +333,16 @@ h1, h2, h3, h4, h5, h6{
 #pages{
     background: var(--primary-color);
     background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
+    background-image: url("/public/images/banner.svg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: black !important;
+    height: 60vh;
+}
+
+#posts{
+    background: var(--primary-color);
+    background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
     background-image: linear-gradient(rgba(87, 89, 253, 0.6), rgba(87, 89, 253, 0.6)), url("/public/images/Sports.png");
 }
 
@@ -367,4 +355,34 @@ h1, h2, h3, h4, h5, h6{
 
 blockquote{
     padding: 15px;background-color: #E8E8E8;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    #banner-image{
+        margin-top: 15%;
+    }
+
+    #pages{
+        background: var(--primary-color);
+        background: linear-gradient(45deg, var(--primary-color) 0%, #5759fd 100%);
+        background-image: url("/public/images/banner_mobile.svg");
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        background-position: center, top;
+    }
 }
