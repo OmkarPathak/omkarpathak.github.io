@@ -13,7 +13,7 @@ description: I write blogs about my experiences with new technologies and softwa
 <!-- post list -->
 <div class="row">
 {% for post in paginator.posts %}
-  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
     <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
       <a href="{{ post.url | prepend:site.baseurl}}"><img class="card-img-top" src="{{ post.image | relative_url}}" alt="Card image cap" style="border-radius: 0;"></a>
       <div class="card-body">
