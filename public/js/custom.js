@@ -7,6 +7,11 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register("/sw.js").then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
+
+      // Have service work trim caches
+      if (navigator.serviceWorker.controller != null) {
+        navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+      }
     }, function(err) {
       // registration failed :(
       console.log('ServiceWorker registration failed: ', err);
