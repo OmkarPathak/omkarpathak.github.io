@@ -4,12 +4,12 @@ title: PORTFOLIO
 description: Welcome to my small space on web. Below are some of my qualitites that I pursue as hobbies or when I bored. Other than these you can find me really fond of Agatha Christie novels.
 ---
 
-<p style="margin-bottom: 20px;" data-aos="fade">
+<p style="margin-bottom: 20px;">
   Welcome to my small space on web. Below are some of my qualitites that I pursue as hobbies or when I bored. Other than these you can find me really fond of Agatha Christie novels.
 </p>
 
 <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
         <a href="{{ '/freelancing/' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/freelancing_cover.png' | relative_url }}" alt="Freelance" style="border-radius: 0;"></a>
         <div class="card-body">
@@ -18,7 +18,7 @@ description: Welcome to my small space on web. Below are some of my qualitites t
       </div>
   </div>
 
-  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
         <a href="{{ '/photography/' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/photography_cover.jpg' | relative_url }}" alt="Photography" style="border-radius: 0;"></a>
         <div class="card-body">
@@ -27,11 +27,20 @@ description: Welcome to my small space on web. Below are some of my qualitites t
       </div>
   </div>
 
-  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
         <a href="{{ '/sketching/' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/sketching_cover.jpg' | relative_url }}" alt="Sketching" style="border-radius: 0;"></a>
         <div class="card-body">
           <h5 class="card-title">Sketching</h5>
+        </div>
+      </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
+      <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
+        <a href="{{ '/freelancing/software-development' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/blog-images/python.jpg' | relative_url }}" alt="Sketching" style="border-radius: 0;"></a>
+        <div class="card-body">
+          <h5 class="card-title">Freelance Software Development</h5>
         </div>
       </div>
   </div>
@@ -45,7 +54,7 @@ description: Welcome to my small space on web. Below are some of my qualitites t
 </div>
 
 <div class="row">
-  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark">
         <div class="card-body">
           <h5 class="card-title anchor">Kubra Saeedi</h5>
@@ -55,7 +64,7 @@ description: Welcome to my small space on web. Below are some of my qualitites t
       </div>
   </div>
 
-  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark">
         <div class="card-body">
           <h5 class="card-title anchor">Shriya Jadhav</h5>
@@ -65,7 +74,7 @@ description: Welcome to my small space on web. Below are some of my qualitites t
       </div>
   </div>
 
-  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" data-aos="fade">
+  <div style="padding-top: 15px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark">
         <div class="card-body">
           <h5 class="card-title anchor">Anish Avachat</h5>

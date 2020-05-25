@@ -10,7 +10,7 @@ image: https://i.imgur.com/FYxQwXN.jpg
   <div class="row" data-aos="fade">
     <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <img src="https://i.imgur.com/FYxQwXN.jpg" alt="Code" class="img-fluid">
+          <img src="{{ 'public/images/contact.jpg' | relative_url }}" alt="Code" class="img-fluid">
       </div>
       <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
   </div>

@@ -5,45 +5,48 @@ description: Hello there! I am Omkar Pathak, a software developer by profession,
 image: https://i.imgur.com/FYxQwXN.jpg
 ---
 <div class="jumbotron jumbotron-fluid  d-flex align-items-center" id="header-image">
-    <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
     <div class="container">
         <div class="row" id="banner-content">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-right: 5%;">
                 <div>
-                    <h1 class="display-5 text-white vollkron">Omkar Pathak <span></span></h1>
-                    <p class="lead text-white vollkron">Software Developer by Profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body</p>
+                    <h1 class="display-5 vollkron" id="omkar-title">Omkar Pathak <span></span></h1>
+                    <p class="algreya">Software Developer by Profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body</p>
+                </div>
+
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
+                    <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-facebook-square"></i></button></a>
+                    <a href="https://www.quora.com/profile/{{ site.quora_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
+                    <a href="https://www.instagram.com/{{ site.instagram_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner-image">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner-image" style="padding: 0;">
               <div>
                   <img loading="lazy" src="{{ 'public/images/omkar_desk.svg' | relative_url }}" class="img-fluid" alt="">
               </div>
-          </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col">
+                <p style="font-size: 40px;"><a class="anchor" href="{{ '/#about' | prepend:site.baseurl }}">&#8595;</a></p>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="section" id="about">
+<div id="about">
     <div class="container text-center">
         <h1 class="display-4 vollkron">About Me</h1>
         <hr data-content="</>" class="hr-text">
-        <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p>
+        <!-- <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p> -->
 
         <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="{{ '/#experience' | prepend:site.baseurl }}">
-                <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Experience</button>
+            <a href="{{ '/#notable-projects' | prepend:site.baseurl }}">
+                <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Projects</button>
             </a>
             <a href="{{ '/#skills' | prepend:site.baseurl }}">
                 <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Skills</button>
@@ -54,188 +57,119 @@ image: https://i.imgur.com/FYxQwXN.jpg
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin-top: 5%;">
         <div class="row in-section" data-aos="fade">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 5%">
-                <img loading="lazy" src="{{ 'public/images/omkar_stand.svg' | relative_url }}" alt="Code" class="img-fluid">
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/growth.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            I <a href="{{ 'freelancing/software-development/' | relative_url }}" target="_blank" rel="noopener noreferrer">help small businesses</a> get their online presence. Till date, I have helped Gymnasiums, dairy products supplier, colleges, mechanical job vendors, financial institutes, coaching classes to create their online presence and automate tasks.
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center p-3">
-                <p class="algreya" style="font-size: 20px;">
-                    I  love to code. Huge fan of open source software and an active contributor on GitHub. Other than programming, I love to sketch and read Agatha Christie's novels. When I am not coding, you can find me on Quora and Medium. See all my <a class="anchor" href="https://github.com/omkarpathak" target="_blank">open-source projects</a> and contributions.  
-                    <br>
-                    <br>
-                    I also help small businesses get their online presence and help them to automate their tasks by creating various web apps and software. Till date, I have helped Gymnasiums, dairy products supplier, colleges, mechanical job vendors, financial institutes, coaching classes to automate their tasks. Know more <a href="{{ '/projects/' | prepend:site.baseurl }}">here</a>.
-                </p>
-            </div>
-        </div>
-
-        <div class="row in-section" data-aos="fade">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 d-flex align-items-center order-12 p-3">
-                <p class="algreya" style="font-size: 20px;">
-                    My passion is creating full stack web applications while my interest lies in Data Science and Machine Learning. I am huge fan of Python language and love to give back to the Python community.
-                    <br>
-                    <br>
-                    In high school and college, I was the kid that seemed to never pay attention. I hated attending lectures. But on the same page, I love to learn and explore new technologies. I am very keen in applying my knowledge to practical use cases and creating a few projects using them.     
-                </p>
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/champ.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            Huge fan of open source software and an active contributor on Github. I am <a href="http://git-awards.com/users/omkarpathak" target="_blank" rel="noopener noreferrer">recognized</a> for my contributions towards Python programming language. Fairly good in <a href="{{ '/photography/' | prepend:site.baseurl }}" target="_blank" rel="noopener noreferrer">photography</a> and illustrations these days too :)
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 order-sm-1 order-md-12 order-1" style="padding: 5%">
-                <img loading="lazy" src="{{ 'public/images/omkar.svg' | relative_url }}" alt="Code" class="img-fluid">
-            </div>
-        </div>
-
-        <div class="row in-section" data-aos="fade">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10%">
-                <img loading="lazy" src="{{ 'public/images/about_3.svg' | relative_url }}" alt="Code" class="img-fluid">
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center p-3">
-                <p class="algreya" style="font-size: 20px;">
-                    I always strive to write concise and effective code. Most of my projects are open-sourced and come with MIT/GPL3 license. You are free to modify the source code and free to use as you want.
-                    <br>
-                    <br>
-                    Apart from programming I also love to travel. Lush green serene places excite me to a greater extent. Experiencing new places and eating various cuisines is the favourite part of my life! I have also started taking an active interest in <a href="{{ '/photography/' | prepend: site.baseurl }}">photography</a> lately.
-                </p>
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/office.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            I can help you with e-commerce websites, portfolio websites, beautiful illustrations for your branding, write technical content and most importantly could help you with writing Python scripts to creating machine learning models.
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section bg-light" id="experience">
+<div class="section" id="notable-projects" style="position: relative;">
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;top: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-1.svg' | relative_url }}" style="width: 100%;">
+    </div>
+
     <div class="container">
-        <div class="row">
+        <div class="row" style="padding-top: 15%; padding-bottom: 2%;">
             <div class="col text-center">
-                <h1 class="display-4 vollkron">Experience</h1>
+                <h1 class="display-4 vollkron">Noteworthy Projects</h1>
                 <hr data-content="</>" class="hr-text">
-                <p class="text-muted algreya" style="font-size: 20px;">
-                    <i>Experience is a hard teacher because she gives the test first, the lesson afterward
-                    <br>
-                    -Vernon Law</i>
-                </p>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img loading="lazy" src="{{ 'public/images/banner_5.svg' | relative_url }}" alt="Code" class="img-fluid">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
         </div>
     </div>
 
-    <div class="card-columns container">
-        <div class="card bg-white" data-aos="fade">
-            <div class="card-header text-center">
-                <h4>Data Engineer at Schlumberger, Pune</h4>
-                <p class="text-muted">July 2018 - Present</p>
+    <div class="container">
+        <div class="row" data-aos="fade">
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/resume_parser.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/pyresparser" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Resume Parser</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Easy to use, that parses hundreds of resumes in minutes
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
-            <div class="card-body">
-              <p class="card-text">
-                <ul>
-                    <li class="algreya">
-                        Author and maintainer of Source to Hub project which loads data directly from source into google bigquery. Project mainly aimed at eliminating intermediate data loading in native hadoop clusters for more efficiency, reliability and speed
-                    </li>
-                    <li class="algreya">
-                        Responsible for implementing and managing an end-to-end CI/CD Pipeline with custom validations for Informatica migrations which brought migration time to 1.5 hours from 9 hours without any manual intervention
-                    </li>
-                    <li class="algreya">
-                        Enhancing, auditing and maintaining custom data ingestion framework that ingest around 1TB of data each day to over 70 business units
-                    </li>
-                    <li class="algreya">
-                        Working with L3 developer team to ensure the discussed Scrum PBI’s are delivered on time for data ingestions
-                    </li>
-                    <li class="algreya">
-                        Planning and Executing QA and Production Release Cycle activities
-                    </li>
-                </ul>
-              </p>
+
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/pygorithm.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/pygorithm" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Pygorithm</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Learn all major algorithms in one library, implemented in pure python
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/notekeeper.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/django-notekeeper" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Notekeeper</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Encrypted note taking app with modern features like public sharing and markdown
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </div>
 
-        <div class="card bg-white" data-aos="fade">
-            <div class="card-header text-center">
-                <h4>Full Stack Developer Intern at Truso, Pune</h4>
-                <p class="text-muted">June 2018 - July 2018</p>
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <ul>
-                    <li class="algreya">
-                        Created RESTful apis
-                    </li>
-                    <li class="algreya">
-                        Tried my hands on Angular 5/6
-                    </li>
-                    <li class="algreya">
-                        Was responsible for Django backend development
-                    </li>
-                </ul>
-              </p>
+        <div class="row" style="margin-bottom: 15%;">
+            <div class="col text-center algreya">
+                <b>View all my projects <a href="{{ '/projects/' | prepend:site.baseurl }}">here</a></b>
             </div>
         </div>
+    </div>
 
-        <div class="card bg-white" data-aos="fade">
-            <div class="card-header text-center">
-                <h4>Data Engineering Intern at Propeluss, Pune</h4>
-                <p class="text-muted">October 2017 - January 2018</p>
-            </div>
-            <div class="card-body">
-                <p class="card-text">
-                <ul>
-                    <li class="algreya">
-                        Wrote various automation scripts to scrape data from various websites
-                    </li>
-                    <li class="algreya">
-                        Applied Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity extraction algorithms and applying Machine Learning to classify these articles
-                    </li>
-                    <li class="algreya">
-                        Also applied KNN with LSA for extracting relevant tags for various startups based on their works
-                    </li>
-                </ul>
-                </p>
-            </div>
-        </div>
-
-        <div class="card bg-white" data-aos="fade">
-            <div class="card-header text-center">
-                <h4>Technical Content Writer at GeeksForGeeks</h4>
-                <p class="text-muted">July 2017 - September 2017</p>
-            </div>
-            <div class="card-body">
-                <p class="card-text">
-                <ul>
-                    <li class="algreya">
-                        Published 4 articles for the topics such as Data Structures and Algorithms and Python
-                    </li>
-                </ul>
-                </p>
-            </div>
-        </div>
-
-        <div class="card bg-white" data-aos="fade">
-            <div class="card-header text-center">
-                <h4>Web Developer Intern at Softtestlab Technologies, Pune</h4>
-                <p class="text-muted">June 2017 - July 2017</p>
-            </div>
-            <div class="card-body">
-                <p class="card-text">
-                <ul>
-                    <li class="algreya">
-                        Was responsible for creating an internal project for the company using PHP and Laravel for testing purposes
-                    </li>
-                    <li class="algreya">
-                        Worked on a live project for creating closure reports using PHP and Excel
-                    </li>
-                </ul>
-                </p>
-            </div>
-        </div>
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;bottom: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-2.svg' | relative_url }}" style="width: 100%;">
     </div>
 </div>
 
-<div class="section bg-white" id="skills">
+<div class="bg-white" id="skills">
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -280,8 +214,11 @@ image: https://i.imgur.com/FYxQwXN.jpg
     </div>
 </div>
 
-<div class="section bg-light" id="awards">
-    <div class="container">
+<div class="section" id="awards" style="position: relative;">
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;top: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-1.svg' | relative_url }}" style="width: 100%;">
+    </div>
+    <div class="container" style="margin-top: 10%;">
         <div class="row">
             <div class="col text-center">
                 <h1 class="display-4 vollkron">Awards and Achievements</h1>
