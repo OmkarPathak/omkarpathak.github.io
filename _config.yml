@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            OMKAR PATHAK
 tagline:          ''
-description:      'Software Developer by Profession, <br /> Pythonista by &hearts;'
+description:      'Software Developer by Profession, Pythonista by &hearts stuffed inside a compact, witty, artistic body'
 url:              https://www.omkarpathak.in
 baseurl:          
 
@@ -20,7 +20,7 @@ author:
 paginate:         6
 paginate_path: 	  /blog/page:num/
 
-version:          2.1.0
+version:          3.0.0
 
 github:
   repo:           https://github.com/OmkarPathak/omkarpathak.github.io
@@ -37,7 +37,7 @@ plugins:
 
 twitter_username: omkarpathak27
 github_username: OmkarPathak
-linkedin_username: omkar-pathak-94473811b
+linkedin_username: omkarpathak27
 facebook_username: omkarpathak27
 quora_username: Omkar-Pathak-18 
 instagram_username: omkarpathak27

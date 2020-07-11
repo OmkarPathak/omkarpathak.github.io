@@ -27,7 +27,7 @@ permalink: /freelancing/software-development/
         <hr data-content="</>" class="hr-text">
 
         <p class="algreya">
-        This app was made to help a local mechanical shop to maintain all their sales record. They were very happy the way application handles the historical records and creates reports out of it as and when required.
+        This app was made to help a local mechanical shop to maintain all their sales record and generate invoices in PDF format. They were very happy the way application handles the historical records and creates reports out of it as and when required.
         </p>
     </div>
 </div>
