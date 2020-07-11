@@ -107,6 +107,6 @@ Just to give you a glimpse about how great is Linux, here are [some facts and fi
 
 - [Richard Stallman's printer incident](https://www.gnu.org/philosophy/rms-nyu-2001-transcript.txt)
 
-# Credits:
+# Credits
 
 This entire blog post is inspired by [this YouTube](https://www.youtube.com/watch?v=wONPcv0CjVw) video: [https://www.youtube.com/watch?v=wONPcv0CjVw](https://www.youtube.com/watch?v=wONPcv0CjVw)
