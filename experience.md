@@ -8,9 +8,11 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <i style="color: gray">Experience is a hard teacher because she gives the test first, the lesson afterward.</i><br>
 <i style="color: gray">-Vernon Law</i>
 
+## Python ETL Developer at Numerator, Pune
+November 2020 - Present
 
 ## Data Engineer at Schlumberger, Pune
-July 2018 - Present
+July 2018 - October 2020
 
   - Author and maintainer of Source to Hub project which loads data directly from source into google bigquery. Project mainly aimed at eliminating intermediate data loading in native hadoop clusters for more efficiency, reliability and speed
   - Responsible for implementing and managing an end-to-end CI/CD Pipeline with custom validations for Informatica migrations which brought migration time to 1.5 hours from 9 hours without any manual intervention
