@@ -49,8 +49,8 @@ Apart from programming I also love to travel. Lush green serene places excite me
 
 * **Python/ETL Developer at Numerator, Pune**
 November 2020 - Present
-- Responsible for implementing and maintaining REST APIs for Numerator products
-- Responsible for designing, setting up and implementing ETL pipelines using Airflow for ensuring smooth data transfers between required sources
+  - Responsible for implementing and maintaining REST APIs for Numerator products
+  - Responsible for designing, setting up and implementing ETL pipelines using Airflow for ensuring smooth data transfers between required sources
 
 * **Data Engineer at Schlumberger, Pune**
 July 2018 - October 2020
