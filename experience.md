@@ -8,8 +8,11 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <i style="color: gray">Experience is a hard teacher because she gives the test first, the lesson afterward.</i><br>
 <i style="color: gray">-Vernon Law</i>
 
+## Consultant at Ellicium Solutions Inc, Pune
+May 2022 - Present
+
 ## Python ETL Developer at Numerator, Pune
-November 2020 - Present
+November 2020 - May 2022
 
   - Responsible for implementing and maintaining REST APIs for Numerator products
   - Responsible for designing, setting up and implementing ETL pipelines using Airflow for ensuring smooth data transfers between required sources
