@@ -3,7 +3,7 @@ layout: page
 title: CONTACT ME
 permalink: /contact/
 description: Hello there! I am Omkar Pathak, a software developer by profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body
-image: https://i.imgur.com/FYxQwXN.jpg
+image: https://i.imgur.com/NUpktwn.jpg
 ---
 
 <div class="container">
