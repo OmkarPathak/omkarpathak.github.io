@@ -47,7 +47,7 @@ description: Welcome to my small space on web. Below are some of my qualitites t
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-stretch">
       <div class="card bg-light mb-3 text-dark" style="border-radius: 0;">
-        <a href="{{ '/illustrations/' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/illustrations/ganpati_4.jpg' | relative_url }}" alt="Sketching" style="border-radius: 0;"></a>
+        <a href="{{ '/illustrations/' | prepend:site.baseurl }}"><img class="card-img-top" src="{{ 'public/img/illustrations/ganpati_3_cover.jpg' | relative_url }}" alt="Sketching" style="border-radius: 0;"></a>
         <div class="card-body">
           <h5 class="card-title">Illustrations</h5>
         </div>
