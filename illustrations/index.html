@@ -1,0 +1,13 @@
+---
+layout: page
+title: Illustrations
+description: Some of my illustrations that I have worked on. All the images are original and created by me
+image: https://www.omkarpathak.in/public/img/photography/1.jpg
+---
+
+<div id="gallery" style="display:none;">
+    {% for image in site.illustrations %}
+    <img alt="" src="{{ image | relative_url }}"
+        data-image="{{ image | relative_url }}">
+    {% endfor %}
+</div>
