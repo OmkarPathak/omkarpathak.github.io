@@ -11,11 +11,17 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 ## Consultant at Ellicium Solutions Inc, Pune
 May 2022 - Present
 
+- Leading and managing an application team of **8 people** for a supply chain management and risk analysis application
+- Mentored and conducted workshops on Python, Data Science, Machine Learning and application development life cycles
+- Led and developed various PoCs with engagement to major product delieverables
+
 ## Python ETL Developer at Numerator, Pune
 November 2020 - May 2022
 
-  - Responsible for implementing and maintaining REST APIs for Numerator products
   - Responsible for designing, setting up and implementing ETL pipelines using Airflow for ensuring smooth data transfers between required sources
+  - Developed Airflow framework for fetching data from various data sources like emails, postgresql database, oracle database, csv files; performing data transformations and storing it in snowflake data warehouse
+  - Author and maintainer for CI/CD pipelines for deployments in various environments
+  - Development and maintenance of various REST APIs for Numerator data lake products
 
 ## Data Engineer at Schlumberger, Pune
 July 2018 - October 2020
