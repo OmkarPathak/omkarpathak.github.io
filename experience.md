@@ -12,7 +12,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 May 2022 - Present
 
 - Led the **designing, developing** and supporting enterprise-grade of two SaaS products using Microsoft stack on Azure
-- Managed a team of **11 developers** and **9 developers** respectively, for each SaaS product development. Collaborated with crossfunctional teams, including supply chain, procurement, and IT, to define requirements, develop solutions, and implement the application
+- Managed a team of **11 developers** and **9 developers** respectively, for each SaaS product development. Collaborated with cross-functional teams, including supply chain, procurement, and IT, to define requirements, develop solutions, and implement the application
 - Conducted **data analysis** and risk assessments to identify critical supply chain risks and develop mitigation strategies
 - Oversaw the integration of the application with external data sources to provide real-time risk monitoring and alerts
 - Worked closely with the user interface and user experience (UI/UX) team to ensure the application was user-friendly and intuitive
