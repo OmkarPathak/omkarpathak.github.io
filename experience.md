@@ -8,12 +8,16 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <i style="color: gray">Experience is a hard teacher because she gives the test first, the lesson afterward.</i><br>
 <i style="color: gray">-Vernon Law</i>
 
-## Consultant at Ellicium Solutions Inc, Pune
+## Senior Consultant at Ellicium Solutions Inc, Pune
 May 2022 - Present
 
-- Leading and managing an application team of **8 people** for a supply chain management and risk analysis application
-- Mentored and conducted workshops on Python, Data Science, Machine Learning and application development life cycles
-- Led and developed various PoCs with engagement to major product delieverables
+- Led the **designing, developing** and supporting enterprise-grade of two SaaS products using Microsoft stack on Azure
+- Managed a team of **11 developers** and **9 developers** respectively, for each SaaS product development. Collaborated with crossfunctional teams, including supply chain, procurement, and IT, to define requirements, develop solutions, and implement the application
+- Conducted **data analysis** and risk assessments to identify critical supply chain risks and develop mitigation strategies
+- Oversaw the integration of the application with external data sources to provide real-time risk monitoring and alerts
+- Worked closely with the user interface and user experience (UI/UX) team to ensure the application was user-friendly and intuitive
+- Conducted various workshops on Python, Data Science, Machine Learning, and software development life cycles
+- Led and developed various PoCs with **engagement** to major product deliverable
 
 ## Python ETL Developer at Numerator, Pune
 November 2020 - May 2022
