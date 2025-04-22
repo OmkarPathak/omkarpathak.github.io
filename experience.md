@@ -11,7 +11,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 ## Lead Consultant at Ellicium Solutions Inc, Pune
 May 2022 - Present
 
-- Led the end-to-end design, development, and deployment of two enterprise-grade SaaS platforms:
+- Led the end-to-end design, development, and deployment of three enterprise-grade SaaS platforms:
   - A Marketing Mix Modeling (MMM) platform built using Meta’s Robyn and integrated with client data sources to measure channel-wise ROI, optimize media spend, and support data-driven marketing decisions.
   - A Supply Chain Risk Intelligence platform enabling real-time risk monitoring and proactive mitigation through integrated data pipelines and external feed ingestion.
   - A Cost Intelligence and Procurement Optimization solution that delivered actionable insights on supplier performance, contract compliance, and spend analytics across regions.
