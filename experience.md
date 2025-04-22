@@ -11,13 +11,20 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 ## Lead Consultant at Ellicium Solutions Inc, Pune
 May 2022 - Present
 
-- Led the **designing, developing** and supporting enterprise-grade of two SaaS products using Microsoft stack on Azure
-- Managed a team of **11 developers** and **9 developers** respectively, for each SaaS product development. Collaborated with cross-functional teams, including supply chain, procurement, and IT, to define requirements, develop solutions, and implement the application
-- Conducted **data analysis** and risk assessments to identify critical supply chain risks and develop mitigation strategies
-- Oversaw the integration of the application with external data sources to provide real-time risk monitoring and alerts
-- Worked closely with the user interface and user experience (UI/UX) team to ensure the application was user-friendly and intuitive
-- Conducted various workshops on Python, Data Science, Machine Learning, and software development life cycles
-- Led and developed various PoCs with **engagement** to major product deliverable
+- Led the end-to-end design, development, and deployment of two enterprise-grade SaaS platforms:
+  - A Marketing Mix Modeling (MMM) platform built using Meta’s Robyn and integrated with client data sources to measure channel-wise ROI, optimize media spend, and support data-driven marketing decisions.
+  - A Supply Chain Risk Intelligence platform enabling real-time risk monitoring and proactive mitigation through integrated data pipelines and external feed ingestion.
+  - A Cost Intelligence and Procurement Optimization solution that delivered actionable insights on supplier performance, contract compliance, and spend analytics across regions.
+- Architected cloud-native solutions on Microsoft Azure, leveraging App Services, Functions, SQL DB, Blob Storage, and Key Vault, ensuring security, scalability, and fault tolerance.
+- Managed two agile engineering teams (11 and 9 members) responsible for full-stack development using .NET Core, Python, ReactJS, JavaScript/TypeScript, and Azure DevOps.
+- Drove implementation of RESTful APIs and microservices architecture, ensuring modularity, scalability, and clear service ownership.
+- Developed and deployed real-time data ingestion and alerting pipelines using Python, Azure Data Factory, Event Grid, and third-party data APIs, supporting dynamic risk scoring and escalation workflows.
+- Worked closely with stakeholders across supply chain, procurement, and operations teams to translate domain requirements into product features and dashboards using Power BI and custom visualizations.
+- Collaborated with the UI/UX team to design intuitive interfaces aligned with real-world workflows, leveraging Tailwind CSS and Figma for fast prototyping and implementation.
+- Conducted internal and client-facing technical workshops on Python, machine learning, data science workflows, and best practices in modern software development life cycles (SDLC).
+- Designed and implemented multiple PoCs in areas such as predictive supplier risk scoring, cost anomaly detection, and automated reporting, using Streamlit, Flask, and LightGBM, many of which transitioned into long-term modules.
+- Architected CI/CD practices through Azure Pipelines, Dockerized builds, automated testing, and environment provisioning, reducing release times and improving overall software quality.
+- Provided mentorship and technical leadership to junior developers—introducing standards for clean architecture, secure coding, and peer review culture.
 
 ## Python ETL Developer at Numerator, Pune
 November 2020 - May 2022
