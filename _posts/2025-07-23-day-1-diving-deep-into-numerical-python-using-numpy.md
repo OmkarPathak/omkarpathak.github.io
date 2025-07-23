@@ -123,6 +123,8 @@ This gives you a taste of how much you can achieve with just NumPy.
 
 ---
 
+Code for Day 1 can be found on my github repository: [Day 1 of Data Science](https://github.com/OmkarPathak/data-science-notes/blob/main/Day%201%20-%20Numpy%20operations.ipynb)
+
 ## What’s Next?
 
 Tomorrow, I’ll explore the **Pandas library** — the powerhouse for handling structured data in Python.
