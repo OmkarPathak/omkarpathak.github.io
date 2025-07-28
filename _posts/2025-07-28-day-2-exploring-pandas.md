@@ -212,7 +212,7 @@ In **Day 3**, we’ll explore:
 
 ---
 
-Code for Day 2 can be found on my github repository: [Day 2 of Data Science]([https://github.com/OmkarPathak/data-science-notes/blob/main/Day%201%20-%20Numpy%20operations.ipynb](https://github.com/OmkarPathak/data-science-notes/blob/main/Day%202%20-%20Exploring%20Data%20using%20Pandas.ipynb))
+Code for Day 2 can be found on my github repository: [Day 2 of Data Science](https://github.com/OmkarPathak/data-science-notes/blob/main/Day%202%20-%20Exploring%20Data%20using%20Pandas.ipynb)
 
 ## Bonus: Resources
 
