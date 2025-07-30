@@ -2,7 +2,7 @@
 
 layout: post
 title: Day 3 - Advanced Pandas – Merging, Joining & Window Functions
-date: 2025-07-23
+date: 2025-07-29
 keywords: pandas, python, data science, machine learning, omkar pathak python, omkar pathak data science
 image: /public/img/blog-images/banner.png
 author: Omkar Pathak
