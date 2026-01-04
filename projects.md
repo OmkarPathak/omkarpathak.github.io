@@ -19,6 +19,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <div id="index">
   <h2>Web Apps:</h2>
   <ul>
+    <li><a href="#django-finance-tracker">Django Finance Tracker</a></li>
     <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
     <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
     <li><a href="#django-invoice-generator">Django Invoice Generator</a></li>
@@ -67,6 +68,24 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="https://github.com/OmkarPathak/CCDSAP-Prep">Practice problems wih notes for CodeChef Certified Data Structure & Algorithms Programme</a></li>
   </ul>
 </div>
+
+<hr>
+
+<!--  -->
+<div id="projects">
+  <a href="https://omkarpathak.pythonanywhere.com">
+    <h2 id="django-finance-tracker">Django Finance Tracker</h2>
+    <span class="post-date">January 2025 - Present</span>
+  </a>
+</div>
+
+<p style="margin-bottom: 20px;">
+  I built "TrackMyRupee" – a privacy-focused, clutter-free finance tracker because I was tired of bloated apps.
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/django-finance-tracker)
+
+**Technology Used**: Python, Django
 
 <hr>
 
