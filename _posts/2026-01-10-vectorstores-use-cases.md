@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Choosing the Right Vector Store: Why I Chose Numpy over FAISS for My Resume Parser
+title: Choosing the Right Vector Store - Why I Chose Numpy over FAISS for My Resume Parser
 date: 2026-01-10
 keywords: python, vector stores, ai agents, llm, singleton, factory, observer, system design
 image: /public/img/blog-images/vector-stores-vs-numpy.png
