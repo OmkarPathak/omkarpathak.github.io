@@ -428,6 +428,8 @@ blockquote{
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover;
         background-position: center, top;
+        height: auto;
+        padding-bottom: 50px;
     }
 
     .col-sm-6{
