@@ -31,31 +31,30 @@
 <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://unpkg.com/aos@2.3.1/dist/aos.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" defer></script>
-<script src="{{ 'public/js/unitegallery.min.js' | relative_url }}" defer></script>
-<script src="{{ 'public/js/ug-theme-tiles.js' | relative_url }}" defer></script>
-<script src="{{ 'public/js/custom.js' | relative_url }}" defer></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="{{ 'public/js/unitegallery.min.js' | relative_url }}"></script>
+<script src="{{ 'public/js/ug-theme-tiles.js' | relative_url }}"></script>
+<script src="{{ 'public/js/custom.js' | relative_url }}"></script>
 <script>
-    // Defer jQuery execution until ready (since jQuery itself is deferred)
-    window.addEventListener('DOMContentLoaded', function() {
-        $(function () {
-            $(window).on('scroll', function () {
-                if ( $(window).scrollTop() > 10 ) {
-                    $('.navbar').addClass('active');
-                } else {
-                    $('.navbar').removeClass('active');
-                }
-            });
+    $(function () {
+        $(window).on('scroll', function () {
+            if ( $(window).scrollTop() > 10 ) {
+                $('.navbar').addClass('active');
+            } else {
+                $('.navbar').removeClass('active');
+            }
         });
 
         AOS.init();
 
         $("img").addClass("img-fluid");
-        $("img").attr("loading", "lazy");
+        try {
+            $("img").attr("loading", "lazy");
+        } catch(e) { }
         $("a").addClass("anchor");
 
         $( ".card" ).hover(
