@@ -37,24 +37,33 @@ But engineering is about constraints, not just capabilities. For my specific use
 
 ### 1. The Cloud Giants (Pinecone)
 **The Pitch:** Infinite scale, managed infrastructure, "it just works."
+<br>
 **The Reality for Me:** 
 My app is **Local-First**. I want users to download an executable and run it on their sensitive HR data without an internet connection.
+<br>
 *   **Privacy:** Sending candidate resumes to a 3rd-party cloud service is a non-starter for many companies.
+<br>
 *   **Friction:** Asking a user to sign up for an API key and paste it into a config file is the fastest way to kill user onboarding.
 
 ### 2. The Docker Heavyweights (Chroma, Weaviate, Qdrant)
 **The Pitch:** Powerful, feature-rich, open-source.
+<br>
 **The Reality for Me:**
 These are fantastic pieces of engineering. But they are *services*.
 To run them locally, you need Docker. You need to orchestrate containers.
+<br>
 *   **Resource Hog (The 500MB Problem):** Is it reasonable to ask a user to spin up a container that idles at 500MB+ RAM, just to store 500 resumes? 
+<br>
 *   **Complexity:** "Why is my database connection refuising?" "Oh, the container hasn't finished health-checking yet." I didn't want to debug networking issues when I should be debugging parsing logic.
 
 ### 3. The Library Specialists (FAISS)
 **The Pitch:** The gold standard for speed and efficiency. Facebook AI Similarity Search.
+<br>
 **The Reality for Me:**
 FAISS is a beast. 
+<br>
 *   **Installation Hell:** Have you ever tried to install `faiss-gpu` on a random Windows laptop without the right CUDA drivers? It’s a rite of passage I wouldn't wish on my enemies.
+<br>
 *   **Overkill:** FAISS uses approximate algorithms (ANN) to search billions of vectors in milliseconds. I don't have billions. I have hundreds.
 
 ---
