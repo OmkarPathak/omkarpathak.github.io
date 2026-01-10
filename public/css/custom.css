@@ -60,6 +60,15 @@ body {
     margin-bottom: 2%;
 }
 
+#post-content {
+    margin-top: 50px;
+}
+
+.post-tags {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .anchor{
     color: var(--primary-color);
 }

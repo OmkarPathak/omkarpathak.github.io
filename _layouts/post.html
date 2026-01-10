@@ -16,7 +16,7 @@ layout: default
           <span style="margin-left: 1%"><i class="fa fa-eye"></i> {{ num_words | divided_by:180 }} mins read</span>
         {% endif %}
         <br>
-        <div style="padding-top: 20px;">
+        <div class="post-tags">
           {% for tag in page.tags %}
             <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
           {% endfor %}
