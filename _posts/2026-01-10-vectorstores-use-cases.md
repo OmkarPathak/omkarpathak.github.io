@@ -9,7 +9,7 @@ math: true
 tags: [System Design, Python, AI, LLM]
 ---
 
-# Choosing the Right Vector Store: Why I Chose Numpy over FAISS for My Resume Parser
+
 
 I stared at my `docker-compose.yml`. It was growing. Again.
 

@@ -8,7 +8,6 @@ image: /public/img/blog-images/python.png
 tags: [python, nlp]
 ---
 
-# Why to write your own Resume Parser
 
 Resumes are a great example of unstructured data. Each resume has its unique style of formatting, has its own data blocks, and has many forms of data formatting. This makes reading resumes hard, programmatically. Recruiters spend ample amount of time going through the resumes and selecting the ones that are a good fit for their jobs. Tech giants like Google and Facebook receive thousands of resumes each day for various job positions and recruiters cannot go through each and every resume. This is why Resume Parsers are a great deal for people like them. Resume Parsers make it easy to select the perfect resume from the bunch of resumes received.
 

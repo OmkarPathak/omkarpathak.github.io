@@ -9,7 +9,6 @@ author: Omkar Pathak
 tags: [Data Science, NumPy, Python, 60DayDSChallenge]
 ---
 
-# Day 3: Advanced Pandas – Merging, Joining & Window Functions
 
 ## Part 1: Merging and Joining in Pandas
 
