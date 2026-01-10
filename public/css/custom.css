@@ -2,7 +2,7 @@
     --primary-color: #7779f3;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Alegreya';
     src: url('/public/fonts/Alegreya-Regular.ttf');
     font-display: swap;
@@ -12,7 +12,7 @@
     font-family: 'Vollkorn';
     src: url('/public/fonts/Vollkorn-VariableFont_wght.ttf');
     font-display: swap;
-}
+} */
 
 #banner-content span:after{
     content:"_";
@@ -34,12 +34,17 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Vollkorn', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
 }
 
 .section .container a,p, #page-content, #post-content{
     font-size: 20px;
-    font-family: 'Alegreya', serif;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
 }
 
 #page-content .highlight{
@@ -64,13 +69,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .algreya{
-    font-family: 'Alegreya', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-display: swap;
 }
 
 .vollkron{
-    font-family: 'Vollkorn', serif;
+    font-family: 'Inter', sans-serif;
     font-display: swap;
 }
 
