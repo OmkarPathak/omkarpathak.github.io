@@ -5,6 +5,7 @@ date: 2026-01-10
 keywords: python, vector stores, ai agents, llm, singleton, factory, observer, system design
 image: /public/img/blog-images/vector-stores-vs-numpy.png
 author: Omkar Pathak
+math: true
 tags: [System Design, Python, AI, LLM]
 ---
 

@@ -34,17 +34,17 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 body {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .section .container a,p, #page-content, #post-content{
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
 }
 
 #page-content .highlight{
@@ -69,13 +69,13 @@ body {
 }
 
 .algreya{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-display: swap;
 }
 
 .vollkron{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     font-display: swap;
 }
 
