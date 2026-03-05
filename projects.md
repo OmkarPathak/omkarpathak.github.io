@@ -45,6 +45,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
   <h2>APIs:</h2>
   <ul>
+    <li><a href="#piiscrub">PiiScrub: Blazing-fast PII scrubbing for LLMs</a></li>
     <li><a href="#pygorithm">Pygorithm: Fun with algorithms pythonic way!</a></li>
     <li><a href="https://github.com/OmkarPathak/Word-Counter">wordcounter: Python package for counting number of words and doing much more</a></li>
   </ul>
@@ -68,6 +69,24 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
     <li><a href="https://github.com/OmkarPathak/CCDSAP-Prep">Practice problems wih notes for CodeChef Certified Data Structure & Algorithms Programme</a></li>
   </ul>
 </div>
+
+<hr>
+
+<!--  -->
+<div id="projects">
+  <a href="https://github.com/OmkarPathak/piiscrub">
+    <h2 id="piiscrub">PiiScrub</h2>
+    <span class="post-date">March 2026 - Present</span>
+  </a>
+</div>
+
+<p style="margin-bottom: 20px;">
+  PiiScrub is a blazing-fast, lightweight Python library and CLI tool designed to scrub Personally Identifiable Information (PII) from datasets for LLM training and RAG pipelines. It supports multi-core parallel processing, synthetic data generation, and compliance auditing out of the box with zero external dependencies.
+</p>
+
+**Source Code**: [Github](https://github.com/OmkarPathak/piiscrub)
+
+**Technology Used**: Python
 
 <hr>
 
