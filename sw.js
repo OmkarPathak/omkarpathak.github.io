@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v21';
+var CACHE_NAME = 'omkar-pathak-cache-v22';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3

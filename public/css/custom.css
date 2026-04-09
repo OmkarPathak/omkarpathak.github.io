@@ -34,16 +34,16 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 body {
-    font-family: 'Lora', serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 .section .container a,p, #page-content, #post-content{
-    font-size: 20px;
-    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
     line-height: 1.8;
 }
 
@@ -78,13 +78,13 @@ body {
 }
 
 .algreya{
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     font-display: swap;
 }
 
 .vollkron{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-display: swap;
 }
 
@@ -162,6 +162,7 @@ body {
 #omkar-title{
     color: black; 
     font-size: 60px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .hr-text {
@@ -204,6 +205,39 @@ body {
     background-color: rgba(119,121,243, 0.5); 
     color: white;
     border-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.social-media-icon:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+    color: white;
+}
+
+.project-icon-wrapper {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(119, 121, 243, 0.1);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.project-icon-wrapper i {
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+.figure:hover .project-icon-wrapper {
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.figure:hover .project-icon-wrapper i {
+    color: white;
 }
 
 .card-img-top {

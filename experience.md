@@ -8,9 +8,13 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <i style="color: gray">Experience is a hard teacher because she gives the test first, and the lesson afterward.</i><br>
 <i style="color: gray">-Vernon Law</i>
 
-## Lead Consultant at Ellicium Solutions Inc, Pune
+## Lead Consultant at Emergys Solutions Pvt. Ltd., Pune
 May 2022 - Present
 
+- Architected a Text-to-SQL GenAI agent using Python and FastAPI with enterprise-grade security (JWT, rate limiting), which drove $300K+ in client revenue and earned the company's Q4 2023 High Flyer Award.
+- Engineered autonomous Azure AI Agents for a global supply chain platform — LLMs scrape, parse, and verify supplier capabilities from unstructured web data.
+- Developed a probabilistic Marketing Mix Modeling (MMM) framework using Meta's Robyn to quantify channel-wise ROI and output budget allocation strategies for C-suite teams.
+- Built ML-based commodity cost prediction pipelines within hierarchical Work Breakdown Structures (WBS), replacing manual estimation cycles.
 - Led the end-to-end design, development, and deployment of three enterprise-grade SaaS platforms:
   - A Marketing Mix Modeling (MMM) platform built using Meta’s Robyn and integrated with client data sources to measure channel-wise ROI, optimize media spend, and support data-driven marketing decisions.
   - A Supply Chain Risk Intelligence platform enabling real-time risk monitoring and proactive mitigation through integrated data pipelines and external feed ingestion.
@@ -35,7 +39,7 @@ November 2020 - May 2022
   - Development and maintenance of various REST APIs for Numerator data lake products
 
 ## Data Engineer at Schlumberger, Pune
-July 2018 - October 2020
+July 2018 - November 2020
 
   - Author and maintainer of Source to Hub project which loads data directly from source into Google bigquery. Project mainly aimed at eliminating intermediate data loading in native Hadoop clusters for more efficiency, reliability, and speed
   - Responsible for implementing and managing an end-to-end CI/CD Pipeline with custom validations for Informatica migrations which brought migration time to 1.5 hours from 9 hours without any manual intervention

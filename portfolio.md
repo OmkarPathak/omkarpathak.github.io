@@ -4,6 +4,9 @@ title: PORTFOLIO
 description: Welcome to my small space on web. Below are some of my qualitites that I pursue as hobbies or when I bored. Other than these you can find me really fond of Agatha Christie novels.
 ---
 
+> My digital art lives on Instagram: **[@the.october.kid](https://instagram.com/the.october.kid)**
+
+
 <p style="margin-bottom: 20px;">
   Welcome to my small space on web. Below are some of my qualitites that I pursue as hobbies or when I bored. Other than these you can find me really fond of Agatha Christie novels.
 </p>

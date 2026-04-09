@@ -7,6 +7,13 @@ description: I write blogs about my experiences with new technologies and softwa
 <div class="row text-center" data-aos="fade">
   <div class="col">
     <p>You can find all my blog posts <a href="{{ '/blog/archive/' | prepend:site.baseurl}}">here</a></p>
+    <div class="blog-tags" style="margin-bottom: 30px;">
+      <b>Filter by:</b>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+        <a href="{{ '/blog/tag/' | prepend:site.baseurl }}{{ tag[0] | slugify }}/" class="btn btn-outline-secondary btn-sm" style="margin: 2px; border-radius: 0;">{{ tag[0] }}</a>
+      {% endfor %}
+    </div>
   </div>
 </div>
 

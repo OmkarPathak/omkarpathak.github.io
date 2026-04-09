@@ -19,7 +19,10 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 <div id="index">
   <h2>Web Apps:</h2>
   <ul>
-    <li><a href="#django-finance-tracker">Django Finance Tracker</a></li>
+    <li><a href="#piiscrub">PiiScrub: Blazing-fast PII scrubbing for LLMs</a></li>
+    <li><a href="#django-finance-tracker">TrackMyRupee: Privacy-first AI finance tracker</a></li>
+    <li><a href="#resume-parser">pyresparser: Resume parsing library using SpaCy</a></li>
+    <li><a href="#pygorithm">Pygorithm: Fun with algorithms pythonic way!</a></li>
     <li><a href="#note-taking-web-app">A Simple Note taking Web App</a></li>
     <li><a href="#gym-member-manager">Gymnasium Member Manager</a></li>
     <li><a href="#django-invoice-generator">Django Invoice Generator</a></li>
@@ -30,7 +33,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
   <h2>Machine Learning:</h2>
   <ul>
-    <li><a href="#resume-parser">Resume Parser</a></li>
+    <li><a href="#resume-parser">pyresparser (Resume Parser)</a></li>
     <li><a href="#password-strength-evaluator-using-machine-learning">Password Strength Evaluator: How strong is your password?</a></li>
     <li><a href="#term-similarity-using-machine-learning">Term Similarity: unusual == remarkable?</a></li>
     <li><a href="#email-spam-filtering">Email Spam Filtering</a></li>
@@ -81,7 +84,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 </div>
 
 <p style="margin-bottom: 20px;">
-  PiiScrub is a blazing-fast, lightweight Python library and CLI tool designed to scrub Personally Identifiable Information (PII) from datasets for LLM training and RAG pipelines. It supports multi-core parallel processing, synthetic data generation, and compliance auditing out of the box with zero external dependencies.
+  PiiScrub is a blazing-fast, lightweight Python library and CLI tool designed to scrub Personally Identifiable Information (PII) from datasets for LLM training and RAG pipelines. It supports multi-core parallel processing, synthetic data generation, and compliance auditing out of the box with zero external dependencies. Designed for teams working on LLM fine-tuning and RAG pipelines who need compliance-safe training data without external service dependencies.
 </p>
 
 **Source Code**: [Github](https://github.com/OmkarPathak/piiscrub)
@@ -99,12 +102,14 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 </div>
 
 <p style="margin-bottom: 20px;">
-  I built "TrackMyRupee" – a privacy-focused, clutter-free finance tracker because I was tired of bloated apps.
+  <b>TrackMyRupee</b> — A privacy-first AI finance tracker built for Indian salaried professionals. Features include natural language expense entry, AI-powered spending insights and forecasting, net worth tracking, and recurring expense management. No bank login or SMS access required. Open-source.
 </p>
+
+**Live App**: [trackmyrupee.com](https://trackmyrupee.com)
 
 **Source Code**: [Github](https://github.com/OmkarPathak/django-finance-tracker)
 
-**Technology Used**: Python, Django
+**Technology Used**: Python, Django, AI / LLMs, Open Source
 
 <hr>
 
@@ -329,20 +334,22 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
 <div id="projects">
   <a href="{{ '/projects/resume-parser/' | prepend:site.baseurl }}">
-    <h2 id="resume-parser">Resume Parser</h2>
-    <span class="post-date">January 2019</span>
+    <h2 id="resume-parser">pyresparser (Resume Parser)</h2>
+    <span class="post-date">January 2019 - Present</span>
   </a>
 </div>
 
 <p style="margin-bottom: 20px;">
-  A simple resume parser used for extracting information from resumes
+  <b>pyresparser</b> — A widely-used resume extraction library that parses unstructured resume data into structured formats using SpaCy and custom NER rule-based matching. Integrated into HR-tech products worldwide.
 </p>
+
+**Downloads**: 450,000+ on GitHub/PyPI
 
 **Source Code**: [Github](https://github.com/OmkarPathak/ResumeParser)
 
 **Know More**: [Click here..](/projects/resume-parser/)
 
-**Technology Used**: Python, Django, NLTK, SpaCy
+**Technology Used**: Python, Django, NLTK, SpaCy, NLP
 
 <hr>
 
@@ -362,6 +369,22 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 **Know More**: [Click here..](/projects/django-notekeeper/)
 
 **Technology Used**: Python, Django, Django-Cryptography
+
+<hr>
+
+<h2 id="professional-highlights">Professional Highlights (Client Work)</h2>
+
+**Text-to-SQL GenAI Agent** (Emergys Solutions, 2023)
+> Serverless backend for a natural language to SQL interface using FastAPI, LLMs, and enterprise security patterns (JWT, rate limiting). Drove $300K+ in client revenue.
+> Tech: `Python` `FastAPI` `Azure` `LLMs` `Serverless`
+
+**Autonomous Supplier Discovery Agent** (Emergys Solutions, 2023–2024)
+> Azure AI Agents that autonomously scrape, parse, and verify supplier capabilities from unstructured web sources for a global supply chain platform.
+> Tech: `Python` `Azure AI` `LLMs` `Web Scraping`
+
+**Marketing Mix Modeling Platform** (Emergys Solutions, 2022–2023)
+> Probabilistic MMM framework using Meta's Robyn to quantify channel-wise ROI across digital and offline media. Outputs budget allocation strategies for C-suite decision-making.
+> Tech: `Python` `R (Robyn)` `Azure` `Airflow`
 
 <hr>
 
