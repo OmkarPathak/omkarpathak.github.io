@@ -73,6 +73,13 @@
         }
     });
 
+    // Safety net: if AOS fails to animate elements (e.g. CDN blocked), make them visible after 2s
+    setTimeout(function() {
+        document.querySelectorAll('[data-aos]:not(.aos-animate)').forEach(function(el) {
+            el.classList.add('aos-animate');
+        });
+    }, 2000);
+
     /* ── Animated stat counters ─────────────────────────── */
     (function() {
         function animateCounter(el) {
