@@ -4,35 +4,41 @@ title: Home
 description: Senior Python Architect. Building AI agents, open-source tools, and indie finance products.
 image: https://i.imgur.com/FYxQwXN.jpg
 ---
-<div class="jumbotron jumbotron-fluid  d-flex align-items-center" id="header-image">
+<div class="jumbotron jumbotron-fluid d-flex align-items-center" id="header-image">
     <div class="container">
-        <div class="row" id="banner-content">
+        <div class="row align-items-center" id="banner-content">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-right: 5%;">
                 <div>
+                    <p class="algreya" style="color: var(--primary); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: 14px; margin-bottom: 8px;">Senior Python Architect</p>
                     <h1 class="display-5 vollkron" id="omkar-title">Omkar Pathak <span></span></h1>
-                    <p class="algreya">Senior Python Architect. Building AI agents, open-source tools, and indie finance products.</p>
+                    <p class="algreya" style="font-size: 20px; color: var(--text-secondary); margin-top: 12px; margin-bottom: 28px;">Building AI agents, open-source tools, and indie finance products. 6+ years turning complex problems into elegant, scalable systems.</p>
                 </div>
 
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
-                    <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
-                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-facebook-square"></i></button></a>
-                    <a href="https://www.quora.com/profile/{{ site.quora_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
-                    <a href="https://www.instagram.com/{{ site.instagram_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
+                <div class="d-flex flex-wrap" style="gap: 10px; margin-bottom: 28px;">
+                    <a href="{{ '/#about' | prepend:site.baseurl }}" class="btn btn-primary text-white" style="background: var(--primary); border-color: var(--primary); border-radius: 8px; padding: 10px 24px; font-family: 'Outfit', sans-serif; font-weight: 600;">See My Work</a>
+                    <a href="{{ '/contact/' | prepend:site.baseurl }}" class="btn btn-outline-primary" style="border-radius: 8px; padding: 10px 24px; font-family: 'Outfit', sans-serif; font-weight: 600;">Hire Me</a>
+                </div>
+
+                <div class="btn-group" role="group" aria-label="Social links">
+                    <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
+                    <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}" aria-label="Facebook"><button class="btn btn-secondary social-media-icon"><i class="fab fa-facebook-square"></i></button></a>
+                    <a href="https://www.quora.com/profile/{{ site.quora_username }}" aria-label="Quora"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
+                    <a href="https://www.instagram.com/{{ site.instagram_username }}" aria-label="Instagram"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner-image" style="padding: 0;">
               <div>
-                  <img loading="lazy" src="{{ 'public/images/omkar_desk.svg' | relative_url }}" class="img-fluid" alt="">
+                  <img loading="lazy" src="{{ 'public/images/omkar_desk.svg' | relative_url }}" class="img-fluid" alt="Omkar Pathak illustration">
               </div>
             </div>
         </div>
 
-        <div class="row text-center">
+        <div class="row text-center" style="margin-top: 20px;">
             <div class="col">
-                <a class="anchor" href="{{ '/#about' | prepend:site.baseurl }}">
+                <a class="anchor" href="{{ '/#stats-strip' | prepend:site.baseurl }}">
                     <div class="arrow bounce"></div>
                 </a>
             </div>
@@ -40,13 +46,40 @@ image: https://i.imgur.com/FYxQwXN.jpg
     </div>
 </div>
 
+<!-- Stats Strip -->
+<div id="stats-strip">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="0">
+                <span class="stat-icon"><i class="fas fa-download"></i></span>
+                <span class="stat-number stat-count" data-target="450000" data-suffix="+">450,000+</span>
+                <span class="stat-label">Open-source Downloads</span>
+            </div>
+            <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="100">
+                <span class="stat-icon"><i class="fas fa-briefcase"></i></span>
+                <span class="stat-number stat-count" data-target="6" data-suffix="+ yrs">6+ yrs</span>
+                <span class="stat-label">Industry Experience</span>
+            </div>
+            <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="200">
+                <span class="stat-icon"><i class="fas fa-chart-line"></i></span>
+                <span class="stat-number">$300K+</span>
+                <span class="stat-label">Client Revenue Generated</span>
+            </div>
+            <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="300">
+                <span class="stat-icon"><i class="fas fa-layer-group"></i></span>
+                <span class="stat-number stat-count" data-target="3" data-suffix="+">3+</span>
+                <span class="stat-label">Enterprise SaaS Platforms</span>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="about">
-    <div class="container text-center">
+    <div class="container text-center" style="padding-top: 60px;">
         <h1 class="display-4 vollkron">About Me</h1>
         <hr data-content="</>" class="hr-text">
-        <!-- <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p> -->
 
-        <div class="btn-group" role="group" aria-label="Basic example">
+        <div class="btn-group" role="group" aria-label="Quick navigation">
             <a href="{{ '/#notable-projects' | prepend:site.baseurl }}">
                 <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Projects</button>
             </a>
@@ -63,9 +96,9 @@ image: https://i.imgur.com/FYxQwXN.jpg
         <div class="row in-section" data-aos="fade">
             <div class="col-lg-4 col-md-4 col-12">
                 <figure class="figure">
-                    <img loading="lazy" src="{{ 'public/images/growth.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <img loading="lazy" src="{{ 'public/images/growth.svg' | relative_url }}" alt="Enterprise AI" class="img-fluid">
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                        <p class="algreya" style="font-size: 20px; color: var(--text-primary); margin-top: 10%;">
                             I design and build high-performance AI systems — from autonomous agents to serverless data pipelines — at enterprise scale. Currently leading GenAI product development at Emergys Solutions, where I've helped launch products that drive real client revenue.
                         </p>
                     </figcaption>
@@ -74,9 +107,9 @@ image: https://i.imgur.com/FYxQwXN.jpg
 
             <div class="col-lg-4 col-md-4 col-12">
                 <figure class="figure">
-                    <img loading="lazy" src="{{ 'public/images/champ.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <img loading="lazy" src="{{ 'public/images/champ.svg' | relative_url }}" alt="Open Source" class="img-fluid">
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                        <p class="algreya" style="font-size: 20px; color: var(--text-primary); margin-top: 10%;">
                             Passionate about open source. My Python libraries — <a href="https://github.com/OmkarPathak/pyresparser" target="_blank" rel="noopener noreferrer">pyresparser</a> and <a href="https://github.com/OmkarPathak/pygorithm" target="_blank" rel="noopener noreferrer">pygorithm</a> — have crossed <b>450,000+ downloads</b> on GitHub and PyPI and are used in HR-tech products globally.
                         </p>
                     </figcaption>
@@ -85,10 +118,10 @@ image: https://i.imgur.com/FYxQwXN.jpg
 
             <div class="col-lg-4 col-md-4 col-12">
                 <figure class="figure">
-                    <img loading="lazy" src="{{ 'public/images/office.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <img loading="lazy" src="{{ 'public/images/office.svg' | relative_url }}" alt="Creative" class="img-fluid">
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
-                            Beyond my day job, I'm the founder of <a href="https://trackmyrupee.com" target="_blank" rel="noopener noreferrer">TrackMyRupee</a> — a privacy-first AI finance tracker for Indian salaried professionals. I also create all illustrations on this site myself; you can find my digital art at <a href="https://instagram.com/the.october.kid" target="_blank" rel="noopener noreferrer">@the.october.kid</a>.
+                        <p class="algreya" style="font-size: 20px; color: var(--text-primary); margin-top: 10%;">
+                            Beyond my day job, I'm the founder of <a href="https://trackmyrupee.com" target="_blank" rel="noopener noreferrer">TrackMyRupee</a> &mdash; a privacy-first AI finance tracker for Indian salaried professionals. I also create all illustrations on this site myself; find my digital art at <a href="https://instagram.com/the.october.kid" target="_blank" rel="noopener noreferrer">@the.october.kid</a>.
                         </p>
                     </figcaption>
                 </figure>
@@ -119,11 +152,10 @@ image: https://i.imgur.com/FYxQwXN.jpg
                         <i class="fas fa-wallet"></i>
                     </div>
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                        <p class="algreya" style="font-size: 25px; color: var(--text-primary); margin-top: 10%;">
                             <b><a href="https://trackmyrupee.com" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">TrackMyRupee</a></b>
                         </p>
-    
-                        <p class="algreya" style="font-size: 20px; color: black;">
+                        <p class="algreya" style="font-size: 20px; color: var(--text-secondary);">
                             Privacy-first AI finance tracker for Indian professionals. Natural language expense entry and AI-powered forecasting.
                         </p>
                     </figcaption>
@@ -136,11 +168,10 @@ image: https://i.imgur.com/FYxQwXN.jpg
                         <i class="fas fa-file-medical"></i>
                     </div>
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                        <p class="algreya" style="font-size: 25px; color: var(--text-primary); margin-top: 10%;">
                             <b><a href="https://github.com/OmkarPathak/pyresparser" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">pyresparser</a></b>
                         </p>
-    
-                        <p class="algreya" style="font-size: 20px; color: black;">
+                        <p class="algreya" style="font-size: 20px; color: var(--text-secondary);">
                             Resume parsing library using SpaCy. 450,000+ downloads. Integrated into HR-tech products worldwide.
                         </p>
                     </figcaption>
@@ -153,11 +184,10 @@ image: https://i.imgur.com/FYxQwXN.jpg
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <figcaption class="figure-caption">
-                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                        <p class="algreya" style="font-size: 25px; color: var(--text-primary); margin-top: 10%;">
                             <b><a href="https://github.com/OmkarPathak/piiscrub" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">PiiScrub</a></b>
                         </p>
-    
-                        <p class="algreya" style="font-size: 20px; color: black;">
+                        <p class="algreya" style="font-size: 20px; color: var(--text-secondary);">
                             Blazing-fast PII scrubbing for LLM training and RAG pipelines. Multi-core parallel processing.
                         </p>
                     </figcaption>
@@ -178,7 +208,7 @@ image: https://i.imgur.com/FYxQwXN.jpg
 </div>
 
 <div class="bg-white" id="skills">
-    <div class="container">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
         <div class="row">
             <div class="col text-center">
                 <h1 class="display-4 vollkron">Skills</h1>
@@ -189,34 +219,34 @@ image: https://i.imgur.com/FYxQwXN.jpg
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img loading="lazy" src="{{ 'public/images/skills.svg' | relative_url }}" alt="Code" class="img-fluid">
+                <img loading="lazy" src="{{ 'public/images/skills.svg' | relative_url }}" alt="Skills illustration" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
         </div>
 
         <div class="row" style="margin-top: 50px;" data-aos="fade">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center" style="margin-bottom: 24px;">
                 <i class="fas fa-robot" style="font-size: 30px;"></i>
                 <p class="anchor" style="padding-top: 10px;"><b>AI / GenAI</b></p>
-                <p>LLMs (GPT-4, Llama), LangChain, LlamaIndex, RAG, Vector Databases, Prompt Engineering</p>
+                <p style="color: var(--text-secondary);">LLMs (GPT-4, Llama), LangChain, LlamaIndex, RAG, Vector Databases, Prompt Engineering</p>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center" style="margin-bottom: 24px;">
                 <i class="fas fa-tasks" style="font-size: 30px;"></i>
                 <p class="anchor" style="padding-top: 10px;"><b>Programming</b></p>
-                <p>Python (Advanced), SQL (PostgreSQL, Snowflake, BigQuery), Bash, JavaScript / TypeScript</p>
+                <p style="color: var(--text-secondary);">Python (Advanced), SQL (PostgreSQL, Snowflake, BigQuery), Bash, JavaScript / TypeScript</p>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center" style="margin-bottom: 24px;">
                 <i class="fas fa-code-branch" style="font-size: 30px;"></i>
-                <p class="anchor" style="padding-top: 10px;"><b>Frameworks & Data</b></p>
-                <p>FastAPI, Django, Flask, Streamlit, Scikit-learn, Pandas, Apache Airflow, Spark</p>
+                <p class="anchor" style="padding-top: 10px;"><b>Frameworks &amp; Data</b></p>
+                <p style="color: var(--text-secondary);">FastAPI, Django, Flask, Streamlit, Scikit-learn, Pandas, Apache Airflow, Spark</p>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center" style="margin-bottom: 24px;">
                 <i class="fas fa-cloud" style="font-size: 30px;"></i>
-                <p class="anchor" style="padding-top: 10px;"><b>Cloud & DevOps</b></p>
-                <p>Azure (Functions, Logic Apps, Data Factory), AWS (Lambda, Serverless), Docker, Kubernetes, CI/CD</p>
+                <p class="anchor" style="padding-top: 10px;"><b>Cloud &amp; DevOps</b></p>
+                <p style="color: var(--text-secondary);">Azure (Functions, Logic Apps, Data Factory), AWS (Lambda, Serverless), Docker, Kubernetes, CI/CD</p>
             </div>
         </div>
     </div>
@@ -237,7 +267,7 @@ image: https://i.imgur.com/FYxQwXN.jpg
         <div class="row" data-aos="fade">
             <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img loading="lazy" src="{{ 'public/images/awards.svg' | relative_url }}" alt="Code" class="img-fluid">
+                <img loading="lazy" src="{{ 'public/images/awards.svg' | relative_url }}" alt="Awards illustration" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
         </div>
@@ -255,16 +285,16 @@ image: https://i.imgur.com/FYxQwXN.jpg
                         <b>Top</b> rated Python developer in Pune, Maharashtra, India and <b>Fifth</b> in India at <a href="http://git-awards.com/users/omkarpathak" target="_blank">Github</a> in 2018 - Present
                     </li>
                     <li class="algreya">
-                        Awarded <a href="{{ '/best-outgoing-student-award/' | prepend: site.baseurl }}">'The Best Outgoing Student Award 2017-18'</a>
+                        Awarded <a href="{{ '/best-outgoing-student-award/' | prepend: site.baseurl }}">&apos;The Best Outgoing Student Award 2017-18&apos;</a>
                     </li>
                     <li class="algreya">
                         Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
                     </li>
                     <li class="algreya">
-                        <b>Quora’s Top Writer</b> for 2018
+                        <b>Quora&apos;s Top Writer</b> for 2018
                     </li>
                     <li class="algreya">
-                        Won the Best Paper Award in National Level Conference on “Emerging Trends in Computing , Analytics and Security - 2018”(NCETCAS-2018)
+                        Won the Best Paper Award in National Level Conference on "Emerging Trends in Computing , Analytics and Security - 2018"(NCETCAS-2018)
                     </li>
                 </ul>
 
@@ -287,4 +317,3 @@ image: https://i.imgur.com/FYxQwXN.jpg
         </div>
     </div>
 </div>
-<!-- <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 20px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/omkarpathak27"><img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a> -->
