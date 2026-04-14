@@ -9,7 +9,7 @@ tags: [System Design, Python, AI, LLM]
 ---
 
 
-When building `Agentic` applications—systems where AI models interact with code to perform tasks—standard spaghetti code quickly becomes unmanageable. The indeterministic nature of LLMs combined with rigid software engineering requirements demands robust architectural patterns.
+When building `Agentic` applications,systems where AI models interact with code to perform tasks,standard spaghetti code quickly becomes unmanageable. The indeterministic nature of LLMs combined with rigid software engineering requirements demands robust architectural patterns.
 
 Here are four structural design patterns I use to build scalable, maintainable AI Agent systems.
 

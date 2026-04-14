@@ -89,6 +89,35 @@ a.anchor:hover {
 #post-content h1 { margin-top: 2%; margin-bottom: 2%; }
 #post-content { margin-top: 50px; }
 .post-tags { padding-top: 20px; padding-bottom: 20px; }
+.post-tag {
+    display: inline-block;
+    background: var(--primary-light);
+    color: var(--primary) !important;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none !important;
+    margin: 3px 4px 3px 0;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+.post-tag:hover {
+    background: var(--primary);
+    color: #fff !important;
+}
+
+/* link colours inside page and post content */
+#page-content a,
+#post-content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+#page-content a:hover,
+#post-content a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
 
 /* ─── CURSOR BLINK ────────────────────────────────────────── */
 #banner-content span:after {

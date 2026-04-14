@@ -9,7 +9,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 
 <blockquote>
   <em>"Experience is a hard teacher because she gives the test first, and the lesson afterward."</em><br>
-  — Vernon Law
+  - Vernon Law
 </blockquote>
 
 <div class="exp-timeline">
@@ -26,15 +26,15 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
         <span class="post-date">May 2022 – Present</span>
       </div>
       <ul>
-        <li>Architected a <strong>Text-to-SQL GenAI agent</strong> using Python and FastAPI with enterprise-grade security (JWT, rate limiting) — drove <strong>$300K+ in client revenue</strong> and earned the Q4 2023 High Flyer Award.</li>
-        <li>Engineered autonomous Azure AI Agents for a global supply chain platform — LLMs scrape, parse, and verify supplier capabilities from unstructured web data.</li>
+        <li>Architected a <strong>Text-to-SQL GenAI agent</strong> using Python and FastAPI with enterprise-grade security (JWT, rate limiting), driving <strong>$300K+ in client revenue</strong> and earning the Q4 2023 High Flyer Award.</li>
+        <li>Engineered autonomous Azure AI Agents for a global supply chain platform; LLMs scrape, parse, and verify supplier capabilities from unstructured web data.</li>
         <li>Developed a probabilistic <strong>Marketing Mix Modeling (MMM)</strong> framework using Meta's Robyn to quantify channel-wise ROI and output budget allocation strategies for C-suite teams.</li>
         <li>Built ML-based commodity cost prediction pipelines within hierarchical Work Breakdown Structures (WBS), replacing manual estimation cycles.</li>
         <li>Led end-to-end design, development, and deployment of <strong>three enterprise SaaS platforms</strong>: an MMM platform, a Supply Chain Risk Intelligence platform, and a Cost Intelligence &amp; Procurement Optimization solution.</li>
-        <li>Architected cloud-native solutions on <strong>Microsoft Azure</strong> (App Services, Functions, SQL DB, Blob Storage, Key Vault) — ensuring security, scalability, and fault tolerance.</li>
+        <li>Architected cloud-native solutions on <strong>Microsoft Azure</strong> (App Services, Functions, SQL DB, Blob Storage, Key Vault), ensuring security, scalability, and fault tolerance.</li>
         <li>Managed two agile engineering teams (11 and 9 members) for full-stack development using .NET Core, Python, ReactJS, TypeScript, and Azure DevOps.</li>
-        <li>Architected CI/CD practices through Azure Pipelines, Dockerized builds, and automated testing — reducing release times significantly.</li>
-        <li>Provided mentorship and technical leadership — introducing clean architecture standards, secure coding practices, and peer review culture.</li>
+        <li>Architected CI/CD practices through Azure Pipelines, Dockerized builds, and automated testing, reducing release times significantly.</li>
+        <li>Provided mentorship and technical leadership, introducing clean architecture standards, secure coding practices, and peer review culture.</li>
       </ul>
       <div class="exp-tags">
         <span>Python</span><span>FastAPI</span><span>LLMs</span><span>Azure</span><span>GenAI</span><span>LangChain</span><span>Docker</span><span>Kubernetes</span>
@@ -55,7 +55,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
       </div>
       <ul>
         <li>Designed, set up, and implemented <strong>ETL pipelines using Apache Airflow</strong> for smooth data transfers.</li>
-        <li>Built Airflow DAGs ingesting from emails, PostgreSQL, Oracle, and CSVs — transforming and loading into Snowflake.</li>
+        <li>Built Airflow DAGs ingesting from emails, PostgreSQL, Oracle, and CSVs, transforming and loading into Snowflake.</li>
         <li>Author and maintainer of <strong>CI/CD pipelines</strong> for deployments across multiple environments.</li>
         <li>Developed and maintained <strong>REST APIs</strong> for Numerator's data lake products.</li>
       </ul>
@@ -77,8 +77,8 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
         <span class="post-date">Jul 2018 – Nov 2020</span>
       </div>
       <ul>
-        <li>Author and maintainer of <strong>Source-to-Hub</strong> — loads data directly into Google BigQuery, eliminating intermediate Hadoop clusters.</li>
-        <li>Implemented end-to-end CI/CD for Informatica migrations — reduced migration time from <strong>9 hours to 1.5 hours</strong> with zero manual intervention.</li>
+        <li>Author and maintainer of <strong>Source-to-Hub</strong>: loads data directly into Google BigQuery, eliminating intermediate Hadoop clusters.</li>
+        <li>Implemented end-to-end CI/CD for Informatica migrations, reducing migration time from <strong>9 hours to 1.5 hours</strong> with zero manual intervention.</li>
         <li>Maintained a data ingestion framework processing <strong>~1 TB/day</strong> across 70+ business units.</li>
         <li>Collaborated with L3 teams on Scrum PBIs and planned QA and Production Release cycles.</li>
       </ul>

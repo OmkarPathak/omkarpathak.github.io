@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Day 1 — Diving Deep into Numerical Python using NumPy"
+title: "Day 1: Diving Deep into Numerical Python using NumPy"
 date: 2025-07-23
 keywords: numpy, python, data science, machine learning, omkar pathak python, omkar pathak data science
 image: /public/img/blog-images/banner.png
@@ -9,7 +9,7 @@ author: Omkar Pathak
 tags: [Data Science, NumPy, Python, 60DayDSChallenge]
 ---
 
-When restarting my data science journey, I knew exactly where I needed to begin: **NumPy** — the powerful foundation for all numerical computing in Python. Whether you’re building ML models, crunching data, or diving deep into neural networks, NumPy is where everything begins.
+When restarting my data science journey, I knew exactly where I needed to begin: **NumPy**, the powerful foundation for all numerical computing in Python. Whether you’re building ML models, crunching data, or diving deep into neural networks, NumPy is where everything begins.
 
 In this post, I’ll cover the **key theory**, **code implementations**, and **why NumPy is essential** for any data scientist or ML practitioner.
 
@@ -117,9 +117,9 @@ This gives you a taste of how much you can achieve with just NumPy.
 
 1. **NumPy is fast, lightweight, and vectorized** – it makes for clean and efficient code.
 2. Mastering NumPy sets you up for deeper libraries like Pandas, Scikit-Learn, PyTorch, and TensorFlow.
-3. Concepts like **broadcasting, reshaping, slicing** are not just academic — they’re practical and powerful tools.
+3. Concepts like **broadcasting, reshaping, slicing** are not just academic ; they’re practical and powerful tools.
 4. Even without Pandas or Scikit-learn, you can load, clean, and process data using pure NumPy.
-5. It's worth revisiting even if you've used it before — the depth is surprising.
+5. It's worth revisiting even if you've used it before; the depth is surprising.
 
 ---
 
@@ -127,4 +127,4 @@ Code for Day 1 can be found on my github repository: [Day 1 of Data Science](htt
 
 ## What’s Next?
 
-Tomorrow, I’ll explore the **Pandas library** — the powerhouse for handling structured data in Python.
+Tomorrow, I’ll explore the **Pandas library**, the powerhouse for handling structured data in Python.
