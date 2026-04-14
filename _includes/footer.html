@@ -1,22 +1,33 @@
-<footer id="sticky-footer" class="py-4 bg-dark">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <p class="algreya" style="margin: 0; color: white; font-size: 18px;">Handcrafted illustrations by Omkar Pathak · <a href="https://instagram.com/the.october.kid" target="_blank" style="color: #5F7FFF;">@the.october.kid</a></p>
-                <hr style="background-color: white; opacity: 0.2;margin: 10px;">
-                <p class="algreya" style="margin: 0; color: white; font-size: 18px;">Copyright &copy; {{ site.time | date: '%Y' }} Omkar Pathak · All rights reserved</p>  
+<footer id="sticky-footer" style="background-color: var(--bg-dark); padding: 48px 0 32px;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-left text-center mb-4 mb-md-0">
+                <p class="vollkron" style="margin: 0; color: #fff; font-size: 26px; font-weight: 700; letter-spacing: -0.5px;">
+                    Omkar<span style="color: var(--secondary);">.</span>
+                </p>
+                <p class="algreya" style="margin: 8px 0 0; color: rgba(255,255,255,0.55); font-size: 14px; line-height: 1.6;">
+                    Senior Python Architect · AI Builder · Artist
+                </p>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <p class="algreya" style="margin: 0; color: white; font-size: 18px;"><span style="border-bottom: 1px solid white;">Follow me on:</span></p>
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-twitter"></i></button></a>
-                    <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-github"></i></button></a>
-                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-linkedin"></i></button></a>
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-facebook-square"></i></button></a>
-                    <a href="https://www.quora.com/profile/{{ site.quora_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-quora"></i></button></a>
-                    <a href="https://www.instagram.com/{{ site.instagram_username }}"><button class="btn btn-secondary social-media-icon" style="border-radius: 50%"><i class="fab fa-instagram"></i></button></a>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mb-4 mb-md-0">
+                <p class="algreya" style="margin: 0 0 10px; color: rgba(255,255,255,0.7); font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase;">Connect</p>
+                <div class="btn-group" role="group">
+                    <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
+                    <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
+                    <a href="https://www.quora.com/profile/{{ site.quora_username }}" aria-label="Quora"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
+                    <a href="https://www.instagram.com/{{ site.instagram_username }}" aria-label="Instagram"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
                 </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-right text-center">
+                <p class="algreya" style="margin: 0; color: rgba(255,255,255,0.55); font-size: 14px;">
+                    Illustrations by <a href="https://instagram.com/the.october.kid" target="_blank" style="color: var(--secondary);">@the.october.kid</a>
+                </p>
+                <p class="algreya" style="margin: 6px 0 0; color: rgba(255,255,255,0.4); font-size: 13px;">
+                    &copy; {{ site.time | date: '%Y' }} Omkar Pathak · All rights reserved
+                </p>
             </div>
         </div>
     </div>
@@ -45,21 +56,13 @@
             }
         });
 
-        AOS.init();
+        AOS.init({ duration: 700, easing: 'ease-out', once: true });
 
         $("img").addClass("img-fluid");
         try {
             $("img").attr("loading", "lazy");
         } catch(e) { }
         $("a").addClass("anchor");
-
-        $( ".card" ).hover(
-            function() {
-                $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
-            }, function() {
-                $(this).removeClass('shadow-lg');
-            }
-        );
 
         $(window).on('load', function () {
             AOS.refresh();
@@ -69,4 +72,53 @@
             $("#gallery").unitegallery();
         }
     });
+
+    // Safety net: if AOS fails to animate elements (e.g. CDN blocked), make them visible after 2s
+    setTimeout(function() {
+        document.querySelectorAll('[data-aos]:not(.aos-animate)').forEach(function(el) {
+            el.classList.add('aos-animate');
+        });
+    }, 2000);
+
+    /* ── Animated stat counters ─────────────────────────── */
+    (function() {
+        function animateCounter(el) {
+            var target  = parseInt(el.getAttribute('data-target'), 10);
+            if (isNaN(target)) { return; }
+            var suffix  = el.getAttribute('data-suffix') || '';
+            var prefix  = el.getAttribute('data-prefix') || '';
+            var duration = 1800;
+            var start    = 0;
+            var startTime = null;
+
+            function step(timestamp) {
+                if (!startTime) startTime = timestamp;
+                var progress = Math.min((timestamp - startTime) / duration, 1);
+                // ease-out cubic
+                var eased = 1 - Math.pow(1 - progress, 3);
+                var current = Math.floor(eased * target);
+                el.textContent = prefix + current.toLocaleString() + suffix;
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                } else {
+                    el.textContent = prefix + target.toLocaleString() + suffix;
+                }
+            }
+            window.requestAnimationFrame(step);
+        }
+
+        if ('IntersectionObserver' in window) {
+            var counters = document.querySelectorAll('.stat-count');
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting && !entry.target.dataset.animated) {
+                        entry.target.dataset.animated = 'true';
+                        animateCounter(entry.target);
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            counters.forEach(function(c) { observer.observe(c); });
+        }
+    })();
 </script>

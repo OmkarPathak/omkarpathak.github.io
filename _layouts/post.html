@@ -18,7 +18,7 @@ layout: default
         <br>
         <div class="post-tags">
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
+            <a href="{{ site.baseurl }}/blog/tag/#{{ tag | slugify }}" class="post-tag"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag }}</a>
           {% endfor %}
         </div>
       </div>

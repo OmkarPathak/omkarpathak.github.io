@@ -49,7 +49,7 @@ print(df.head())
 
 ## Titanic Dataset
 
-We’ll use the **Titanic dataset** — a classic dataset containing information about passengers aboard the Titanic.
+We’ll use the **Titanic dataset** , a classic dataset containing information about passengers aboard the Titanic.
 You can download the titanic dataset from [here](https://www.kaggle.com/c/titanic/data)
 
 ```python

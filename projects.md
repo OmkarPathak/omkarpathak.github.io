@@ -102,7 +102,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 </div>
 
 <p style="margin-bottom: 20px;">
-  <b>TrackMyRupee</b> — A privacy-first AI finance tracker built for Indian salaried professionals. Features include natural language expense entry, AI-powered spending insights and forecasting, net worth tracking, and recurring expense management. No bank login or SMS access required. Open-source.
+  <b>TrackMyRupee</b>: A privacy-first AI finance tracker built for Indian salaried professionals. Features include natural language expense entry, AI-powered spending insights and forecasting, net worth tracking, and recurring expense management. No bank login or SMS access required. Open-source.
 </p>
 
 **Live App**: [trackmyrupee.com](https://trackmyrupee.com)
@@ -340,7 +340,7 @@ image: https://www.omkarpathak.in/public/img/project_cover.jpg
 </div>
 
 <p style="margin-bottom: 20px;">
-  <b>pyresparser</b> — A widely-used resume extraction library that parses unstructured resume data into structured formats using SpaCy and custom NER rule-based matching. Integrated into HR-tech products worldwide.
+  <b>pyresparser</b>: A widely-used resume extraction library that parses unstructured resume data into structured formats using SpaCy and custom NER rule-based matching. Integrated into HR-tech products worldwide.
 </p>
 
 **Downloads**: 450,000+ on GitHub/PyPI

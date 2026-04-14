@@ -20,9 +20,9 @@ image: https://i.imgur.com/NUpktwn.jpg
     <div class="col-lg-8 col-md-8">
     <p>If any of my software have helped you, please do consider helping me in paying my internet bills or buying me a coffee :)</p>
       <div class="text-center">
-        <a class="btn btn-primary btn-lg text-white" style="border-radius: 0; background-color: #7779f3" href="https://paypal.me/omkarpathak27?locale.x=en_GB" target="_blank" rel="noopener noreferrer"><i class="fab fa-cc-paypal"></i> Paypal</a>
+        <a class="btn btn-primary btn-lg text-white" style="border-radius: 8px; background-color: var(--primary); border-color: var(--primary);" href="https://paypal.me/omkarpathak27?locale.x=en_GB" target="_blank" rel="noopener noreferrer"><i class="fab fa-cc-paypal"></i> Paypal</a>
       </div>
-      <div class="razorpay-embed-btn text-center" data-url="https://pages.razorpay.com/pl_EbTb8o4wLUlYED/view" data-text="Pay Now" data-color="#7779F3" data-size="large">
+      <div class="razorpay-embed-btn text-center" data-url="https://pages.razorpay.com/pl_EbTb8o4wLUlYED/view" data-text="Pay Now" data-color="#C05827" data-size="large">
         <script>
           (function(){
             var d=document; var x=!d.getElementById('razorpay-embed-btn-js');
