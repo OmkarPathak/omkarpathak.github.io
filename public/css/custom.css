@@ -51,6 +51,12 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary);
 }
 
+/* section titles: override Bootstrap display-4's font-weight: 300 */
+h1.display-4 {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
 /* utility classes */
 .vollkron { font-family: 'Outfit', sans-serif; font-display: swap; }
 .algreya  { font-family: 'Inter', sans-serif; font-size: 18px; line-height: 1.8; font-display: swap; }
