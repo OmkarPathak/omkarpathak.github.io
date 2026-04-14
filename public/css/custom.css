@@ -448,7 +448,6 @@ a.btn-primary[href*="razorpay"] {
 
 /* ─── PAGE HEADER BANNER (page layout) ───────────────────── */
 #posts {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     background-image:
         linear-gradient(rgba(192,88,39,0.82), rgba(158,69,32,0.88)),
         url("/public/images/banner.svg");
