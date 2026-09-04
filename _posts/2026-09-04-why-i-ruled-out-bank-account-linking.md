@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Ruled Out Bank Account Linking From Day One
-date: 2026-08-17
+date: 2026-09-04
 comments: true
 description: The engineering and threat-modeling reasoning behind TrackMyRupee's no-SMS, no-bank-linking design decision
 keywords: system design, privacy, threat modeling, trackmyrupee, personal finance, django, python
