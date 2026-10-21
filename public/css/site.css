@@ -335,3 +335,9 @@ dialog.lb .icon-btn{position:absolute}.lb .x{top:14px;right:14px}.lb .pv{left:14
 /* a11y refinements */
 .pager .dis{opacity:1;color:var(--mute);background:transparent;border-style:dashed}
 .btn,.card a.btn,.prose a.btn{color:#f3ede2}.btn.ghost,.card a.btn.ghost{color:var(--ink)}.btn.ghost:hover,.card a.btn.ghost:hover{color:var(--bg)}
+
+/* emoji (jemoji) stay inline in headings and text */
+.prose img.emoji,img.emoji{display:inline;margin:0 .12em;border:0;border-radius:0;width:1em;height:1em;vertical-align:-.12em;box-shadow:none}
+/* project / markdown pages: content starts at the same left edge as the title */
+.prose.page-prose{margin-inline:0;max-width:760px}
+.prose.page-prose>:first-child{margin-top:0}
