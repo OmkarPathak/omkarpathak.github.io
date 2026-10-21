@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v23';
+var CACHE_NAME = 'omkar-pathak-cache-{{ site.time | date: "%Y%m%d%H%M%S" }}';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
