@@ -1,0 +1,16 @@
+# Images shown in the "art.svg" tab of the home page editor.
+# To change them: put your originals in public/img/hero/, run
+#   python3 scripts/optimize_hero_images.py
+# and paste the printed paths below. `alt` is the accessibility text.
+main:
+  image: /public/img/opt/ill-friday_sigh.webp
+  alt: Illustrated self-portrait at a desk
+thumbs:
+  - image: /public/img/opt/ill-hulk.webp
+    alt: Illustration of the Hulk
+  - image: /public/img/opt/ill-ganpati_4.webp
+    alt: Illustration of Ganpati on a leaf
+  - image: /public/img/opt/ill-kakashi.webp
+    alt: Illustration of Kakashi
+  - image: /public/img/opt/ph-46.webp
+    alt: Photograph of a plant behind a grille

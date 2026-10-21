@@ -431,3 +431,34 @@ a.chip:hover{transform:translateY(-2px)}
 .pager a{transition:transform .2s ease,background-color .2s ease,color .2s ease}.pager a:hover{transform:translateY(-2px);background:var(--ink);color:var(--bg)}
 .form input,.form textarea{transition:box-shadow .2s ease,transform .2s ease}.form input:focus,.form textarea:focus{transform:translateY(-1px)}
 @media (prefers-reduced-motion:reduce){.page-hero .w>*{animation:none}.card.media:hover img,.shot:hover img{transform:none}}
+
+/* =====================================================================
+   HOME PAGE: sections alternate beige / dark
+   .sec-dark re-themes a whole section by swapping the colour variables,
+   so every card, chip, button and heading inside adapts automatically.
+   ===================================================================== */
+.sec-dark{--bg:#2a1f17;--bg2:#33261c;--ink:#f3ede2;--ink2:#cfc3b3;--mute:#b0a291;--panel:#35281e;--line:rgba(255,255,255,.16);--eng:#9db7c4;--oss:#a9b87a;--art:#e08a62;background:#2a1f17;color:var(--ink)}
+.sec-dark .file,.canvas.sec-dark .file{color:var(--eng);background:rgba(255,255,255,.08);border-color:var(--line)}
+.sec-dark .chip{background:rgba(255,255,255,.09);color:var(--ink2)}
+.sec-dark .btn:not(.ghost){background:var(--ink);border-color:var(--ink);color:#2a1f17}
+.sec-dark .btn.ghost{color:var(--ink);border-color:var(--ink)}
+.sec-dark .btn.ghost:hover{background:var(--ink);color:#2a1f17}
+.sec-dark .card:hover{box-shadow:0 16px 40px rgba(0,0,0,.45)}
+.sec-dark #notable-projects .proj .ico,.sec-dark .proj .ico{color:#2a1f17}
+#notable-projects.sec-dark .proj{background:var(--panel);border-color:var(--ink)}
+#notable-projects.sec-dark .proj .ico{color:#2a1f17;border-bottom-color:var(--ink)}
+.canvas.sec-dark{border-block:0}
+.canvas.sec-dark .sh h2{color:var(--ink)}.canvas.sec-dark .sh p{color:var(--ink2)}
+.canvas.sec-dark .art-card{box-shadow:0 18px 40px rgba(0,0,0,.5)}
+/* skills on beige: solid earthy pills with paper text */
+section#skills .sk h3{color:var(--ink);border-bottom-color:var(--line)}
+section#skills .sk[data-trait=eng] h3 .ic{color:#3f5a6b}section#skills .sk[data-trait=oss] h3 .ic{color:#5e6b35}section#skills .sk[data-trait=art] h3 .ic{color:#a94a22}
+section#skills .pills span{background:#3f5a6b;color:#f3ede2}
+section#skills .pills span:nth-child(4n+2){background:#2a1f17;color:#f3ede2}
+section#skills .pills span:nth-child(4n+3){background:#5e6b35;color:#f3ede2}
+section#skills .pills span:nth-child(4n){background:#d9a441;color:#2a1f17}
+/* polaroid captions stay dark: the frames are white even inside a dark section */
+.canvas.sec-dark .art-card{color:#2a1f17}
+.canvas.sec-dark .art-card h3{color:#2a1f17}
+.canvas.sec-dark .art-card p{color:#51463b}
+.canvas.sec-dark .art-card a{color:#a94a22}
