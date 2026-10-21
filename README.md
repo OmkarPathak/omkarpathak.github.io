@@ -30,3 +30,16 @@ P.S: Special thanks to Hyde theme
 - For Minify CSS: [Check this](https://cssminifier.com/)
 
 Special thanks to [@reallinfo](https://github.com/reallinfo) for the beautiful and thoughtful logo :smile:
+
+## Adding artwork to the galleries
+
+The Photography, Sketching and Illustrations pages are generated from lists in `_config.yml`, and each image needs small optimized WebP copies so the pages stay fast. A script does both for you.
+
+1. Copy your new images into the matching folder:
+   - `public/img/photography/` (page: `/photography/`)
+   - `public/img/sketches/` (page: `/sketching/`)
+   - `public/img/illustrations/` (page: `/illustrations/`)
+2. From the repo root run `python3 scripts/add_gallery_images.py` (needs `pip install Pillow`; add `--dry-run` to preview).
+3. Commit the changed `_config.yml`, `_data/gallery.json`, the new files in `public/img/g/` and your originals, then push.
+
+New images appear at the end of their gallery. Files named `*_cover.*` are ignored (they are section covers on the home page).
