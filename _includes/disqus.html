@@ -1,14 +1,18 @@
-
 <div id="disqus_thread"></div>
-<script >
-  
-    (function() {
-    var d = document, s = d.createElement('script');
-    
-    s.src = '//omkarpathak.disqus.com/embed.js';
-    
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
+<script>
+  /* Disqus loads only when the comments area scrolls into view, so it never affects page load. */
+  (function() {
+    var el = document.getElementById('disqus_thread');
+    function load() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://omkarpathak.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function(es) { if (es[0].isIntersecting) { io.disconnect(); load(); } }, { rootMargin: '300px' });
+      io.observe(el);
+    } else { load(); }
+  })();
+</script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

@@ -4,7 +4,7 @@ layout: null
 
 var urlsToCache = [];
 
-var CACHE_NAME = 'omkar-pathak-cache-v22';
+var CACHE_NAME = 'omkar-pathak-cache-{{ site.time | date: "%Y%m%d%H%M%S" }}';
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
@@ -81,21 +81,16 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  let request = event.request,
-  acceptHeader = request.headers.get('Accept');
-
-  // get all non-html pages from cache
-  // if (acceptHeader.indexOf('text/html') === -1) {
-    event.respondWith(
-      caches.open(CACHE_NAME).then(async (cache) => {
-        return cache.match(event.request).then((response) => {
-          return response || fetch(event.request).then((response) => {
-            // if event.request 
-            // cache.put(event.request, response.clone());
-            return response;
-          });
-        });
-      })
-    );
-  // }
+  var request = event.request;
+  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) { return; }
+  // Network first: visitors always get the latest HTML/CSS/JS; the cache is only an offline fallback.
+  event.respondWith(
+    fetch(request).then((response) => {
+      if (response && response.ok) {
+        var copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+      }
+      return response;
+    }).catch(() => caches.match(request))
+  );
 });

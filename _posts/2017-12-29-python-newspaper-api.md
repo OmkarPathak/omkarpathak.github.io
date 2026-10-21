@@ -12,7 +12,7 @@ Many a times developers need to download the articles on the internet for variou
 
 [Newspaper API](http://newspaper.readthedocs.io/en/latest/) is a great tool to quickly download articles from the internet and extract the plain text from them. The best thing about Newspaper API is its simplicity to use and faster download speeds. Moreover, it also provides some advanced options which we will see in a moment. Currently it supports 10+ languages and everything is in unicode!
 
-Newspaper API is developed and maintained by ***Lucas Ou-Yang***. You can view the source code for the API [here](https://github.com/codelucas/newspaper).
+Newspaper API is developed and maintained by ***Lucas Ou-Yang***. You can view the source code for the API [on GitHub](https://github.com/codelucas/newspaper).
 
 ## Installation
 
@@ -30,7 +30,7 @@ For installing Newspaper API in Python2 type:
    $ pip install newspaper
 ```
 
-You might need some dependencies to be installed for extracting images from articles. For that you can find the installation command [here](http://newspaper.readthedocs.io/en/latest/user_guide/install.html#install)
+You might need some dependencies to be installed for extracting images from articles. For that you can find the installation command [in the Newspaper docs](http://newspaper.readthedocs.io/en/latest/user_guide/install.html#install)
 
 ## Features
 

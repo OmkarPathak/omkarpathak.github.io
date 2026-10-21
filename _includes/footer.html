@@ -1,124 +1,41 @@
-<footer id="sticky-footer" style="background-color: var(--bg-dark); padding: 48px 0 32px;">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-left text-center mb-4 mb-md-0">
-                <p class="vollkron" style="margin: 0; color: #fff; font-size: 26px; font-weight: 700; letter-spacing: -0.5px;">
-                    Omkar<span style="color: var(--secondary);">.</span>
-                </p>
-                <p class="algreya" style="margin: 8px 0 0; color: rgba(255,255,255,0.55); font-size: 14px; line-height: 1.6;">
-                    Senior Python Architect · AI Builder · Artist
-                </p>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center mb-4 mb-md-0">
-                <p class="algreya" style="margin: 0 0 10px; color: rgba(255,255,255,0.7); font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase;">Connect</p>
-                <div class="btn-group" role="group">
-                    <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
-                    <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
-                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
-                    <a href="https://www.quora.com/profile/{{ site.quora_username }}" aria-label="Quora"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
-                    <a href="https://www.instagram.com/{{ site.instagram_username }}" aria-label="Instagram"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-right text-center">
-                <p class="algreya" style="margin: 0; color: rgba(255,255,255,0.55); font-size: 14px;">
-                    Illustrations by <a href="https://instagram.com/the.october.kid" target="_blank" style="color: var(--secondary);">@the.october.kid</a>
-                </p>
-                <p class="algreya" style="margin: 6px 0 0; color: rgba(255,255,255,0.4); font-size: 13px;">
-                    &copy; {{ site.time | date: '%Y' }} Omkar Pathak · All rights reserved
-                </p>
+<footer class="foot">
+    <div class="w foot-in">
+        <div>
+            <a class="brand" href="{{ '/' | relative_url }}">Omkar<i>.</i></a>
+            <p>Senior Python Architect · AI Builder · Artist</p>
+        </div>
+        <div>
+            <p class="lbl">Connect</p>
+            <div class="socials">
+                <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter" rel="noopener"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+                <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub" rel="noopener"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a>
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn" rel="noopener"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                <a href="https://www.quora.com/profile/{{ site.quora_username }}" aria-label="Quora" rel="noopener"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="11" r="8"/><path d="M13 14.5l3.5 5.5M9.5 9.5c0-1 .8-1.8 2.5-1.8s2.5.8 2.5 1.8v3c0 1-.8 1.8-2.5 1.8s-2.5-.8-2.5-1.8z"/></svg></a>
+                <a href="https://www.instagram.com/{{ site.instagram_username }}" aria-label="Instagram" rel="noopener"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg></a>
             </div>
         </div>
+        <div class="r">
+            <p>Illustrations by <a href="https://instagram.com/the.october.kid" target="_blank" rel="noopener">@the.october.kid</a></p>
+            <p class="small">&copy; {{ site.time | date: '%Y' }} Omkar Pathak · All rights reserved</p>
+        </div>
     </div>
+    <div class="status"><span>⎇ main</span><span>✓ built with Jekyll</span><span>Python · Art · Open Source</span><span>UTF-8</span></div>
 </footer>
-<!-- CSS -->
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="{{ 'public/css/custom.css' | relative_url }}">
 
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-<script src="{{ 'public/js/unitegallery.min.js' | relative_url }}"></script>
-<script src="{{ 'public/js/ug-theme-tiles.js' | relative_url }}"></script>
-<script src="{{ 'public/js/custom.js' | relative_url }}"></script>
+<script src="{{ '/public/js/site.js' | relative_url }}" defer></script>
+<script src="{{ '/public/js/custom.js' | relative_url }}" defer></script>
 <script>
-    $(function () {
-        $(window).on('scroll', function () {
-            if ( $(window).scrollTop() > 10 ) {
-                $('.navbar').addClass('active');
-            } else {
-                $('.navbar').removeClass('active');
-            }
-        });
-
-        AOS.init({ duration: 700, easing: 'ease-out', once: true });
-
-        $("img").addClass("img-fluid");
-        try {
-            $("img").attr("loading", "lazy");
-        } catch(e) { }
-        $("a").addClass("anchor");
-
-        $(window).on('load', function () {
-            AOS.refresh();
-        });
-        
-        if ($("#gallery").length) {
-            $("#gallery").unitegallery();
-        }
+    /* Google Analytics (same property): loaded after the page is interactive so it never blocks rendering. */
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B97631NG4G');
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-B97631NG4G';
+            document.head.appendChild(s);
+        }, 1500);
     });
-
-    // Safety net: if AOS fails to animate elements (e.g. CDN blocked), make them visible after 2s
-    setTimeout(function() {
-        document.querySelectorAll('[data-aos]:not(.aos-animate)').forEach(function(el) {
-            el.classList.add('aos-animate');
-        });
-    }, 2000);
-
-    /* ── Animated stat counters ─────────────────────────── */
-    (function() {
-        function animateCounter(el) {
-            var target  = parseInt(el.getAttribute('data-target'), 10);
-            if (isNaN(target)) { return; }
-            var suffix  = el.getAttribute('data-suffix') || '';
-            var prefix  = el.getAttribute('data-prefix') || '';
-            var duration = 1800;
-            var start    = 0;
-            var startTime = null;
-
-            function step(timestamp) {
-                if (!startTime) startTime = timestamp;
-                var progress = Math.min((timestamp - startTime) / duration, 1);
-                // ease-out cubic
-                var eased = 1 - Math.pow(1 - progress, 3);
-                var current = Math.floor(eased * target);
-                el.textContent = prefix + current.toLocaleString() + suffix;
-                if (progress < 1) {
-                    window.requestAnimationFrame(step);
-                } else {
-                    el.textContent = prefix + target.toLocaleString() + suffix;
-                }
-            }
-            window.requestAnimationFrame(step);
-        }
-
-        if ('IntersectionObserver' in window) {
-            var counters = document.querySelectorAll('.stat-count');
-            var observer = new IntersectionObserver(function(entries) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting && !entry.target.dataset.animated) {
-                        entry.target.dataset.animated = 'true';
-                        animateCounter(entry.target);
-                    }
-                });
-            }, { threshold: 0.3 });
-
-            counters.forEach(function(c) { observer.observe(c); });
-        }
-    })();
 </script>
