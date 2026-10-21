@@ -1,69 +1,12 @@
 ---
-layout: page
+layout: wide
 title: Tag
 ---
-
-{% comment %}
-=======================
-The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
-=======================
-{% endcomment %}
-{% assign rawtags = "" %}
-{% for post in site.posts %}
-	{% assign ttags = post.tags | join:'|' | append:'|' %}
-	{% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-
-{% comment %}
-=======================
-The following part removes dulpicated tags and invalid tags like blank tag.
-=======================
-{% endcomment %}
-{% assign tags = "" %}
-{% for tag in rawtags %}
-	{% if tag != "" %}
-		{% if tags == "" %}
-			{% assign tags = tag | split:'|' %}
-		{% endif %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-		{% endunless %}
-	{% endif %}
-{% endfor %}
-
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}" class="button"> <i class="fa fa-tag" aria-hidden="true"></i> {{ tag }} </a>
-{% endfor %}
-
-<hr>
-
-{% comment %}
-=======================
-The purpose of this snippet is to list all your posts posted with a certain tag.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-	<ul>
-	 {% for post in site.posts %}
-		 {% if post.tags contains tag %}
-		 <li>
-		 <h3>
-		 <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-            <br>
-            <small style="color:#9a9a9a;">{{ post.date | date_to_string }}</small>
-		 </a>
-		 </h3>
-		 </li>
-		 {% endif %}
-	 {% endfor %}
-    </ul>
-    <hr>
-{% endfor %}
+<div class="page-hero"><div class="w"><p class="crumb"><a href="/blog/">Blog</a> / Tags</p><p class="eyebrow">blog.md</p><h1>Tag</h1></div></div>
+<section style="padding-top:20px"><div class="w" style="max-width:860px">
+{% assign tags = site.tags | sort %}
+<div class="chips big" style="margin:0 0 20px">{% for tag in tags %}<a class="chip" href="#{{ tag[0] | slugify }}"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><path d="M7 7h.01"/></svg> {{ tag[0] }}</a>{% endfor %}</div>
+{% for tag in tags %}<div class="tagsec" id="{{ tag[0] | slugify }}"><h2><svg class="ic " viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><path d="M7 7h.01"/></svg> {{ tag[0] }}</h2><ul class="arch">
+{% for post in tag[1] %}<li><time>{{ post.date | date_to_string }}</time><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>{% endfor %}
+</ul></div>{% endfor %}
+</div></section>

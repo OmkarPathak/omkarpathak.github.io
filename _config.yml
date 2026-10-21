@@ -2,6 +2,14 @@
 markdown: kramdown
 highlighter: rouge
 
+# Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - mockups
+
 # Permalinks
 permalink:        pretty
 # relative_permalinks: true
