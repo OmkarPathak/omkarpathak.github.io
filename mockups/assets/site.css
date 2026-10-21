@@ -274,7 +274,7 @@ dialog.lb .icon-btn{position:absolute}.lb .x{top:14px;right:14px}.lb .pv{left:14
 .post-card{display:flex;flex-direction:column;height:100%}
 .post-card .b{display:flex;flex-direction:column;flex:1}
 .post-card h3{font-size:1.1rem;margin:.2em 0 .6em}.post-card h3 a{color:var(--ink);text-decoration:none}.post-card h3 a:hover{color:var(--art)}
-.post-card .foot{margin-top:auto;padding-top:14px;display:flex;justify-content:space-between;align-items:center;font:500 .76rem var(--mono);color:var(--mute);background:none;border:0;padding-bottom:0}
+.post-card .pcf{margin-top:auto;padding-top:14px;display:flex;justify-content:space-between;align-items:center;font:500 .76rem var(--mono);color:var(--mute);padding-bottom:0}
 .pager{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin-top:40px}
 .pager a,.pager span{min-width:42px;height:42px;padding:0 14px;display:grid;place-items:center;border-radius:10px;border:1.5px solid var(--ink);background:var(--panel);font:500 .84rem var(--mono);color:var(--ink);text-decoration:none}
 .pager .cur{background:var(--ink);color:var(--bg)}.pager .dis{opacity:.4}
