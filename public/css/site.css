@@ -341,3 +341,4 @@ dialog.lb .icon-btn{position:absolute}.lb .x{top:14px;right:14px}.lb .pv{left:14
 /* project / markdown pages: content starts at the same left edge as the title */
 .prose.page-prose{margin-inline:0;max-width:760px}
 .prose.page-prose>:first-child{margin-top:0}
+.tag a{text-decoration:underline;text-underline-offset:3px}
