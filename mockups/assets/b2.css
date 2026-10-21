@@ -156,3 +156,24 @@ section{padding:clamp(52px,8vw,100px) 0;position:relative}
 .art-card::before{background:rgba(243,237,226,.85)}
 .art-card h3{color:var(--ink)}.art-card p{color:var(--ink2)}.art-card a{color:var(--art)}
 .strip img{box-shadow:0 10px 26px rgba(23,19,15,.28)}
+
+/* ===== Projects vs Skills: make the two sections clearly different ===== */
+/* Projects: solid colour header band + hard offset shadow ("repo cards") */
+#notable-projects .proj{padding:0 0 22px;overflow:hidden;border:1.5px solid var(--ink);border-radius:14px;background:var(--panel);box-shadow:7px 7px 0 var(--t);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+#notable-projects .proj:hover{transform:translate(-3px,-3px);box-shadow:10px 10px 0 var(--t)}
+#notable-projects .proj .ico{width:auto;height:72px;border-radius:0;margin:0 0 20px;border:0;border-bottom:1.5px solid var(--ink);background:var(--t);color:#f3ede2;justify-content:start;padding-left:22px;font-size:1.7rem;display:flex;align-items:center}
+#notable-projects .proj>:not(.ico){margin-left:22px;margin-right:22px}
+#notable-projects .proj .tag{margin-top:auto;padding-top:16px;font-weight:500}
+#notable-projects .grid{gap:30px}
+/* Skills: dark ink panel, each technology as its own pill */
+section.dark{background:#17130f;color:#f3ede2;border-block:1.5px solid #17130f}
+section.dark .sh h2{color:#f3ede2}
+section.dark .file{color:#f2b632;background:#2a2319;border-color:rgba(255,255,255,.14)}
+.skgrid{display:grid;gap:34px 48px}
+@media(min-width:760px){.skgrid{grid-template-columns:1fr 1fr}}
+.sk h3{display:flex;align-items:center;gap:10px;font:500 .86rem var(--mono);text-transform:uppercase;letter-spacing:.1em;color:#f3ede2;padding-bottom:14px;margin-bottom:16px;border-bottom:1.5px solid rgba(255,255,255,.2)}
+.sk h3 .ic{width:1.3em;height:1.3em}
+.sk[data-trait=eng] h3 .ic{color:#8aa0ff}.sk[data-trait=oss] h3 .ic{color:#7fd1a0}.sk[data-trait=art] h3 .ic{color:#ff7a5c}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills span{font:500 .88rem var(--mono);padding:8px 14px;border-radius:99px;background:#f3ede2;color:#17130f}
+.pills span:nth-child(4n+1){background:#8aa0ff}.pills span:nth-child(4n+2){background:#f3ede2}.pills span:nth-child(4n+3){background:#7fd1a0}.pills span:nth-child(4n){background:#f2b632}
