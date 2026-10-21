@@ -250,4 +250,4 @@ print(obj)
 
 So these where **some** of the magic methods that Python gifts you with. There are many many more and you should research about them as and when required. There is a similar blog post I came across when I was researching some of the magic methods, and I highly recommend all to [read this post](https://rszalski.github.io/magicmethods/#comparisons).
 
-If anyone of you know more methods please do mention them in comments or you can directly open a Pull request [here](https://github.com/OmkarPathak/omkarpathak.github.io) if you want to contribute :)
+If anyone of you know more methods please do mention them in comments or you can directly open a Pull request [on GitHub](https://github.com/OmkarPathak/omkarpathak.github.io) if you want to contribute :)

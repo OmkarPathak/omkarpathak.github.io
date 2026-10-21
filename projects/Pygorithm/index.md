@@ -11,7 +11,7 @@ What is the project all about?
 
 - A Python module to learn all the major algorithms on the go!
 - Users just have to import the required module and they can use the functions, see the code and time complexities
-- Documentation can be found [here](http://pygorithm.readthedocs.io/en/latest/)
+- Documentation can be found [on Read the Docs](http://pygorithm.readthedocs.io/en/latest/)
 
 ## Results
 

@@ -20,14 +20,15 @@ image: https://i.imgur.com/NUpktwn.jpg
   <div class="card"><div class="ico"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8h1a4 4 0 0 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4zM6 2v3M10 2v3M14 2v3"/></svg></div><h3>Support my work</h3><p>If any of my software have helped you, please do consider helping me in paying my internet bills or buying me a coffee :)</p>
    <div class="row"><a class="btn" href="https://paypal.me/omkarpathak27?locale.x=en_GB" target="_blank" rel="noopener noreferrer">Paypal</a>
    <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_EbTb8o4wLUlYED/view" data-text="Pay Now" data-color="#C05827" data-size="large"><a class="btn ghost" href="https://pages.razorpay.com/pl_EbTb8o4wLUlYED/view" target="_blank" rel="noopener">Pay Now</a></div></div></div>
-  <img src="/public/images/contact.jpg" alt="Code" class="card" style="padding:0;border-radius:var(--r)" loading="lazy" width="480" height="320">
+  <img fetchpriority="high" src="/public/img/opt2/contact-jpg.webp" alt="Code" class="card" style="padding:0;border-radius:var(--r)" width="480" height="320">
  </div></div></div></section>
 <script>
-/* Third-party embeds (Razorpay button + Pageclip form handler) load only on this page, after it is interactive. */
-window.addEventListener('load',function(){setTimeout(function(){
+/* Third-party embeds (Razorpay button + Pageclip form handler) load on first interaction (or after 6s), never during page load. */
+(function(){var done=false;function go(){if(done)return;done=true;
   var d=document,s=d.createElement('script');s.defer=true;s.id='razorpay-embed-btn-js';s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';
   s.onload=function(){var r=window['__rzp__'];r&&r.init&&r.init()};d.body.appendChild(s);
-  var p=d.createElement('script');p.src='https://s.pageclip.co/v1/pageclip.js';p.charset='utf-8';p.defer=true;d.body.appendChild(p);
-},800)});
+  var p=d.createElement('script');p.src='https://s.pageclip.co/v1/pageclip.js';p.charset='utf-8';p.defer=true;d.body.appendChild(p);}
+ ['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,go,{once:true,passive:true})});
+ addEventListener('load',function(){setTimeout(go,6000)});})();
 </script>
 {:/nomarkdown}
