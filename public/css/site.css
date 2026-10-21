@@ -369,11 +369,20 @@ dialog.lb .icon-btn{position:absolute}.lb .x{top:14px;right:14px}.lb .pv{left:14
 @keyframes tabfill1{to{transform:scaleX(1)}}@keyframes tabfill2{to{transform:scaleX(1)}}@keyframes tabfill3{to{transform:scaleX(1)}}
 .pane{animation:paneIn .35s ease}
 @keyframes paneIn{from{opacity:0;transform:translateY(6px)}}
-/* ticker */
-.ticker{overflow:hidden;background:var(--ink);color:var(--bg);border-block:1.5px solid var(--ink);padding:13px 0;white-space:nowrap;font:500 .8rem var(--mono);letter-spacing:.12em;text-transform:uppercase}
-.ticker div{display:inline-flex;gap:34px;padding-left:34px;animation:ticker 48s linear infinite;will-change:transform}
+/* ticker: tech logos, slow scroll, pauses on hover */
+:root{--gap:clamp(40px,6vw,64px)}
+.hero{padding-bottom:var(--gap)}
+.ticker{overflow:hidden;background:var(--ink);color:var(--bg);border-block:1.5px solid var(--ink);padding:16px 0;white-space:nowrap;font:500 .8rem var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.ticker div{display:inline-flex;align-items:center;animation:ticker 110s linear infinite;will-change:transform}
+.ticker.rev div{animation-direction:reverse}
 .ticker:hover div{animation-play-state:paused}
-.ticker span::after{content:"/";margin-left:34px;color:var(--sun)}
+.ticker span{display:inline-flex;align-items:center;gap:11px;padding-right:38px;margin-right:38px;position:relative}
+.ticker span::after{content:"";position:absolute;right:0;top:50%;width:6px;height:6px;margin-top:-3px;background:var(--sun);transform:rotate(45deg)}
+.ticker svg{width:1.7em;height:1.7em;flex:none}
+.ticker svg.bi{fill:currentColor;stroke:none}
+.page-hero + .ticker{margin-top:var(--gap)}
+.ticker + section{padding-top:var(--gap)!important}
+.ticker + .w{margin-top:var(--gap)}
 @keyframes ticker{to{transform:translateX(-50%)}}
 /* scroll-driven: nav shadow + reading progress (progressive; ignored where unsupported) */
 @supports (animation-timeline:scroll()){
@@ -407,3 +416,18 @@ main img[src*="404.svg"]{animation:floaty 5s ease-in-out infinite}
   .win[data-auto] .tabs::after{display:none}
   .ticker div{animation:none}
 }
+
+/* more motion for inner pages (transform-only, reduced-motion safe) */
+.page-hero .w>*{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.page-hero .w>*:nth-child(2){animation-delay:.06s}.page-hero .w>*:nth-child(3){animation-delay:.12s}.page-hero .w>*:nth-child(4){animation-delay:.18s}
+@keyframes rise{from{transform:translateY(16px)}}
+.btn .ic{transition:transform .2s ease}.btn:hover .ic{transform:translateX(3px)}
+.card.media img,.shot img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.card.media:hover img,.shot:hover img{transform:scale(1.04)}
+.tl .it .dot{transition:background-color .25s,color .25s,transform .25s}
+.tl .it:hover .dot{background:var(--art);color:#f3ede2;border-color:var(--art)}
+.chip{transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease}
+a.chip:hover{transform:translateY(-2px)}
+.pager a{transition:transform .2s ease,background-color .2s ease,color .2s ease}.pager a:hover{transform:translateY(-2px);background:var(--ink);color:var(--bg)}
+.form input,.form textarea{transition:box-shadow .2s ease,transform .2s ease}.form input:focus,.form textarea:focus{transform:translateY(-1px)}
+@media (prefers-reduced-motion:reduce){.page-hero .w>*{animation:none}.card.media:hover img,.shot:hover img{transform:none}}
