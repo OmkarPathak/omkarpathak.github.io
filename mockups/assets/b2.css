@@ -1,4 +1,4 @@
-/* Concept B2 — "The IDE" in Concept C's palette: paper + ink, blue/green/vermilion, sun-yellow canvas */
+/* Concept B2 - "The IDE" in Concept C's palette: paper + ink, blue/green/vermilion, sun-yellow canvas */
 @font-face{font-family:"Bricolage";src:url(../fonts/bricolage-grotesque-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
 @font-face{font-family:"Mono";src:url(../fonts/jetbrains-mono-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
 @font-face{font-family:"BricolageFallback";src:local(Arial);size-adjust:96%;ascent-override:92%;descent-override:24%}
@@ -20,7 +20,7 @@ h1,h2,h3{font-family:var(--hd);margin:0;line-height:1.05;letter-spacing:-.035em;
 .lights{display:flex;gap:6px}.lights i{width:11px;height:11px;border-radius:50%;background:#c9553d}.lights i:nth-child(2){background:#d9a441}.lights i:nth-child(3){background:#7d8f4a}
 .brand{font:800 1.2rem var(--hd);letter-spacing:-.04em;text-decoration:none}.brand i{font-style:normal;color:var(--art)}
 .links{display:none;margin-left:auto;gap:0;font:500 .8rem var(--mono)}
-.links a{padding:19px 14px;text-decoration:none;color:var(--ink2);border-right:1px solid var(--line);position:relative}.links a:first-child{border-left:1px solid var(--line)}
+.links a{padding:19px 14px;text-decoration:none;color:var(--ink2);border-right:1px solid var(--line);position:relative}
 .links a:hover{color:var(--ink);background:rgba(63,90,107,.08)}
 .links a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--eng);transform:scaleX(0);transition:.25s}.links a:hover::after{transform:none}
 .mbtn,.mclose{all:unset;cursor:pointer;margin-left:auto;display:grid;place-items:center;width:40px;height:40px;border-radius:10px;border:1px solid var(--line)}
@@ -81,7 +81,7 @@ section{padding:clamp(52px,8vw,100px) 0;position:relative}
 .grid{display:grid;gap:14px}
 @media(min-width:700px){.g2,.g3,.g4{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:980px){.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
-.card{position:relative;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--t,var(--line));border-radius:6px 16px 16px 6px;padding:clamp(20px,3vw,26px);transition:transform .25s,box-shadow .25s}
+.card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,3vw,26px);transition:transform .25s,box-shadow .25s}
 .card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,.4)}
 .card h3{font-size:1.25rem;margin-bottom:.45em}.card p{color:var(--ink2);font-size:.96rem}.card p:last-child{margin-bottom:0}.card strong{color:var(--ink)}.card a{color:var(--t,var(--eng))}
 .ico{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;border:1px solid var(--line);color:var(--t,var(--eng));margin-bottom:16px;font-size:1.2rem;background:color-mix(in srgb,var(--t,var(--eng)) 10%,transparent)}
